@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2290.73"
+   height="1260.5"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="Nouveau document 1">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path4156"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path4153"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="1090.0643"
+     inkscape:cy="297.32608"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     inkscape:window-width="1920"
+     inkscape:window-height="1053"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2987"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="1980.5px"
+       originy="40px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1980.5,168.13782)">
+    <g
+       id="g3996">
+      <rect
+         y="3.7907541"
+         x="-1520"
+         height="231.42857"
+         width="397.14285"
+         id="rect2985"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text2989"
+         y="131.99704"
+         x="-1425.2526"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+         xml:space="preserve"><tspan
+           style="font-size:36px"
+           y="131.99704"
+           x="-1425.2526"
+           id="tspan2991"
+           sodipodi:role="line">YunShield</tspan></text>
+    </g>
+    <g
+       id="g4001">
+      <path
+         transform="matrix(0.90316755,0,0,0.62136249,368.785,164.02814)"
+         d="m -1651.4286,250.21933 c 0,102.96166 -98.4973,186.42857 -220,186.42857 -121.5026,0 -220,-83.46691 -220,-186.42857 0,-102.96166 98.4974,-186.428574 220,-186.428574 121.5027,0 220,83.466914 220,186.428574 z"
+         sodipodi:ry="186.42857"
+         sodipodi:rx="220"
+         sodipodi:cy="250.21933"
+         sodipodi:cx="-1871.4286"
+         id="path3052"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3822"
+         y="326.96106"
+         x="-1383.1746"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+         xml:space="preserve"><tspan
+           style="font-size:32px;font-weight:normal;-inkscape-font-specification:Linux Libertine Mono O"
+           y="326.96106"
+           x="-1383.1746"
+           id="tspan3824"
+           sodipodi:role="line">Python</tspan></text>
+    </g>
+    <g
+       id="g4018">
+      <g
+         transform="translate(160,-321.42858)"
+         id="g3017">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect2985-4"
+           width="397.14285"
+           height="231.42857"
+           x="-1118.5714"
+           y="329.50504" />
+        <text
+           xml:space="preserve"
+           style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+           x="-988.78021"
+           y="452.50931"
+           id="text2989-4"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan2991-5"
+             x="-988.78021"
+             y="452.50931"
+             style="font-size:36px">Atmega</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4013">
+      <path
+         transform="matrix(0.90316755,0,0,0.62136249,930.21359,164.02814)"
+         d="m -1651.4286,250.21933 c 0,102.96166 -98.4973,186.42857 -220,186.42857 -121.5026,0 -220,-83.46691 -220,-186.42857 0,-102.96166 98.4974,-186.428574 220,-186.428574 121.5027,0 220,83.466914 220,186.428574 z"
+         sodipodi:ry="186.42857"
+         sodipodi:rx="220"
+         sodipodi:cy="250.21933"
+         sodipodi:cx="-1871.4286"
+         id="path3052-4"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3822-8"
+         y="329.34503"
+         x="-779.29602"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+         xml:space="preserve"><tspan
+           style="font-size:32px;font-weight:normal;-inkscape-font-specification:Linux Libertine Mono O"
+           y="329.34503"
+           x="-779.29602"
+           id="tspan3824-1"
+           sodipodi:role="line">C</tspan></text>
+    </g>
+    <g
+       id="g4024">
+      <g
+         transform="translate(668.57143,7.1428571)"
+         id="g3033">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect2985-42"
+           width="397.14285"
+           height="231.42857"
+           x="-1112.8572"
+           y="-9.06639" />
+        <text
+           xml:space="preserve"
+           style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+           x="-1005.6785"
+           y="118.9959"
+           id="text2989-5"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan2991-6"
+             x="-1005.6785"
+             y="118.9959"
+             style="font-size:36px">Hardware</tspan></text>
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3867"
+         d="m -440,182.36218 390,0"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 8;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3869"
+         y="212.01018"
+         x="-302.056"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+         xml:space="preserve"><tspan
+           style="font-size:32px;font-style:italic;-inkscape-font-specification:Linux Libertine Mono O Italic"
+           y="212.01018"
+           x="-302.056"
+           id="tspan3871"
+           sodipodi:role="line">radio</tspan></text>
+    </g>
+    <g
+       id="g4033">
+      <g
+         transform="translate(675.71436,350)"
+         id="g3033-0">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect2985-42-0"
+           width="397.14285"
+           height="231.42857"
+           x="-1112.8572"
+           y="-9.06639" />
+        <text
+           xml:space="preserve"
+           style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+           x="-1005.6785"
+           y="118.9959"
+           id="text2989-5-9"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan2991-6-6"
+             x="-1005.6785"
+             y="118.9959"
+             style="font-size:36px">Hardware</tspan></text>
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3869-2"
+         y="380.09991"
+         x="-292.02017"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+         xml:space="preserve"><tspan
+           style="font-size:32px;font-style:italic;-inkscape-font-specification:Linux Libertine Mono O Italic"
+           y="380.09991"
+           x="-292.02017"
+           id="tspan3871-2"
+           sodipodi:role="line">radio</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3867-6"
+         d="m -434.96417,398.4959 389.999995,0"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 8;stroke-dashoffset:0" />
+    </g>
+    <g
+       id="g4134">
+      <g
+         transform="translate(679.99998,325.21427)"
+         id="g3017-7">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect2985-4-8"
+           width="397.14285"
+           height="231.42857"
+           x="-1118.5714"
+           y="329.50504" />
+        <text
+           xml:space="preserve"
+           style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+           x="-988.78021"
+           y="452.50931"
+           id="text2989-4-7"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan2991-5-0"
+             x="-988.78021"
+             y="452.50931"
+             style="font-size:36px">Atmega</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4140">
+      <path
+         transform="matrix(0.90316755,0,0,0.62136249,1450.2136,810.67099)"
+         d="m -1651.4286,250.21933 c 0,102.96166 -98.4973,186.42857 -220,186.42857 -121.5026,0 -220,-83.46691 -220,-186.42857 0,-102.96166 98.4974,-186.428574 220,-186.428574 121.5027,0 220,83.466914 220,186.428574 z"
+         sodipodi:ry="186.42857"
+         sodipodi:rx="220"
+         sodipodi:cy="250.21933"
+         sodipodi:cx="-1871.4286"
+         id="path3052-4-6"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3822-8-3"
+         y="975.98785"
+         x="-259.29602"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+         xml:space="preserve"><tspan
+           style="font-size:32px;font-weight:normal;-inkscape-font-specification:Linux Libertine Mono O"
+           y="975.98785"
+           x="-259.29602"
+           id="tspan3824-1-9"
+           sodipodi:role="line">C</tspan></text>
+    </g>
+    <g
+       id="g4097"
+       transform="translate(-110,-150)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4042"
+         d="m -1860,-7.6378174 190,0 0,559.9999974 -180,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <flowRoot
+         transform="translate(-5.03775,124.42376)"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+         id="flowRoot4046"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4048"><rect
+             style="font-size:32px"
+             y="46.250248"
+             x="-1830.3964"
+             height="476.11194"
+             width="170.39636"
+             id="rect4050" /></flowRegion><flowPara
+           id="flowPara4052">Les</flowPara><flowPara
+           id="flowPara4054">autres</flowPara><flowPara
+           id="flowPara4056">membres</flowPara><flowPara
+           id="flowPara4060">du</flowPara><flowPara
+           id="flowPara4062">réseau</flowPara><flowPara
+           id="flowPara4058" /></flowRoot>    </g>
+    <g
+       id="g4092">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4044"
+         d="m 299.73,80.826178 -150,0 0,390.000002 150,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4064"
+         y="286.85019"
+         x="163.43201"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="286.85019"
+           x="163.43201"
+           id="tspan4066"
+           sodipodi:role="line">Public</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m -1780,121.87186 260,-1.34194"
+       id="path4111"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4097"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g3996"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-mid:none;marker-end:url(#Arrow1Lend)"
+       d="m -1122.8571,121.02085 164.28569,1.25408"
+       id="path4113"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g3996"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g4018"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m -561.42856,119.92964 117.14281,-2.27778"
+       id="path4115"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4018"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g4024"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m -243.30358,229.50504 2.32145,111.42857"
+       id="path4117"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4024"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g4033"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="M -47.142895,182.18483 149.73,249.99388"
+       id="path4119"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4024"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g4092"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="M -39.999965,379.14753 149.73,305.0979"
+       id="path4121"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4033"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g4092"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m -239.09822,572.36218 -0.37496,82.35713"
+       id="path4145"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4033"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g4134"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m -1122.7317,319.50505 164.03486,0"
+       id="path4147"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4001"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g4013"
+       inkscape:connection-end-point="d4" />
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+       x="-1694.1698"
+       y="115.70623"
+       id="text8459"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8461"
+         x="-1694.1698"
+         y="115.70623">WIFI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+       x="-1098.4673"
+       y="118.15589"
+       id="text8463"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8465"
+         x="-1098.4673"
+         y="118.15589">TX/RX</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+       x="-1109.4766"
+       y="310.97305"
+       id="text8467"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8469"
+         x="-1109.4766"
+         y="310.97305">Bridge</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+       x="-368.50735"
+       y="297.71133"
+       id="text8471"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-368.50735"
+         y="297.71133"
+         id="tspan8479">Ondes radio</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+       x="15.019053"
+       y="227.42935"
+       id="text8483"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="15.019053"
+         y="227.42935"
+         id="tspan8487">I/O</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+       x="18.590517"
+       y="353.46271"
+       id="text8491"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8493"
+         x="18.590517"
+         y="353.46271">I/O</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+       x="-1950.828"
+       y="828.93817"
+       id="text8495"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8497"
+         x="-1950.828"
+         y="828.93817">Proposition d'organisation</tspan><tspan
+         sodipodi:role="line"
+         x="-1950.828"
+         y="873.93817"
+         id="tspan8499">pour la carte DNC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+       x="-1954.5067"
+       y="958.34021"
+       id="text8501"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8503"
+         x="-1954.5067"
+         y="958.34021">Olivier Radisson</tspan><tspan
+         sodipodi:role="line"
+         x="-1954.5067"
+         y="1003.3402"
+         id="tspan8505">26 sept 2014</tspan></text>
+  </g>
+</svg>
