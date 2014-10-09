@@ -1,0 +1,17 @@
+- Interface Dragino <-> Atmega (Bridge)
+ - Message basic
+ - Benchmarck vitesse
+ - Réécriture via d'autre lib ? (cf liens)
+ 
+- Système de scénario
+ - GUI (IHM) du logiciel de régie
+  - Interface création de scénario
+  - Interface de live
+ - Format (fichier) du scénario
+ - Système de lecture scénario (python dragino)
+  - Lecture du fichier scénario
+  - Benchmarck de vitesse
+  
+
+ 
+
