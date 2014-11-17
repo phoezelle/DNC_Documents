@@ -1,0 +1,1966 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+
+<html>
+
+<!-- This document is hand-crafted in HTML by Nick Gammon -->
+
+<head>
+
+
+<meta name="google-site-verification" content="KptDUaIc-O_rfvV30ttczn66Zg6fL9UWq1fVovU8RGs" />
+
+<title>Electronics : Microprocessors : SPI - Serial Peripheral Interface - for Arduino</title>
+
+<meta name=description content="Electronics : Microprocessors : SPI - Serial Peripheral Interface - for Arduino">
+<meta name=keywords content="forum, topics, subjects">
+<link rel="alternate" type="application/rss+xml" 
+  href="/rss/forum.xml" title="Forum RSS Feed">
+
+<link type="text/css" rel="stylesheet" href="/style.css?v=10">
+
+<script src="/movies/InsertMovie.js" type="text/javascript" language="JavaScript"></script>
+
+
+<style type="text/css">
+  body {color:black; }
+  body {background-color: #F5F5F5; }
+</style>
+
+
+</head>
+
+<body>
+
+<a href="/welcome.html"><img alt="[Home]" border=0 height=27 src="/images/home.gif" width=95></a>
+
+<a href="/downloads.htm"><img alt="[Downloads]" border=0 height=27 src="/images/downloads.gif" width=95></a> 
+
+<a href="/search.htm"><img src="/images/search.gif" alt="[Search]" width=95 height=27 border=0></a> 
+
+<a href="/forum/"><img src="/images/forum.gif" alt="[Help/forum]" width=95 height=27 border=0></a> 
+
+<br>
+<hr><a name=top></a>
+
+  <form METHOD="post" ACTION="http://www.gammon.com.au/forum/bbshowpost.php">
+    <table border="0" width="100%">
+    <tr valign="top">
+      <td align="left">
+        <h3>Gammon Software Solutions forum</h3>
+<p style="font-size:small;">
+See <a href="http://www.mushclient.com/spam">www.mushclient.com/spam</a> for dealing with forum spam.
+Please read the <a href="http://mushclient.com/faq">MUSHclient FAQ</a>! 
+</p><img src="/images/open_folder.gif" width="15" height="15" border="0" alt="[Folder]"/>
+&nbsp;<b><a href="http://www.gammon.com.au/forum/bbshowpost.php">Entire forum</a>
+</b><br>
+<img src="/images/bar.gif" width="15" height="15" border="0" alt="-&gt;"/>
+<img src="/images/open_folder.gif" width="15" height="15" border="0" alt="[Folder]"/>
+&nbsp;<b><a href="http://www.gammon.com.au/forum/bbshowpost.php?bbsection_id=14">Electronics</a>
+</b><br>
+<img src="/images/blank.gif" width="15" height="15" border="0" alt="."/>
+<img src="/images/bar.gif" width="15" height="15" border="0" alt="-&gt;"/>
+<img src="/images/open_folder.gif" width="15" height="15" border="0" alt="[Folder]"/>
+&nbsp;<b><a href="http://www.gammon.com.au/forum/bbshowpost.php?bbtopic_id=123">Microprocessors</a>
+</b><br>
+<img src="/images/blank.gif" width="15" height="15" border="0" alt="."/>
+<img src="/images/blank.gif" width="15" height="15" border="0" alt="."/>
+<img src="/images/bar.gif" width="15" height="15" border="0" alt="-&gt;"/>
+<img src="/images/open_subject.gif" width="15" height="15" border="0"  alt="[Subject]"/>
+&nbsp;<b>SPI - Serial Peripheral Interface - for Arduino</b><br>
+      </td>
+      <td align="right">
+        <table border="0" >
+          <tr align="right">
+          <td colspan="2">
+            <font size="1">
+            <a href="http://www.gammon.com.au">Home</a>
+&nbsp;|&nbsp;
+<a href="http://www.gammon.com.au/forum/bbuserlist.php">Users</a>
+&nbsp;|&nbsp;
+<a href="http://www.gammon.com.au/forum/bbsearch.php">Search</a>
+&nbsp;|&nbsp;
+<a href="/forum/bbshowpost.php?bbsection_id=4">FAQ</a>
+            </font>
+          </td>
+          </tr>
+          <tr align="right">
+          <th ><font size="1">Username:</font></th>
+          <td >
+            <font size="1"><input type="text" name="username" size="20" maxlength="40" tabindex=1
+            value=""/><br>
+            <a href="http://www.gammon.com.au/forum/bbuseredit.php" target="_blank">Register forum user name</a>
+            </font>
+         </td>
+        </tr>
+        <tr align="right">
+            <th><font size="1">Password:</font></th>
+            <td>
+            <font size="1"><input type="password" name="password" size="20" tabindex=2 maxlength="40"/><br>
+            <a href="http://www.gammon.com.au/forum/bbpassword.php?action=forgot" target="_blank">Forgotten password?</a>
+            </font>
+          </td>
+        </tr>
+        <tr align="right">
+          <td colspan="2">
+          <input Type="submit" Value="Log on"/>
+          <input type="hidden" name="action" value="logon"/>
+          </td>
+        </tr>
+
+
+        </table>
+      </td>
+    </tr>
+    </table>
+  <input type="hidden" name="bbsection_id" value="14"/>
+<input type="hidden" name="bbtopic_id" value="123"/>
+<input type="hidden" name="bbsubject_id" value="10892"/>
+</form>
+<hr>
+<table border=0 cellpadding=5 bgcolor="#CD5C5C" width="100%">
+<tr bgcolor="#CD5C5C" align=center>
+<th><font color="#FFFFFF">
+<b>SPI - Serial Peripheral Interface - for Arduino</b>
+</font></th></tr>
+</table>
+<p>
+<p><b>Postings by administrators only.</b></p>
+<a href="http://www.gammon.com.au/forum/bbshowpost.php?bbsubject_id=10892&amp;page=1" rel="nofollow"><img src="/images/refresh.gif" alt="[Refresh]" width="13" height="16" border="0"/>&nbsp;Refresh page</a>
+</p><hr>
+<a name="reply0"></a><a name="66119"></a>
+<table border=0 cellpadding=5 width="100%">
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Posted by</b></td>
+    <td bgcolor="#FAF0E6" align=left><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><b>Nick Gammon</b></a>
+<font size=1>&nbsp;&nbsp;Australia</font>&nbsp;&nbsp;<font size=1>(19,649 posts)</font>&nbsp;&nbsp;<font size=1><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><img src="/images/bio.gif" border=0 width=15 height=15 alt="[Biography]">&nbsp;bio</a>
+</font>&nbsp;&nbsp;<font size=1><i>Forum Administrator</i></font></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Date</b></td>
+    <td bgcolor="#FAF0E6" align=left>Tue 25 Jan 2011 03:37 AM (UTC)&nbsp;&nbsp;<font size=1>[&nbsp;<a href="http://www.gammon.com.au/forum/bbshowpost.php?action=quote&amp;bbpost_id=66119&amp;page=1" rel="nofollow">quote</a>
+&nbsp;]</font><p><font size=1>Amended on Wed 07 Nov 2012 04:32 AM (UTC) by <a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank">Nick Gammon</a>
+</font></p></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Message</b></td>
+    <td bgcolor="#FAF0E6" align=left><table width="100%"><tr><td><table class="template"><tr><td>
+
+This page can be quickly reached from the link: <a href="http://gammon.com.au/spi">http://gammon.com.au/spi</a>
+
+</td></tr></table><br />
+<br />
+This post describes how the SPI interface works, with particular reference to the Arduino Uno which is based on the ATmega328P microprocessor chip. A lot of the details however will be of more general interest.<br />
+<br />
+SPI is used to send serial data from a microprocessor to another one, or a peripheral, for example an LCD display, a temperature sensor, a memory (SD) chip, and so on.<br />
+<br />
+More information about SPI at:<br />
+<br />
+<ul><code>http://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus</code><br />
+</ul><br />
+<br />
+More information about the Arduino SPI interface at:<br />
+<br />
+<ul><code>http://arduino.cc/en/Reference/SPI</code><br />
+</ul><br />
+<br />
+<div class="heading">Other protocols</div><br />
+<br />
+<br /><ul>
+<li>Summary of protocols: <a href="http://www.gammon.com.au/forum/?id=10918">http://www.gammon.com.au/forum/?id=10918</a><br />
+<br />
+<li>1-wire: <a href="http://www.gammon.com.au/forum/?id=10902">http://www.gammon.com.au/forum/?id=10902</a><br />
+<li>Parallel interface: <a href="http://www.gammon.com.au/forum/?id=10903">http://www.gammon.com.au/forum/?id=10903</a><br />
+<li>Two-wire (I2C): <a href="http://www.gammon.com.au/i2c">http://www.gammon.com.au/i2c</a><br />
+<li>Serial (async): <a href="http://www.gammon.com.au/forum/?id=10894">http://www.gammon.com.au/forum/?id=10894</a><br />
+</ul><br />
+<br />
+<br />
+<div class="heading">Sending data</div><br />
+<br />
+Let&#039;s start with an image - this is a screenshot taken with a logic analyser. It shows the 3-character sequence &quot;Fab&quot; being sent from the Arduino.<br />
+<br />
+<img src="/images/SPI_logical_analyzer_1.png"><br />
+<br />
+I put a trigger on the SS (Slave Select) pin so that the logic analyser would start analysing from when the sequence started.<br />
+<br />
+From the above graphic note the following points of interest:<br />
+<br />
+<br /><ul>
+<li>A - no data (SS is high, clock is low)<br />
+<br />
+<li>B - SS taken low to enable the slave (peripheral). At this point the slave should prepare to transfer data by setting the MOSI (master out, slave in) line, and the SCK (serial clock) as inputs, and the MISO (master in, slave out) as an output. The slave can now prepare to notice clock pulses on the SCK line.<br />
+<br />
+<li>C - First character arrives (the letter &quot;F&quot; or 0x46 or 0b01000110). For each of the 8 bits the SCK (clock) line is briefly brought high, and then low again. This tells the slave to read the data on the MOSI line. Also the slave can place data on the MISO line for the master to simultaneously read in.<br />
+<br />
+<li>D - The letter &quot;a&quot; arrives<br />
+<br />
+<li>E - The letter &quot;b&quot; arrives<br />
+<br />
+<li>F - &quot;No data&quot; after &quot;Fab&quot; - however the SS is still enabled.<br />
+<br />
+<li>G - SS taken high to indicate end of the sequence of data. At this stage the slave should release the MISO line (configure it as an input, or &quot;high impedance&quot;). Also the slave should ignore any clock pulses now (they may be for a different peripheral).<br />
+</ul><br />
+<br />
+<br />
+The code to produce this (in Arduino&#039;s C++ language) was:<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+
+// Written by Nick Gammon
+// January 2011
+
+#include &lt;SPI.h&gt;
+#include &quot;pins_arduino.h&quot;
+
+void setup (void)
+{
+}
+
+
+void loop (void)
+{
+
+  
+  digitalWrite(SS, HIGH);  // ensure SS stays high
+
+  // Put SCK, MOSI, SS pins into output mode
+  // also put SCK, MOSI into LOW state, and SS into HIGH state.
+  // Then put SPI hardware into Master mode and turn SPI on
+  SPI.begin ();
+
+  delay (5000);  // 5 seconds delay to start logic analyser.
+
+  char c;
+  
+  // enable Slave Select
+  digitalWrite(SS, LOW);    // SS is pin 10
+  
+  // send test string
+  for (const char * p = &quot;Fab&quot; ; c = *p; p++)
+    SPI.transfer (c);
+
+ // disable Slave Select
+ digitalWrite(SS, HIGH);
+
+ // turn SPI hardware off
+ SPI.end ();
+ 
+ while (1);  //loop
+}
+</code></pre></span></div><br />
+<br />
+More detail for the first character (the letter &quot;F&quot; or 0x46 or 0b01000110) can be seen here:<br />
+<br />
+<img src="/images/SPI_logical_analyzer_2.png"><br />
+<br />
+Notice how for each bit (starting with the most significant bit) the MOSI line is first changed to the correct state (0 or 1) and then the SCK (clock) line is pulsed to indicate that the data should be read.<br />
+<br />
+<div class="heading">Sending and receiving data</div><br />
+<br />
+The next graphic, taken while sending data to an Ethernet card, shows how both MOSI and MISO lines can be exchanging data simultaneously:<br />
+<br />
+<img src="/images/SPI_logical_analyzer_3.png"><br />
+<br />
+Basically, while the master hardware is clocking out bits on the MOSI line (master out, slave in) it is also clocking in bits on the MISO (master in, slave out). Effectively, during one character time, it both sends and receives one byte. Hence the name of the function SPI.transfer.<br />
+<br />
+The code that produced the above might have looked like:<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+char a, b;
+
+a = SPI.transfer (4);
+
+// a is now 1
+
+b = SPI.transfer (3);
+
+// b is now 2
+</code></pre></span></div><br />
+<br />
+<div class="heading">Timing</div><br />
+<br />
+As you can see from the Logic analyser timing, each byte seems to take about 3 microseconds to be sent, so that means you could send 333,333 bytes in one second, effectively being 325.5 Kbytes/s (333333/1024).<br />
+<br />
+The clock pulses are 0.25 microseconds apart (0.125 microseconds on and 0.125 microseconds off). Effectively this means it is clocking at 4 MHz.<br />
+<br />
+<b>[EDIT]</b> However see below (&quot;SPI speeds&quot;) for a more detailed analysis. In particular, rates of 888,888 bytes per second are theoretically achievable (868 Kbytes/s). Also you can slow SPI down if the receiving end operates more slowly or needs time to process the data.<br />
+<br />
+<br />
+<div class="heading">Slave Select</div><br />
+<br />
+There is a bit of confusion about the Slave Select pin. This is because the SPI hardware can be used to communicate with a number of slaves at once. The way this is done is to tie the SCK, MISO and MISO lines together (for each slave) and have a separate SS (slave select) line for each slave. This way you only need 3 wires (plus ground) in total, <b>plus</b> one slave select for each slave.<br />
+<br />
+Thus, slaves should let each of the lines float (as inputs) unless their slave select is taken low. Then, and only then, should they configure their MISO line (master in, slave out) to be an output, so they can send data back to the master.<br />
+<br />
+Pin 10 of the Arduino is the SS line - so does this mean you have to use it for the peripheral SS line? Or should it be kept high? The answer (from the Atmega documentation) is that the SS line (pin 10) must be configured as an <b>output</b> (regardless of what value is on it). If configured as an output the Arduino ignores the value on that line, and thus the SPI hardware will not be put into slave mode.<br />
+<br />
+Since the value on pin 10 is ignored, providing it is set as an output, then it can also be used as the SS line for your first, or only, slave. You could then use other pins (eg. 5, 6, 7, 8, 9) to control other slaves.<br />
+<br />
+<div class="heading">Protocols</div><br />
+<br />
+The SPI spec does not specify protocols as such, so it is up to individual master/slave pairings to agree on what the data means. Whilst you can send and receive bytes simultaneously, the received byte cannot be a direct response to the sent byte (as they are being assembled simultaneously). For example, in the graphic above, the slave is not replying with a 1 to the transfer of 4, because it doesn&#039;t know it has received 4 before it has already sent 1.<br />
+<br />
+So it would be more logical for one end to send a request (eg. 4 might mean &quot;list the disk directory&quot;) and then do transfers (perhaps just sending zeros outwards) until it receives a complete response. The response might terminate with a newline, or 0x00 character.<br />
+<br />
+You also don&#039;t necessarily know if you even have a peripheral attached. One way might be to send out a &quot;query&quot;, like this:<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+SPI.transfer (0xCD);  // are you there?
+byte x = SPI.transfer (0); // get response
+
+if (x == 0xEF)
+  {
+    // peripheral is alive
+  }
+</code></pre></span></div><br />
+<br />
+This example asks the slave to reply with 0xEF if it receives 0xCD - this presumably wouldn&#039;t happen if the wires were not connected to anything. This could be used to verify that the slave actually was there and &quot;alive&quot;.<br />
+<br />
+<br />
+<div class="heading">Modes</div><br />
+<br />
+For maximum flexibility with various slaves, the SPI protocol allows for variations on the polarity of the clock pulses. CPOL is clock polarity, and CPHA is clock phase.<br />
+<br />
+<br /><ul>
+<li>Mode 0 (the default) - clock is normally low (CPOL = 0), and the data is sampled on the transition from low to high (leading edge) (CPHA = 0)<br />
+<br />
+<li>Mode 1 - clock is normally low (CPOL = 0), and the data is sampled on the transition from high to low (trailing edge) (CPHA = 1)<br />
+<br />
+<li>Mode 2  - clock is normally high (CPOL = 1), and the data is sampled on the transition from high to low (leading edge) (CPHA = 0)<br />
+<br />
+<li>Mode 3 - clock is normally high (CPOL = 1), and the data is sampled on the transition from low to high (trailing edge)  (CPHA = 1)<br />
+</ul><br />
+<br />
+<br />
+<b>Mode 0</b><br />
+<img src="/images/Arduino/SPI_logical_analyzer_mode0.jpg"><br />
+<br />
+<b>Mode 1</b><br />
+<img src="/images/Arduino/SPI_logical_analyzer_mode1.jpg"><br />
+<br />
+<b>Mode 2</b><br />
+<img src="/images/Arduino/SPI_logical_analyzer_mode2.jpg"><br />
+<br />
+<b>Mode 3</b><br />
+<img src="/images/Arduino/SPI_logical_analyzer_mode3.jpg"><br />
+<br />
+Example code to change mode:<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+  SPI.setDataMode (SPI_MODE3);
+</code></pre></span></div><br />
+<br />
+There is also a DORD (data order) flag. The normal order is most significant bit first (as above) but the alternate order is least significant bit first.<br />
+<br />
+<div class="heading">Arduino Library</div><br />
+<br />
+The Arduino development kit comes with an SPI library.  To use it you just need to include it, like this:<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+#include &lt;SPI.h&gt;
+</code></pre></span></div><br />
+<br />
+This gives you an SPIClass, and an instance of that class called SPI in SPI.cpp.<br />
+<br />
+To condition the hardware you call SPI.begin () which configures the SPI pins (SCK, MOSI, SS) as outputs. It sets SCK and MOSI low, and SS high. It then enables SPI mode with the hardware in &quot;master&quot; mode. This has the side-effect of setting MISO as an input.<br />
+<br />
+If you need to change the mode or bit order you have the functions SPI.setDataMode and SPI.setBitOrder. Normally you wouldn&#039;t have to.<br />
+<br />
+The function SPI.transfer does the actual transferring of bytes. It is up to you to set SS low at an appropriate time (this may or may not be pin 10 as described above). When finished call SPI.end () to turn the hardware SPI off.<br />
+<br />
+<div class="heading">Pinouts on the Arduino Uno</div><br />
+<br />
+<img src="/images/Arudiuno_SPI_pins.png"><br />
+<br />
+<div class="heading">Pinouts on the Arduino Mega2560</div><br />
+<br />
+<img src="/images/ArduinoMega2560_SPI_pins.jpg"><br />
+<br />
+On the Arduino Mega, the pins are 50 (MISO), 51 (MOSI), 52 (SCK), and 53 (SS).<br />
+<br />
+<div class="heading">Pinouts using the ICSP header</div><br />
+<br />
+You can also connect to the SPI pins (except SS) by using the ICSP header (on both the Uno and the Mega2560):<br />
+<br />
+<img src="/images/ArduinoUno_R3_Pinouts.png"><br />
+<br />
+<br />
+<b>[EDIT]</b> Modified 8th July 2012 to add screenshots of logic analyzer output of the various clock modes.</td></tr><tr><td><hr >
+<font size=1 color="#808080">- Nick Gammon<br />
+<br />
+www.gammon.com.au, www.mushclient.com</font></td></tr><tr align=right><td><font size=1><a href="#top"><img src="/images/gototop.gif" alt="[Go to top]" width=15 height=15 border=0>&nbsp;top</a></font></td></tr></table>
+</td>
+  </tr>
+</table>
+<hr>
+<a name="reply1"></a><a name="66341"></a>
+<table border=0 cellpadding=5 width="100%">
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Posted by</b></td>
+    <td bgcolor="#FAF0E6" align=left><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><b>Nick Gammon</b></a>
+<font size=1>&nbsp;&nbsp;Australia</font>&nbsp;&nbsp;<font size=1>(19,649 posts)</font>&nbsp;&nbsp;<font size=1><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><img src="/images/bio.gif" border=0 width=15 height=15 alt="[Biography]">&nbsp;bio</a>
+</font>&nbsp;&nbsp;<font size=1><i>Forum Administrator</i></font></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Date</b></td>
+    <td bgcolor="#FAF0E6" align=left><a href="http://www.gammon.com.au/forum/?id=10892&reply=1#reply1">Reply #1</a> on Sun 13 Feb 2011 08:21 PM (UTC)&nbsp;&nbsp;<font size=1>[&nbsp;<a href="http://www.gammon.com.au/forum/bbshowpost.php?action=quote&amp;bbpost_id=66341&amp;page=1" rel="nofollow">quote</a>
+&nbsp;]</font><p><font size=1>Amended on Sun 08 Jul 2012 06:01 AM (UTC) by <a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank">Nick Gammon</a>
+</font></p></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Message</b></td>
+    <td bgcolor="#FAF0E6" align=left><table width="100%"><tr><td><div class="heading">How to make an SPI slave</div><br />
+<br />
+The earlier example shows the Arduino as the master, sending data to a slave device. This example shows how the Arduino can be a slave.<br />
+<br />
+<b>Hardware setup</b><br />
+<br />
+Connect two Arduinos together with the following pins connected to each other:<br />
+<br />
+<br /><ul>
+<li>10 (SS)<br />
+<li>11 (MOSI)<br />
+<li>12 (MISO)<br />
+<li>13 (SCK)<br />
+<br />
+<li>+5v  (if required)<br />
+<li>GND  (for signal return)<br />
+</ul><br />
+<br />
+On the Arduino Mega, the pins are 50 (MISO), 51 (MOSI), 52 (SCK), and 53 (SS).<br />
+<br />
+In any case, MOSI at one end is connected to MOSI at the other, you <b>don&#039;t</b> swap them around (that is you <b>do not have</b> MOSI &lt;-&gt; MISO). The software configures one end of MOSI (master end) as an output, and the other end (slave end) as an input.<br />
+<br />
+<br />
+<div class="heading">Master (example)</div><br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+// Written by Nick Gammon
+// February 2011
+
+
+#include &lt;SPI.h&gt;
+
+void setup (void)
+{
+
+  digitalWrite(SS, HIGH);  // ensure SS stays high for now
+
+  // Put SCK, MOSI, SS pins into output mode
+  // also put SCK, MOSI into LOW state, and SS into HIGH state.
+  // Then put SPI hardware into Master mode and turn SPI on
+  SPI.begin ();
+
+  // Slow down the master a bit
+  SPI.setClockDivider(SPI_CLOCK_DIV8);
+  
+}  // end of setup
+
+
+void loop (void)
+{
+
+  char c;
+
+  // enable Slave Select
+  digitalWrite(SS, LOW);    // SS is pin 10
+
+  // send test string
+  for (const char * p = &quot;Hello, world!\n&quot; ; c = *p; p++)
+    SPI.transfer (c);
+
+  // disable Slave Select
+  digitalWrite(SS, HIGH);
+
+  delay (1000);  // 1 seconds delay 
+}  // end of loop
+</code></pre></span></div><br />
+<br />
+This sends &quot;Hello, world&quot; every second to the slave.<br />
+<br />
+<div class="heading">Slave</div><br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+// Written by Nick Gammon
+// February 2011
+
+
+#include &lt;SPI.h&gt;
+
+char buf [100];
+volatile byte pos;
+volatile boolean process_it;
+
+void setup (void)
+{
+  Serial.begin (115200);   // debugging
+
+  // have to send on master in, *slave out*
+  pinMode(MISO, OUTPUT);
+  
+  // turn on SPI in slave mode
+  SPCR |= _BV(SPE);
+  
+  // get ready for an interrupt 
+  pos = 0;   // buffer empty
+  process_it = false;
+
+  // now turn on interrupts
+  SPI.attachInterrupt();
+
+}  // end of setup
+
+
+// SPI interrupt routine
+ISR (SPI_STC_vect)
+{
+byte c = SPDR;  // grab byte from SPI Data Register
+  
+  // add to buffer if room
+  if (pos &lt; sizeof buf)
+    {
+    buf [pos++] = c;
+    
+    // example: newline means time to process buffer
+    if (c == &#039;\n&#039;)
+      process_it = true;
+      
+    }  // end of room available
+}  // end of interrupt routine SPI_STC_vect
+
+// main loop - wait for flag set in interrupt routine
+void loop (void)
+{
+  if (process_it)
+    {
+    buf [pos] = 0;  
+    Serial.println (buf);
+    pos = 0;
+    process_it = false;
+    }  // end of flag set
+    
+}  // end of loop
+</code></pre></span></div><br />
+<br />
+The slave is entirely interrupt-driven, thus it can doing other stuff. The incoming SPI data is collected in a buffer, and a flag set when a &quot;significant byte&quot; (in this case a newline) arrives. This tells the slave to get on and start processing the data.<br />
+<br />
+<b>Example of connecting master to slave using SPI</b><br />
+<br />
+<img src="/images/Arduino/SPI_Master_to_Slave_photo.jpg"><br />
+<br />
+<br />
+<b>[EDIT]</b> Modified 25 June 2012 to allow for version 1.0 of the Arduino IDE.<br />
+<br />
+<b>[EDIT]</b> Modified 8th July 2012 to add photo of connecting SPI master and slave.</td></tr><tr><td><hr >
+<font size=1 color="#808080">- Nick Gammon<br />
+<br />
+www.gammon.com.au, www.mushclient.com</font></td></tr><tr align=right><td><font size=1><a href="#top"><img src="/images/gototop.gif" alt="[Go to top]" width=15 height=15 border=0>&nbsp;top</a></font></td></tr></table>
+</td>
+  </tr>
+</table>
+<hr>
+<a name="reply2"></a><a name="66954"></a>
+<table border=0 cellpadding=5 width="100%">
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Posted by</b></td>
+    <td bgcolor="#FAF0E6" align=left><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><b>Nick Gammon</b></a>
+<font size=1>&nbsp;&nbsp;Australia</font>&nbsp;&nbsp;<font size=1>(19,649 posts)</font>&nbsp;&nbsp;<font size=1><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><img src="/images/bio.gif" border=0 width=15 height=15 alt="[Biography]">&nbsp;bio</a>
+</font>&nbsp;&nbsp;<font size=1><i>Forum Administrator</i></font></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Date</b></td>
+    <td bgcolor="#FAF0E6" align=left><a href="http://www.gammon.com.au/forum/?id=10892&reply=2#reply2">Reply #2</a> on Thu 07 Apr 2011 11:44 PM (UTC)&nbsp;&nbsp;<font size=1>[&nbsp;<a href="http://www.gammon.com.au/forum/bbshowpost.php?action=quote&amp;bbpost_id=66954&amp;page=1" rel="nofollow">quote</a>
+&nbsp;]</font><p><font size=1>Amended on Fri 13 Apr 2012 10:46 PM (UTC) by <a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank">Nick Gammon</a>
+</font></p></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Message</b></td>
+    <td bgcolor="#FAF0E6" align=left><table width="100%"><tr><td><div class="heading">How to get a response from a slave</div><br />
+<br />
+Following on from the code above which sends data from an SPI master to a slave, the example below shows sending data to a slave, having it do something with it, and return a response.<br />
+<br />
+The master is similar to the example above. However an important point is that we need to add a slight delay (something like 20 microseconds). Otherwise the slave doesn&#039;t have a chance to react to the incoming data and do something with it.<br />
+<br />
+The example shows sending a &quot;command&quot;. In this case &quot;a&quot; (add something) or &quot;s&quot; (subtract something). This is to show that the slave is actually doing something with the data.<br />
+<br />
+After dropping slave-select (SS) to initiate the transaction, the master sends the command, followed by any number of bytes, and then raises SS to terminate the transaction.<br />
+<br />
+A very important point is that the slave cannot respond to an incoming byte at the same moment. The response has to be in the next byte. This is because the bits which are being sent, and the bits which are being received, are being sent simultaneously. Thus to add something to four numbers we need five transfers, like this:<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+ transferAndWait (10);
+  a = transferAndWait (17);
+  b = transferAndWait (33);
+  c = transferAndWait (42);
+  d = transferAndWait (0);
+</code></pre></span></div><br />
+<br />
+First we request action on number 10. But we don&#039;t get a response until the next transfer (the one for 17). However &quot;a&quot; will be set to the reply to 10. Finally we end up sending a &quot;dummy&quot; number 0, to get the reply for 42.<br />
+<br />
+<div class="heading">Master (example)</div><br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+// Written by Nick Gammon
+// April 2011
+
+
+#include &lt;SPI.h&gt;
+#include &quot;pins_arduino.h&quot;
+
+void setup (void)
+{
+  Serial.begin (115200);
+  Serial.println ();
+  
+  digitalWrite(SS, HIGH);  // ensure SS stays high for now
+
+  // Put SCK, MOSI, SS pins into output mode
+  // also put SCK, MOSI into LOW state, and SS into HIGH state.
+  // Then put SPI hardware into Master mode and turn SPI on
+  SPI.begin ();
+
+  // Slow down the master a bit
+  SPI.setClockDivider(SPI_CLOCK_DIV8);
+  
+}  // end of setup
+
+byte transferAndWait (const byte what)
+{
+  byte a = SPI.transfer (what);
+  delayMicroseconds (20);
+  return a;
+} // end of transferAndWait
+
+void loop (void)
+{
+
+  byte a, b, c, d;
+  
+  // enable Slave Select
+  digitalWrite(SS, LOW);    
+
+  transferAndWait (&#039;a&#039;);  // add command
+  transferAndWait (10);
+  a = transferAndWait (17);
+  b = transferAndWait (33);
+  c = transferAndWait (42);
+  d = transferAndWait (0);
+
+  // disable Slave Select
+  digitalWrite(SS, HIGH);
+
+  Serial.println (&quot;Adding results:&quot;);
+  Serial.println (a, DEC);
+  Serial.println (b, DEC);
+  Serial.println (c, DEC);
+  Serial.println (d, DEC);
+  
+  // enable Slave Select
+  digitalWrite(SS, LOW);   
+
+  transferAndWait (&#039;s&#039;);  // subtract command
+  transferAndWait (10);
+  a = transferAndWait (17);
+  b = transferAndWait (33);
+  c = transferAndWait (42);
+  d = transferAndWait (0);
+
+  // disable Slave Select
+  digitalWrite(SS, HIGH);
+
+  Serial.println (&quot;Subtracting results:&quot;);
+  Serial.println (a, DEC);
+  Serial.println (b, DEC);
+  Serial.println (c, DEC);
+  Serial.println (d, DEC);
+  
+  delay (1000);  // 1 second delay 
+}  // end of loop
+</code></pre></span></div><br />
+<br />
+<hr/><br />
+<br />
+The code for the slave basically does almost everything in the interrupt routine (called when incoming SPI data arrives). It takes the incoming byte, and adds or subtracts as per the remembered &quot;command byte&quot;. Note that the response will be &quot;collected&quot; next time through the loop. This is why the master has to send one final &quot;dummy&quot; transfer to get the final reply.<br />
+<br />
+In my example I am using the main loop to simply detect when SS goes high, and clear the saved command. That way, when SS is pulled low again for the next transaction, the first byte is considered the command byte.<br />
+<br />
+More reliably, this would be done with an interrupt. That is, you would physically connect SS to one of the interrupt inputs (eg, on the Uno, connect pin 10 (SS) to pin 2 (an interrupt input).<br />
+<br />
+Then the interrupt could be used to notice when SS is being pulled low or high. (See further down for an example).<br />
+<br />
+<div class="heading">Slave (example)</div><br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+// Written by Nick Gammon
+// April 2011
+
+#include &quot;pins_arduino.h&quot;
+
+// what to do with incoming data
+byte command = 0;
+
+void setup (void)
+{
+
+  // have to send on master in, *slave out*
+  pinMode(MISO, OUTPUT);
+
+  // turn on SPI in slave mode
+  SPCR |= _BV(SPE);
+
+  // turn on interrupts
+  SPCR |= _BV(SPIE);
+
+}  // end of setup
+
+
+// SPI interrupt routine
+ISR (SPI_STC_vect)
+{
+  byte c = SPDR;
+ 
+  switch (command)
+  {
+  // no command? then this is the command
+  case 0:
+    command = c;
+    SPDR = 0;
+    break;
+    
+  // add to incoming byte, return result
+  case &#039;a&#039;:
+    SPDR = c + 15;  // add 15
+    break;
+    
+  // subtract from incoming byte, return result
+  case &#039;s&#039;:
+    SPDR = c - 8;  // subtract 8
+    break;
+
+  } // end of switch
+
+}  // end of interrupt service routine (ISR) SPI_STC_vect
+
+void loop (void)
+{
+  
+  // if SPI not active, clear current command
+  if (digitalRead (SS) == HIGH)
+    command = 0;
+}  // end of loop
+</code></pre></span></div><br />
+<br />
+<br />
+Example output:<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+Adding results:
+25
+32
+48
+57
+Subtracting results:
+2
+9
+25
+34
+Adding results:
+25
+32
+48
+57
+Subtracting results:
+2
+9
+25
+34
+</code></pre></span></div><br />
+<br />
+<hr/><br />
+<br />
+This logic analyzer screenshot shows the timing involved:<br />
+<br />
+<img src="/images/SPI_Master_to_Slave_timing2.png"><br />
+<br />
+<br /><ul>
+<li>The number 10 is sent down during an early SPI.transfer. <br />
+<br />
+<li>The ISR (interrupt service routine) kicks in, and processes the number (adding 15) and putting the result back into SPDR (SPI Data Register)<br />
+<br />
+<li>During the subsequent SPI.transfer (when the next number is sent down) the result (25) is returned back to the master.<br />
+</ul><br />
+<br />
+<div class="heading">Slave (example) using interrupt for SS pin</div><br />
+<br />
+This slightly modified version of the slave sketch shows how you can detect SS being brought low with an interrupt, this would be more reliable than testing for it in the main loop.<br />
+<br />
+Note that to do this you connect together the SS pin (pin 10 on the Uno, pin 53 on the Mega) to pin 2. You could choose other interrupt-configurable pins if you wanted to. Pin 2 is interrupt number 0, hence the attachInterrupt for interrupt 0.<br />
+<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+// Written by Nick Gammon
+// April 2011
+
+#include &quot;pins_arduino.h&quot;
+
+// what to do with incoming data
+byte command = 0;
+
+// start of transaction, no command yet
+void ss_falling ()
+{
+  command = 0;
+}  // end of interrupt service routine (ISR) ss_falling
+
+void setup (void)
+{
+
+  // have to send on master in, *slave out*
+  pinMode(MISO, OUTPUT);
+
+  // turn on SPI in slave mode
+  SPCR |= _BV(SPE);
+
+  // turn on interrupts
+  SPCR |= _BV(SPIE);
+
+  // interrupt for SS falling edge
+  attachInterrupt (0, ss_falling, FALLING);
+  
+}  // end of setup
+
+
+// SPI interrupt routine
+ISR (SPI_STC_vect)
+{
+  byte c = SPDR;
+ 
+  switch (command)
+  {
+  // no command? then this is the command
+  case 0:
+    command = c;
+    SPDR = 0;
+    break;
+    
+  // add to incoming byte, return result
+  case &#039;a&#039;:
+    SPDR = c + 15;  // add 15
+    break;
+    
+  // subtract from incoming byte, return result
+  case &#039;s&#039;:
+    SPDR = c - 8;  // subtract 8
+    break;
+
+  } // end of switch
+
+}  // end of interrupt service routine (ISR) SPI_STC_vect
+
+
+void loop (void)
+{
+// all done with interrupts
+}  // end of loop
+</code></pre></span></div><br />
+<br />
+</td></tr><tr><td><hr >
+<font size=1 color="#808080">- Nick Gammon<br />
+<br />
+www.gammon.com.au, www.mushclient.com</font></td></tr><tr align=right><td><font size=1><a href="#top"><img src="/images/gototop.gif" alt="[Go to top]" width=15 height=15 border=0>&nbsp;top</a></font></td></tr></table>
+</td>
+  </tr>
+</table>
+<hr>
+<a name="reply3"></a><a name="70808"></a>
+<table border=0 cellpadding=5 width="100%">
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Posted by</b></td>
+    <td bgcolor="#FAF0E6" align=left><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><b>Nick Gammon</b></a>
+<font size=1>&nbsp;&nbsp;Australia</font>&nbsp;&nbsp;<font size=1>(19,649 posts)</font>&nbsp;&nbsp;<font size=1><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><img src="/images/bio.gif" border=0 width=15 height=15 alt="[Biography]">&nbsp;bio</a>
+</font>&nbsp;&nbsp;<font size=1><i>Forum Administrator</i></font></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Date</b></td>
+    <td bgcolor="#FAF0E6" align=left><a href="http://www.gammon.com.au/forum/?id=10892&reply=3#reply3">Reply #3</a> on Thu 12 Apr 2012 04:36 AM (UTC)&nbsp;&nbsp;<font size=1>[&nbsp;<a href="http://www.gammon.com.au/forum/bbshowpost.php?action=quote&amp;bbpost_id=70808&amp;page=1" rel="nofollow">quote</a>
+&nbsp;]</font><p><font size=1>Amended on Sat 28 Apr 2012 02:52 AM (UTC) by <a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank">Nick Gammon</a>
+</font></p></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Message</b></td>
+    <td bgcolor="#FAF0E6" align=left><table width="100%"><tr><td><div class="heading">SPI from the USART ... an alternative</div><br />
+<br />
+The Atmega328 also provides a second SPI hardware port - the USART chip (the one normally used for hardware serial).<br />
+<br />
+If you want another SPI port, and don&#039;t need async serial, you can use this. Note that in this mode you can only make an SPI master, not a slave.<br />
+<br />
+The example code below shows sending a message via SPI at 2 MHz clock.<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+/*
+Example of USART in SPI mode on the Atmega328.
+
+Author:   Nick Gammon
+Date:     12th April 2012
+Version:   1.0
+
+Licence: Released for public use.
+
+Pins: D0 MISO (Rx)
+      D1 MOSI (Tx)
+      D4 SCK  (clock)
+      D5 SS   (slave select)  &lt;-- this can be changed
+
+ Registers of interest:
+ 
+ UDR0 - data register
+ 
+ UCSR0A &ndash; USART Control and Status Register A
+     Receive Complete, Transmit Complete, USART Data Register Empty
+ 
+ UCSR0B &ndash; USART Control and Status Register B
+     RX Complete Interrupt Enable, TX Complete Interrupt Enable, Data Register Empty Interrupt Enable ,
+     Receiver Enable, Transmitter Enable
+   
+ UCSR0C &ndash; USART Control and Status Register C
+     Mode Select (async, sync, SPI), Data Order, Clock Phase, Clock Polarity
+ 
+ UBRR0L and UBRR0H - Baud Rate Registers - together are UBRR0 (16 bit)
+
+*/
+ 
+const byte MSPIM_SCK = 4;
+const byte MSPIM_SS = 5;
+
+// sends/receives one byte
+byte MSPIMTransfer (byte c)
+{
+  // wait for transmitter ready
+  while ((UCSR0A &amp; _BV (UDRE0)) == 0)
+    {}
+    
+  // send byte
+  UDR0 = c;
+  
+  // wait for receiver ready
+  while ((UCSR0A &amp; _BV (RXC0)) == 0)
+    {}
+    
+  // receive byte, return it
+  return UDR0;
+}  // end of MSPIMTransfer
+
+// select slave, write a string, wait for transfer to complete, deselect slave
+void spiWriteString (const char * str)
+  {
+  if (!str) return;  // Sanity Clause
+  
+  char c;
+
+  // enable slave select
+  digitalWrite (MSPIM_SS, LOW);
+  
+  // send the string
+  while (c = *str++)
+    MSPIMTransfer (c);
+  
+  // wait for all transmissions to finish
+  while ((UCSR0A &amp; _BV (TXC0)) == 0)
+    {}
+
+  // disable slave select
+  digitalWrite (MSPIM_SS, HIGH);
+  }  // end of spiWriteString
+ 
+void setup()
+  {
+  
+  pinMode (MSPIM_SS, OUTPUT);   // SS
+  
+  // must be zero before enabling the transmitter
+  UBRR0 = 0;
+
+  UCSR0A = _BV (TXC0);  // any old transmit now complete
+  
+  pinMode (MSPIM_SCK, OUTPUT);   // set XCK pin as output to enable master mode
+
+  UCSR0C = _BV (UMSEL00) | _BV (UMSEL01);  // Master SPI mode
+  UCSR0B = _BV (TXEN0) | _BV (RXEN0);  // transmit enable and receive enable
+
+  // must be done last, see page 206
+  UBRR0 = 3;  // 2 Mhz clock rate
+  
+  }  // end of setup
+
+void loop()
+  {
+  spiWriteString (&quot;hello, world!&quot;);
+  }  // end of loop
+</code></pre></span></div><br />
+<br />
+Results on logic analyzer:<br />
+<br />
+<img src="/images/Arduino/SPI_MSPIM_example.png"><br />
+<br />
+<div class="heading">Pins for MSPIM mode</div><br />
+<br />
+<img src="/images/Arduino/USART in SPI mode pins.jpg"><br />
+</td></tr><tr><td><hr >
+<font size=1 color="#808080">- Nick Gammon<br />
+<br />
+www.gammon.com.au, www.mushclient.com</font></td></tr><tr align=right><td><font size=1><a href="#top"><img src="/images/gototop.gif" alt="[Go to top]" width=15 height=15 border=0>&nbsp;top</a></font></td></tr></table>
+</td>
+  </tr>
+</table>
+<hr>
+<a name="reply4"></a><a name="72059"></a>
+<table border=0 cellpadding=5 width="100%">
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Posted by</b></td>
+    <td bgcolor="#FAF0E6" align=left><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><b>Nick Gammon</b></a>
+<font size=1>&nbsp;&nbsp;Australia</font>&nbsp;&nbsp;<font size=1>(19,649 posts)</font>&nbsp;&nbsp;<font size=1><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><img src="/images/bio.gif" border=0 width=15 height=15 alt="[Biography]">&nbsp;bio</a>
+</font>&nbsp;&nbsp;<font size=1><i>Forum Administrator</i></font></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Date</b></td>
+    <td bgcolor="#FAF0E6" align=left><a href="http://www.gammon.com.au/forum/?id=10892&reply=4#reply4">Reply #4</a> on Tue 06 Nov 2012 09:50 PM (UTC)&nbsp;&nbsp;<font size=1>[&nbsp;<a href="http://www.gammon.com.au/forum/bbshowpost.php?action=quote&amp;bbpost_id=72059&amp;page=1" rel="nofollow">quote</a>
+&nbsp;]</font><p><font size=1>Amended on Tue 06 Nov 2012 09:51 PM (UTC) by <a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank">Nick Gammon</a>
+</font></p></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Message</b></td>
+    <td bgcolor="#FAF0E6" align=left><table width="100%"><tr><td><div class="heading">SPI speeds</div><br />
+<br />
+The default setting for SPI is to use the system clock speed divided by four, that is, one SPI clock pulse every 250 nS. You can change the clock divider by using setClockDivider like this:<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+SPI.setClockDivider(divider);
+</code></pre></span></div><br />
+<br />
+Where &quot;divider&quot; is one of:<br />
+<br />
+<br /><ul>
+<li>SPI_CLOCK_DIV2<br />
+<li>SPI_CLOCK_DIV4<br />
+<li>SPI_CLOCK_DIV8<br />
+<li>SPI_CLOCK_DIV16<br />
+<li>SPI_CLOCK_DIV32<br />
+<li>SPI_CLOCK_DIV64<br />
+<li>SPI_CLOCK_DIV128 <br />
+</ul><br />
+<br />
+The fastest rate is &quot;divide by 2&quot; or one SPI clock pulse every 125 nS. This would therefore take 8 * 125 nS or 1 uS to transmit one byte.<br />
+<br />
+However empirical testing shows that it is necessary to have two clock pulses between bytes, so the maximum rate at which bytes can be clocked out is 1.125 uS each (with a clock divider of 2).<br />
+<br />
+To transfer data this fast you can&#039;t afford the time taken to check the &quot;completed&quot; register, so a timed loop is better, eg.<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+#define NOP __asm__ __volatile__ (&quot;nop&quot;);
+#define WAIT NOP NOP NOP NOP NOP NOP NOP NOP NOP NOP NOP // 11 NOPs 
+
+...
+
+  byte *firstByte = &amp;data [0]; 
+  byte *lastByte = &amp;data [100];   // however many bytes we need to send 
+     
+  digitalWrite (SS, LOW);
+  do 
+    {       
+    SPDR = *firstByte++; 
+    WAIT;  // pad out to 18 cycles
+    } while (firstByte != lastByte); 
+  
+  NOP; NOP; NOP; // Wait for last byte to finish transfer. 
+  digitalWrite (SS, HIGH);
+
+</code></pre></span></div><br />
+<br />
+A loop like the above takes 18 cycles as you can see from the cycles counts in brackets below:<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+ 368:   89 91           ld      r24, Y+   (2)
+ 36a:   8e bd           out     0x2e, r24       ; 46   (1)
+ 36c:   00 00           nop   (1)
+ 36e:   00 00           nop   (1)
+ 370:   00 00           nop   (1)
+ 372:   00 00           nop   (1)
+ 374:   00 00           nop   (1)
+ 376:   00 00           nop   (1)
+ 378:   00 00           nop   (1)
+ 37a:   00 00           nop   (1)
+ 37c:   00 00           nop   (1)
+ 37e:   00 00           nop   (1)
+ 380:   00 00           nop   (1)
+ 382:   c0 17           cp      r28, r16   (1)
+ 384:   d1 07           cpc     r29, r17   (1)
+ 386:   81 f7           brne    .-32            ; 0x368 &lt;loop+0x4c&gt;   (1/2)
+</code></pre></span></div><br />
+<br />
+That takes 18 cycles if the branch is taken.<br />
+<br />
+To summarize, each byte can be sent at a maximum rate of one per 1.125 uS (with a 16 MHz clock) giving a theoretical maximum transfer rate of 1/1.125 uS, or 888,888 bytes per second (excluding overhead like setting SS low and so on).<br />
+<br />
+This is achievable with both the &quot;normal&quot; SPI hardware and the MSPIM mode described above.<br />
+</td></tr><tr><td><hr >
+<font size=1 color="#808080">- Nick Gammon<br />
+<br />
+www.gammon.com.au, www.mushclient.com</font></td></tr><tr align=right><td><font size=1><a href="#top"><img src="/images/gototop.gif" alt="[Go to top]" width=15 height=15 border=0>&nbsp;top</a></font></td></tr></table>
+</td>
+  </tr>
+</table>
+<hr>
+<a name="reply5"></a><a name="72841"></a>
+<table border=0 cellpadding=5 width="100%">
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Posted by</b></td>
+    <td bgcolor="#FAF0E6" align=left><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><b>Nick Gammon</b></a>
+<font size=1>&nbsp;&nbsp;Australia</font>&nbsp;&nbsp;<font size=1>(19,649 posts)</font>&nbsp;&nbsp;<font size=1><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><img src="/images/bio.gif" border=0 width=15 height=15 alt="[Biography]">&nbsp;bio</a>
+</font>&nbsp;&nbsp;<font size=1><i>Forum Administrator</i></font></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Date</b></td>
+    <td bgcolor="#FAF0E6" align=left><a href="http://www.gammon.com.au/forum/?id=10892&reply=5#reply5">Reply #5</a> on Wed 06 Mar 2013 01:29 AM (UTC)&nbsp;&nbsp;<font size=1>[&nbsp;<a href="http://www.gammon.com.au/forum/bbshowpost.php?action=quote&amp;bbpost_id=72841&amp;page=1" rel="nofollow">quote</a>
+&nbsp;]</font><p><font size=1>Amended on Sun 27 Oct 2013 03:02 AM (UTC) by <a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank">Nick Gammon</a>
+</font></p></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Message</b></td>
+    <td bgcolor="#FAF0E6" align=left><table width="100%"><tr><td><div class="heading">SPI for ATtiny25 / ATtiny45 / ATtiny85</div><br />
+<br />
+The small &quot;namespace&quot; below illustrates how you can do SPI on the ATtiny25/45/85 chips.<br />
+<br />
+See further down for the ATtiny24/44/84 version.<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+// Written by Nick Gammon
+// March 2013
+
+// ATMEL ATTINY45 / ARDUINO pin mappings
+//
+//                         +-\/-+
+// RESET  Ain0 (D 5) PB5  1|    |8  Vcc
+// CLK1   Ain3 (D 3) PB3  2|    |7  PB2 (D 2) Ain1  SCK  / USCK / SCL
+// CLK0   Ain2 (D 4) PB4  3|    |6  PB1 (D 1) pwm1  MISO / DO
+//                   GND  4|    |5  PB0 (D 0) pwm0  MOSI / DI / SDA
+//                         +----+
+
+
+namespace tinySPI 
+  {
+
+  const byte DI   = 0;  // D0, pin 5  Data In
+  const byte DO   = 1;  // D1, pin 6  Data Out (this is *not* MOSI)
+  const byte USCK = 2;  // D2, pin 7  Universal Serial Interface clock
+  const byte SS   = 3;  // D3, pin 2  Slave Select
+  
+  void begin ()
+    {
+    digitalWrite (SS, HIGH);  // ensure SS stays high until needed
+    pinMode (USCK, OUTPUT);
+    pinMode (DO,   OUTPUT);
+    pinMode (SS,   OUTPUT);
+    pinMode (DI,   INPUT);
+    USICR = bit (USIWM0);  // 3-wire mode
+    }  // end of tinySPI_begin
+    
+  // What is happening here is that the loop executes 16 times.
+  // This is because the 4-bit counter in USISR is initially zero, and then
+  // toggles 16 times until it overflows, thus counting out 8 bits (16 toggles).
+  // The data is valid on the clock leading edge (equivalent to CPHA == 0).
+  
+  byte transfer (const byte b)
+    {
+    USIDR = b;  // byte to output
+    USISR = bit (USIOIF);  // clear Counter Overflow Interrupt Flag, set count to zero 
+    do
+      {
+      USICR = bit (USIWM0)   // 3-wire mode
+            | bit (USICS1) | bit (USICLK)  // Software clock strobe
+            | bit (USITC);   // Toggle Clock Port Pin
+      } while ((USISR &amp; bit (USIOIF)) == 0);  // until Counter Overflow Interrupt Flag set
+      
+    return USIDR;  // return read data
+    }    // end of tinySPI_transfer
+
+  };  // end of namespace tinySPI
+</code></pre></span></div><br />
+<br />
+Example code using the above:<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+void setup (void)
+  {
+  tinySPI::begin ();
+  }  // end of setup
+
+void loop (void)
+  {
+  char c;
+  
+  // enable Slave Select
+  digitalWrite(tinySPI::SS, LOW); 
+  
+  // send test string
+  for (const char * p = &quot;Hello, world!&quot; ; c = *p; p++)
+    tinySPI::transfer (c);
+
+  // disable Slave Select
+  digitalWrite(tinySPI::SS, HIGH);
+
+  delay (100); 
+  }  // end of loop
+</code></pre></span></div><br />
+<br />
+You can choose any pin for SS (slave select). You may not even require it. The library uses a tight loop to clock out a byte (and receive the incoming byte). Timing on my logic analyzer gives:<br />
+<br />
+<img src="/images/Arduino/Arduino_forum_152432.png"><br />
+<br />
+This is around 9 uS for each byte, with a SPI clock speed of 1 MHz.<br />
+<br />
+<hr/><br />
+<br />
+<div class="heading">Faster version</div><br />
+<br />
+The version below uses the second suggested method in the Atmel datasheet. Rather than looping, the loop is &quot;unwound&quot; to save the overhead of executing a loop 8 times. This improves the speed somewhat.<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+// Written by Nick Gammon
+// March 2013
+
+// ATMEL ATTINY45 / ARDUINO
+//
+//                         +-\/-+
+// RESET  Ain0 (D 5) PB5  1|    |8  Vcc
+// CLK1   Ain3 (D 3) PB3  2|    |7  PB2 (D 2) Ain1  SCK  / USCK / SCL
+// CLK0   Ain2 (D 4) PB4  3|    |6  PB1 (D 1) pwm1  MISO / DO
+//                   GND  4|    |5  PB0 (D 0) pwm0  MOSI / DI / SDA
+//                         +----+
+
+namespace tinySPI 
+  {
+  const byte DI   = 0;  // D0, pin 5  Data In
+  const byte DO   = 1;  // D1, pin 6  Data Out (this is *not* MOSI)
+  const byte USCK = 2;  // D2, pin 7  Universal Serial Interface clock
+  const byte SS   = 3;  // D3, pin 2  Slave Select
+  
+  void begin ()
+    {
+    digitalWrite (SS, HIGH);  // ensure SS stays high until needed
+    pinMode (USCK, OUTPUT);
+    pinMode (DO,   OUTPUT);
+    pinMode (SS,   OUTPUT);
+    USICR = bit (USIWM0);  // 3-wire mode
+    }  // end of tinySPI_begin
+    
+  // Clock out 8 bits. We write to USICR 16 times, because we need 16
+  // toggles of the clock (on/off/on/off etc.) but only 8 shifts.
+  // Thus first we clock, then we clock-and-shift.
+  // The data is valid on the clock leading edge (equivalent to CPHA == 0).
+
+  const byte toggleClock         = bit (USIWM0) | bit (USICS1) | bit (USITC);
+  const byte toggleClockAndShift = bit (USIWM0) | bit (USICS1) | bit (USITC) | bit (USICLK);
+  
+  byte transfer (const byte b)
+    {
+    USIDR = b;  // byte to output
+
+    USICR = toggleClock;          // MSB
+    USICR = toggleClockAndShift;
+    USICR = toggleClock;
+    USICR = toggleClockAndShift;
+    USICR = toggleClock;
+    USICR = toggleClockAndShift;
+    USICR = toggleClock;
+    USICR = toggleClockAndShift;
+    USICR = toggleClock;
+    USICR = toggleClockAndShift;
+    USICR = toggleClock;
+    USICR = toggleClockAndShift;
+    USICR = toggleClock;
+    USICR = toggleClockAndShift;
+    USICR = toggleClock;          // LSB
+    USICR = toggleClockAndShift;
+      
+    return USIDR;  // return read data
+    }    // end of tinySPI_transfer
+
+  };  // end of namespace tinySPI 
+</code></pre></span></div><br />
+<br />
+<img src="/images/Arduino/Arduino_forum_152432b.png"><br />
+<br />
+The logic analyzer shows that the SPI clock speed is now 4 MHz and the time taken to clock out one byte is just over 2 uS.</td></tr><tr><td><hr >
+<font size=1 color="#808080">- Nick Gammon<br />
+<br />
+www.gammon.com.au, www.mushclient.com</font></td></tr><tr align=right><td><font size=1><a href="#top"><img src="/images/gototop.gif" alt="[Go to top]" width=15 height=15 border=0>&nbsp;top</a></font></td></tr></table>
+</td>
+  </tr>
+</table>
+<hr>
+<a name="reply6"></a><a name="72918"></a>
+<table border=0 cellpadding=5 width="100%">
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Posted by</b></td>
+    <td bgcolor="#FAF0E6" align=left><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><b>Nick Gammon</b></a>
+<font size=1>&nbsp;&nbsp;Australia</font>&nbsp;&nbsp;<font size=1>(19,649 posts)</font>&nbsp;&nbsp;<font size=1><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><img src="/images/bio.gif" border=0 width=15 height=15 alt="[Biography]">&nbsp;bio</a>
+</font>&nbsp;&nbsp;<font size=1><i>Forum Administrator</i></font></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Date</b></td>
+    <td bgcolor="#FAF0E6" align=left><a href="http://www.gammon.com.au/forum/?id=10892&reply=6#reply6">Reply #6</a> on Sun 24 Mar 2013 03:50 AM (UTC)&nbsp;&nbsp;<font size=1>[&nbsp;<a href="http://www.gammon.com.au/forum/bbshowpost.php?action=quote&amp;bbpost_id=72918&amp;page=1" rel="nofollow">quote</a>
+&nbsp;]</font><p><font size=1>Amended on Sat 23 Aug 2014 03:59 AM (UTC) by <a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank">Nick Gammon</a>
+</font></p></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Message</b></td>
+    <td bgcolor="#FAF0E6" align=left><table width="100%"><tr><td><div class="heading">Bit-banged SPI</div><br />
+<br />
+I have written a small library to implement &quot;bit banged&quot; SPI for situations where you might not want to use the hardware SPI. It can be downloaded from:<br />
+<br />
+<a href="http://www.gammon.com.au/Arduino/bitBangedSPI.zip">http://www.gammon.com.au/Arduino/bitBangedSPI.zip</a><br />
+<br />
+Also at:<br />
+<br />
+<a href="https://github.com/nickgammon/bitBangedSPI">https://github.com/nickgammon/bitBangedSPI</a><br />
+<br />
+Example code:<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+#include &lt;bitBangedSPI.h&gt;
+
+bitBangedSPI bbSPI (5, 6, 7);  // MOSI, MISO, SCK
+const byte mySS =  8;  // slave select
+
+void setup (void)
+  {
+  bbSPI.begin ();
+  pinMode (mySS, OUTPUT);
+  }  // end of setup
+
+void loop (void)
+  {
+  char c;
+  
+  // enable Slave Select
+  digitalWrite(mySS, LOW); 
+  
+  // send test string
+  for (const char * p = &quot;Hello, world!&quot; ; c = *p; p++)
+    bbSPI.transfer (c);
+
+  // disable Slave Select
+  digitalWrite(mySS, HIGH);
+
+  delay (100); 
+  }  // end of loop
+</code></pre></span></div><br />
+<br />
+The constructor specifies the MOSI, MISO and SCK pins. It is your responsibility to manage &quot;slave select&quot;.<br />
+<br />
+Both MOSI and MISO may be bitBangedSPI::NO_PIN, in which case they are not written to/read from, in case you are working with a one-way device (eg. an output shift register).<br />
+<br />
+The library uses digitalRead and digitalWrite so it is not particularly fast, but for situation like reading configuration switches this shouldn&#039;t be an issue. Timing shows that it takes around 240 uS to transfer one byte.<br />
+<br />
+<div class="heading">Faster bit-banged SPI</div><br />
+<br />
+The library below uses direct port manipulations to speed up the bit-banged SPI. It is a bit fiddlier to use, because you need to look up the ports/pins/data-direction registers for the appropriate pins. However, it is faster.<br />
+<br />
+Download:<br />
+<br />
+<a href="http://www.gammon.com.au/Arduino/bitBangedSPIfast.zip">http://www.gammon.com.au/Arduino/bitBangedSPIfast.zip</a><br />
+<br />
+Example of use:<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+#include &lt;bitBangedSPIfast.h&gt;
+
+bitBangedSPIfast bbSPI (PORTD,  5, PIND,  6, PORTD, 7,    // MOSI port (D5), MISO pin (D6), SCK port (D7)
+                        DDRD,   5, DDRD,  6, DDRD,  7);   // MOSI ddr  (D5), MISO ddr (D6), SCK ddr  (D7)
+const byte mySS =  8;  // slave select
+
+void setup (void)
+  {
+  bbSPI.begin ();
+  pinMode (mySS, OUTPUT);
+  }  // end of setup
+
+void loop (void)
+  {
+  char c;
+  
+  // enable Slave Select
+  digitalWrite(mySS, LOW); 
+  
+  // send test string
+  for (const char * p = &quot;Hello, world!&quot; ; c = *p; p++)
+    bbSPI.transfer (c);
+
+  // disable Slave Select
+  digitalWrite(mySS, HIGH);
+
+  delay (100); 
+  }  // end of loop
+</code></pre></span></div><br />
+<br />
+This takes about 52 uS to transfer one byte.<br />
+<br />
+Both of these are somewhat slower than hardware SPI, but could come in handy where you are using the hardware SPI for other purposes, and just want to draw to an LCD screen, or update some LEDS, where speed is not really of the essence.</td></tr><tr><td><hr >
+<font size=1 color="#808080">- Nick Gammon<br />
+<br />
+www.gammon.com.au, www.mushclient.com</font></td></tr><tr align=right><td><font size=1><a href="#top"><img src="/images/gototop.gif" alt="[Go to top]" width=15 height=15 border=0>&nbsp;top</a></font></td></tr></table>
+</td>
+  </tr>
+</table>
+<hr>
+<a name="reply7"></a><a name="73745"></a>
+<table border=0 cellpadding=5 width="100%">
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Posted by</b></td>
+    <td bgcolor="#FAF0E6" align=left><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><b>Nick Gammon</b></a>
+<font size=1>&nbsp;&nbsp;Australia</font>&nbsp;&nbsp;<font size=1>(19,649 posts)</font>&nbsp;&nbsp;<font size=1><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><img src="/images/bio.gif" border=0 width=15 height=15 alt="[Biography]">&nbsp;bio</a>
+</font>&nbsp;&nbsp;<font size=1><i>Forum Administrator</i></font></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Date</b></td>
+    <td bgcolor="#FAF0E6" align=left><a href="http://www.gammon.com.au/forum/?id=10892&reply=7#reply7">Reply #7</a> on Sun 27 Oct 2013 03:00 AM (UTC)&nbsp;&nbsp;<font size=1>[&nbsp;<a href="http://www.gammon.com.au/forum/bbshowpost.php?action=quote&amp;bbpost_id=73745&amp;page=1" rel="nofollow">quote</a>
+&nbsp;]</font><p><font size=1>Amended on Sun 27 Oct 2013 03:07 AM (UTC) by <a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank">Nick Gammon</a>
+</font></p></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Message</b></td>
+    <td bgcolor="#FAF0E6" align=left><table width="100%"><tr><td><div class="heading">SPI for ATtiny24 / ATtiny44 / ATtiny84</div><br />
+<br />
+The small &quot;namespace&quot; below illustrates how you can do SPI on the ATtiny24/44/84 chips.<br />
+<br />
+See further up for the ATtiny25/45/85 version.<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+// Written by Nick Gammon
+// October 2013
+
+// ATMEL ATTINY84 / ARDUINO
+//
+//                      +-\/-+
+//                VCC  1|    |14  GND
+//        (D 10)  PB0  2|    |13  AREF (D  0)
+//        (D  9)  PB1  3|    |12  PA1  (D  1) 
+//                PB3  4|    |11  PA2  (D  2) 
+//  INT0  (D  8)  PB2  5|    |10  PA3  (D  3) 
+//        (D  7)  PA7  6|    |9   PA4  (D  4)   SCK
+//  MOSI  (D  6)  PA6  7|    |8   PA5  (D  5)   MISO    
+//                      +----+
+
+namespace tinySPI 
+  {
+
+  const byte DI   = 6;  // D6, pin 7  Data In  (MOSI)
+  const byte DO   = 5;  // D5, pin 8  Data Out (MISO) 
+  const byte USCK = 4;  // D4, pin 9  Universal Serial Interface clock
+  const byte SS   = 3;  // D3, pin 10 Slave Select
+  
+  void begin ()
+    {
+    digitalWrite (SS, HIGH);  // ensure SS stays high until needed
+    pinMode (USCK, OUTPUT);
+    pinMode (DO,   OUTPUT);
+    pinMode (SS,   OUTPUT);
+    pinMode (DI,   INPUT);
+    USICR = bit (USIWM0);  // 3-wire mode
+    }  // end of tinySPI_begin
+    
+  // What is happening here is that the loop executes 16 times.
+  // This is because the 4-bit counter in USISR is initially zero, and then
+  // toggles 16 times until it overflows, thus counting out 8 bits (16 toggles).
+  // The data is valid on the clock leading edge (equivalent to CPHA == 0).
+  
+  byte transfer (const byte b)
+    {
+    USIDR = b;  // byte to output
+    USISR = bit (USIOIF);  // clear Counter Overflow Interrupt Flag, set count to zero 
+    do
+      {
+      USICR = bit (USIWM0)   // 3-wire mode
+            | bit (USICS1) | bit (USICLK)  // Software clock strobe
+            | bit (USITC);   // Toggle Clock Port Pin
+      } while ((USISR &amp; bit (USIOIF)) == 0);  // until Counter Overflow Interrupt Flag set
+      
+    return USIDR;  // return read data
+    }    // end of tinySPI_transfer
+
+  };  // end of namespace tinySPI
+</code></pre></span></div><br />
+<br />
+Example code using the above:<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+void setup (void)
+  {
+  tinySPI::begin ();
+  }  // end of setup
+
+void loop (void)
+  {
+  char c;
+  
+  // enable Slave Select
+  digitalWrite(tinySPI::SS, LOW); 
+  
+  // send test string
+  for (const char * p = &quot;Hello, world!&quot; ; c = *p; p++)
+    tinySPI::transfer (c);
+
+  // disable Slave Select
+  digitalWrite(tinySPI::SS, HIGH);
+
+  delay (100); 
+  }  // end of loop
+</code></pre></span></div><br />
+<br />
+You can choose any pin for SS (slave select). You may not even require it. The library uses a tight loop to clock out a byte (and receive the incoming byte). Timing on my logic analyzer was similar to the code in the earlier post for the Attiny85.<br />
+<br />
+This is around 9 uS for each byte, with a SPI clock speed of 1 MHz.<br />
+<br />
+<hr/><br />
+<br />
+<div class="heading">Faster version</div><br />
+<br />
+The version below uses the second suggested method in the Atmel datasheet. Rather than looping, the loop is &quot;unwound&quot; to save the overhead of executing a loop 8 times. This improves the speed somewhat.<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+// Written by Nick Gammon
+// October 2013
+
+// ATMEL ATTINY84 / ARDUINO
+//
+//                      +-\/-+
+//                VCC  1|    |14  GND
+//        (D 10)  PB0  2|    |13  AREF (D  0)
+//        (D  9)  PB1  3|    |12  PA1  (D  1) 
+//                PB3  4|    |11  PA2  (D  2) 
+//  INT0  (D  8)  PB2  5|    |10  PA3  (D  3)   
+//        (D  7)  PA7  6|    |9   PA4  (D  4)   SCK
+//  MOSI  (D  6)  PA6  7|    |8   PA5  (D  5)   MISO    
+//                      +----+
+
+namespace tinySPI 
+  {
+
+  const byte DI   = 6;  // D6, pin 7  Data In  (MOSI)
+  const byte DO   = 5;  // D5, pin 8  Data Out (MISO) 
+  const byte USCK = 4;  // D4, pin 9  Universal Serial Interface clock
+  const byte SS   = 3;  // D3, pin 10 Slave Select
+  
+  void begin ()
+    {
+    digitalWrite (SS, HIGH);  // ensure SS stays high until needed
+    pinMode (USCK, OUTPUT);
+    pinMode (DO,   OUTPUT);
+    pinMode (SS,   OUTPUT);
+    pinMode (DI,   INPUT);
+    USICR = bit (USIWM0);  // 3-wire mode
+    }  // end of tinySPI_begin
+    
+  // Clock out 8 bits. We write to USICR 16 times, because we need 16
+  // toggles of the clock (on/off/on/off etc.) but only 8 shifts.
+  // Thus first we clock, then we clock-and-shift.
+  // The data is valid on the clock leading edge (equivalent to CPHA == 0).
+
+  const byte toggleClock         = bit (USIWM0) | bit (USICS1) | bit (USITC);
+  const byte toggleClockAndShift = bit (USIWM0) | bit (USICS1) | bit (USITC) | bit (USICLK);
+  
+  byte transfer (const byte b)
+    {
+    USIDR = b;  // byte to output
+
+    USICR = toggleClock;          // MSB
+    USICR = toggleClockAndShift;
+    USICR = toggleClock;
+    USICR = toggleClockAndShift;
+    USICR = toggleClock;
+    USICR = toggleClockAndShift;
+    USICR = toggleClock;
+    USICR = toggleClockAndShift;
+    USICR = toggleClock;
+    USICR = toggleClockAndShift;
+    USICR = toggleClock;
+    USICR = toggleClockAndShift;
+    USICR = toggleClock;
+    USICR = toggleClockAndShift;
+    USICR = toggleClock;          // LSB
+    USICR = toggleClockAndShift;
+      
+    return USIDR;  // return read data
+    }    // end of tinySPI_transfer
+
+  };  // end of namespace tinySPI
+</code></pre></span></div><br />
+<br />
+<br />
+The logic analyzer shows that the SPI clock speed is now 4 MHz and the time taken to clock out one byte is just over 2 uS.<br />
+<br />
+<hr/><br />
+<br />
+Jack Christensen from the Arduino forum has made a library for the ATtiny24/44/84 and ATtiny25/45/85 range here:<br />
+<br />
+<a href="https://github.com/JChristensen/tinySPI">https://github.com/JChristensen/tinySPI</a><br />
+</td></tr><tr><td><hr >
+<font size=1 color="#808080">- Nick Gammon<br />
+<br />
+www.gammon.com.au, www.mushclient.com</font></td></tr><tr align=right><td><font size=1><a href="#top"><img src="/images/gototop.gif" alt="[Go to top]" width=15 height=15 border=0>&nbsp;top</a></font></td></tr></table>
+</td>
+  </tr>
+</table>
+<hr>
+<a name="reply8"></a><a name="75526"></a>
+<table border=0 cellpadding=5 width="100%">
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Posted by</b></td>
+    <td bgcolor="#FAF0E6" align=left><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><b>Nick Gammon</b></a>
+<font size=1>&nbsp;&nbsp;Australia</font>&nbsp;&nbsp;<font size=1>(19,649 posts)</font>&nbsp;&nbsp;<font size=1><a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank"><img src="/images/bio.gif" border=0 width=15 height=15 alt="[Biography]">&nbsp;bio</a>
+</font>&nbsp;&nbsp;<font size=1><i>Forum Administrator</i></font></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Date</b></td>
+    <td bgcolor="#FAF0E6" align=left><a href="http://www.gammon.com.au/forum/?id=10892&reply=8#reply8">Reply #8</a> on Tue 07 Oct 2014 10:01 PM (UTC)&nbsp;&nbsp;<font size=1>[&nbsp;<a href="http://www.gammon.com.au/forum/bbshowpost.php?action=quote&amp;bbpost_id=75526&amp;page=1" rel="nofollow">quote</a>
+&nbsp;]</font><p><font size=1>Amended on Tue 07 Oct 2014 10:04 PM (UTC) by <a href="http://www.gammon.com.au/forum/bbshowbio.php?bbuser_id=1" target="_blank">Nick Gammon</a>
+</font></p></td>
+  </tr>
+  <tr valign="top">
+    <td valign=top bgcolor="#ADD8E6" align=right width="10%"><b>Message</b></td>
+    <td bgcolor="#FAF0E6" align=left><table width="100%"><tr><td><div class="heading">Send and receive any data type</div><br />
+<br />
+So far we have described just sending individual bytes (or strings). If we want to send or receive a <i>structure</i> (eg. some integers and floats) we can use something similar to the I2C_anything library described here:<br />
+<br />
+<a href="http://www.gammon.com.au/forum/?id=10896&amp;reply=8#reply8">http://www.gammon.com.au/forum/?id=10896&amp;reply=8#reply8</a><br />
+<br />
+We can make a library (SPI_anything) which basically consists of this file:<br />
+<br />
+<b>SPI_anything.h</b> :<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+#include &lt;Arduino.h&gt;
+
+template &lt;typename T&gt; unsigned int SPI_writeAnything (const T&amp; value)
+  {
+    const byte * p = (const byte*) &amp;value;
+    unsigned int i;
+    for (i = 0; i &lt; sizeof value; i++)
+          SPI.transfer(*p++);
+    return i;
+  }  // end of SPI_writeAnything
+
+template &lt;typename T&gt; unsigned int SPI_readAnything(T&amp; value)
+  {
+    byte * p = (byte*) &amp;value;
+    unsigned int i;
+    for (i = 0; i &lt; sizeof value; i++)
+          *p++ = SPI.transfer (0);
+    return i;
+  }  // end of SPI_readAnything
+  
+  
+template &lt;typename T&gt; unsigned int SPI_readAnything_ISR(T&amp; value)
+  {
+    byte * p = (byte*) &amp;value;
+    unsigned int i;
+    *p++ = SPDR;  // get first byte
+    for (i = 1; i &lt; sizeof value; i++)
+          *p++ = SPI.transfer (0);
+    return i;
+  }  // end of SPI_readAnything_ISR  
+</code></pre></span></div><br />
+<br />
+It uses templates to convert any data type into a stream of bytes. For example, to send a structure to another Arduino ...<br />
+<br />
+<b>Master</b><br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+// master
+
+#include &lt;SPI.h&gt;
+#include &quot;SPI_anything.h&quot;
+
+// create a structure to store the different data values:
+typedef struct myStruct
+{
+  byte a;
+  int b;
+  long c;
+};
+
+myStruct foo;
+
+void setup ()
+  {
+  SPI.begin ();
+  // Slow down the master a bit
+  SPI.setClockDivider(SPI_CLOCK_DIV8);
+
+  foo.a = 42;
+  foo.b = 32000;
+  foo.c = 100000;
+  }  // end of setup
+
+void loop () 
+  { 
+  digitalWrite(SS, LOW);    // SS is pin 10
+  SPI_writeAnything (foo);
+  digitalWrite(SS, HIGH);
+  delay (1000);  // for testing  
+  
+  foo.c++;
+  }  // end of loop
+</code></pre></span></div><br />
+<br />
+<hr/><br />
+<br />
+Now to receive that structure. First, a version which does not use interrupts:<br />
+<br />
+<b>Slave</b><br />
+<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+// slave
+
+#include &lt;SPI.h&gt;
+#include &quot;SPI_anything.h&quot;
+
+// create a structure to store the different data values:
+typedef struct myStruct
+{
+  byte a;
+  int b;
+  long c;
+};
+
+myStruct foo;
+
+void setup ()
+  {
+  Serial.begin (115200);   // debugging
+
+  // have to send on master in, *slave out*
+  pinMode(MISO, OUTPUT);
+  
+  // turn on SPI in slave mode
+  SPCR |= _BV(SPE);
+  }  // end of setup
+
+void loop () 
+  { 
+  SPI_readAnything (foo);
+  Serial.println ((int) foo.a);
+  Serial.println (foo.b);
+  Serial.println (foo.c);
+  Serial.println ();
+  }  // end of loop
+</code></pre></span></div><br />
+<br />
+This just waits inside &quot;loop&quot; for data to arrive. But if you want to do something else you would want to use a SPI receive interrupt:<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+// slave
+
+#include &lt;SPI.h&gt;
+#include &quot;SPI_anything.h&quot;
+
+// create a structure to store the different data values:
+typedef struct myStruct
+{
+  byte a;
+  int b;
+  long c;
+};
+
+volatile myStruct foo;
+volatile bool haveData = false;
+
+void setup ()
+  {
+  Serial.begin (115200);   // debugging
+
+  // have to send on master in, *slave out*
+  pinMode(MISO, OUTPUT);
+  
+  // turn on SPI in slave mode
+  SPCR |= _BV(SPE);
+
+  // now turn on interrupts
+  SPI.attachInterrupt();
+  
+  }  // end of setup
+
+void loop () 
+  { 
+  if (haveData)
+     {
+     Serial.println ((int) foo.a);
+     Serial.println (foo.b);
+     Serial.println (foo.c);
+     Serial.println ();
+     haveData = false;
+     }
+  }  // end of loop
+
+// SPI interrupt routine
+ISR (SPI_STC_vect)
+  {
+  SPI_readAnything_ISR (foo);
+  haveData = true;
+  }  // end of interrupt routine SPI_STC_vect
+</code></pre></span></div><br />
+<br />
+<br />
+This is slightly trickier, because when the interrupt fires we already have the first byte. So we need to use a different version designed to go into an ISR (SPI_readAnything_ISR). That function retrieves the first byte (which caused the interrupt) and then waits for the remaining ones.<br />
+<br />
+<hr/><br />
+<br />
+Output:<br />
+<br />
+<div class="codetag"><span class="notranslate"><pre><code>
+42
+32000
+101060
+
+42
+32000
+101063
+
+42
+32000
+101064
+
+42
+32000
+101065
+
+42
+32000
+101066
+
+42
+32000
+101067
+</code></pre></span></div></td></tr><tr><td><hr >
+<font size=1 color="#808080">- Nick Gammon<br />
+<br />
+www.gammon.com.au, www.mushclient.com</font></td></tr><tr align=right><td><font size=1><a href="#top"><img src="/images/gototop.gif" alt="[Go to top]" width=15 height=15 border=0>&nbsp;top</a></font></td></tr></table>
+</td>
+  </tr>
+</table>
+<hr>
+<p><font size=1>
+The dates and times for posts above are shown in Universal Co-ordinated Time (UTC).</font></p>
+<p><font size=1>To show them in your local time you can join the forum, and then set the 'time correction' field in your profile to the number of hours difference between your location and UTC time.</font></p>
+<hr>
+<p><font size=1>134,366 views.</font></p>
+<p>
+<p><b>Postings by administrators only.</b></p>
+<a href="http://www.gammon.com.au/forum/bbshowpost.php?bbsubject_id=10892&amp;page=1" rel="nofollow"><img src="/images/refresh.gif" alt="[Refresh]" width="13" height="16" border="0"/>&nbsp;Refresh page</a>
+</p><form METHOD="post" ACTION="http://www.gammon.com.au/forum/bbshowpost.php"> 
+<p>Go to topic: &nbsp; <select name="bbtopic_id" size=1>
+<option value=0 selected>(Choose topic)
+<option value="17">Area Editor: Bug reports
+<option value="18">Area Editor: General
+<option value="19">Area Editor: News and updates
+<option value="20">Area Editor: Suggestions
+<option value="21">Area Editor: Tips and tricks
+<option value="104">Dawn of Time: Administration
+<option value="103">Dawn of Time: Configuration
+<option value="102">Dawn of Time: Installing/compiling the server
+<option value="109">Dawn of Time: New Dawn Muds Announcements
+<option value="105">Dawn of Time: Playing
+<option value="101">Dawn of Time: What is Dawn of Time (Dawn)?
+<option value="123">Electronics: Microprocessors
+<option value="124">Electronics: Operational Amplifiers
+<option value="11">Forum: About
+<option value="35">Forum: Announcements
+<option value="26">Forum: Mailing other users
+<option value="12">Forum: Problems
+<option value="14">Forum: Registering
+<option value="13">Forum: Searching
+<option value="15">Forum: Subscribing
+<option value="106">Forum: Suggestions
+<option value="16">Forum: Test
+<option value="30">Forum: Time zones / time display
+<option value="32">Forum software: Administration
+<option value="31">Forum software: Installation
+<option value="34">MUDs: Announcements
+<option value="27">MUDs: General
+<option value="116">MUDs: MUD Design Concepts
+<option value="1">MUSHclient: Announcements
+<option value="107">MUSHclient: Beta testing
+<option value="5">MUSHclient: Bug reports
+<option value="122">MUSHclient: Development
+<option value="7">MUSHclient: General
+<option value="120">MUSHclient: Getting Started
+<option value="118">MUSHclient: International
+<option value="3">MUSHclient: Jscript
+<option value="113">MUSHclient: Lua
+<option value="121">MUSHclient: Miniwindows
+<option value="33">MUSHclient: MXP and Pueblo
+<option value="4">MUSHclient: Perlscript
+<option value="108">MUSHclient: Plugins
+<option value="110">MUSHclient: Python
+<option value="6">MUSHclient: Suggestions
+<option value="8">MUSHclient: Tips and tricks
+<option value="2">MUSHclient: VBscript
+<option value="117">MUSHclient: Wine
+<option value="22">PennMUSH: Compiling the server
+<option value="23">PennMUSH: Running the server
+<option value="112">Programming: General
+<option value="111">Programming: STL
+<option value="114">Quilting: General
+<option value="28">ROM: Compiling the server
+<option value="29">ROM: Running the server
+<option value="115">SMAUG: Commands
+<option value="24">SMAUG: Compiling the server
+<option value="119">SMAUG: Lua
+<option value="25">SMAUG: Running the server
+<option value="36">SMAUG: SMAUG coding
+</select>
+&nbsp; &nbsp; <input Type=submit Value="Go">&nbsp; &nbsp;
+<a href="http://www.gammon.com.au/forum/bbsearch.php">Search the forum</a>
+</p></form>
+<hr>
+<p align=right><font size=1><a href="#top"><img src="/images/gototop.gif" alt="[Go to top]" width=15 height=15 border=0>&nbsp;top</a></font></p>
+<p style="font-size:x-small;">
+<i>Quick links:</i>
+<a href="/mushclient/mushclient.htm"><b>MUSHclient</b></a>.
+MUSHclient <a href="/scripts/doc.php"><b>help</b></a>.
+Forum <a href="/shortcuts"><b>shortcuts</b></a>. 
+Posting <a href="/templates"><b>templates</b></a>.
+Lua <a href="/modules"><b>modules</b></a>.
+Lua <a href="/luahelp"><b>documentation</b></a>.
+</p>
+<a href="/welcome.html">
+<img src="/images/home.gif" border=0 width=95 height=27 alt="[Home]"></a>
+<hr>
+<p>
+  <a href="http://www.gammon.com.au/">
+  <IMG SRC="/images/NickGammon.gif"
+          alt="Written by Nick Gammon - 5K" 
+          width=224 height=30></a>
+  </p>
+<p>
+Comments to: 
+<a href="/support/">Gammon Software support</a>
+<br>
+<a href="/rss/forum.xml"><img src="/images/xml.gif" alt="[RH click to get RSS URL]" width=36 height=14 border=0 ></a> 
+<a type="application/rss+xml" href="/rss/forum.xml">Forum RSS feed</a> <font size=1>( http://www.gammon.com.au/rss/forum.xml )</font>
+</p>
+
+
+
+<p> 
+<a href="http://www.anybrowser.org/"> 
+<img src="/images/anybrowser2.gif" alt="[Best viewed with any browser - 2K]" width=88 height=31 border=0></a> 
+&nbsp;&nbsp;
+<a href="http://www.futurequest.net/" target="_blank">
+<img src="/images/futurequest.gif" alt="[Web site powered by FutureQuest.Net]" width="132" height="31" ></a> 
+</p>
+
+</body>
+</html>
