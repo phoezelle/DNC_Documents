@@ -2895,6 +2895,20 @@ www.irf.com / irlml5203.pdf</description>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="RANA1" library="SparkFun-Passives" deviceset="RESISTOR" device="2512"/>
+<part name="RANA2" library="SparkFun-Passives" deviceset="RESISTOR" device="2512"/>
+<part name="RANA3" library="SparkFun-Passives" deviceset="RESISTOR" device="2512"/>
+<part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="RIN1" library="SparkFun-Passives" deviceset="RESISTOR" device="2512"/>
+<part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="RIN2" library="SparkFun-Passives" deviceset="RESISTOR" device="2512"/>
+<part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="RIN3" library="SparkFun-Passives" deviceset="RESISTOR" device="2512"/>
+<part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="RIN4" library="SparkFun-Passives" deviceset="RESISTOR" device="2512"/>
 </parts>
 <sheets>
 <sheet>
@@ -2937,6 +2951,20 @@ www.irf.com / irlml5203.pdf</description>
 <instance part="GND7" gate="1" x="-215.9" y="-96.52"/>
 <instance part="R7" gate="G$1" x="-127" y="-88.9" rot="R90"/>
 <instance part="GND8" gate="1" x="-127" y="-96.52"/>
+<instance part="GND9" gate="1" x="157.48" y="101.6"/>
+<instance part="GND10" gate="1" x="182.88" y="101.6"/>
+<instance part="GND11" gate="1" x="205.74" y="101.6"/>
+<instance part="RANA1" gate="G$1" x="157.48" y="109.22" rot="R90"/>
+<instance part="RANA2" gate="G$1" x="182.88" y="109.22" rot="R90"/>
+<instance part="RANA3" gate="G$1" x="205.74" y="109.22" rot="R90"/>
+<instance part="GND12" gate="1" x="210.82" y="5.08"/>
+<instance part="RIN1" gate="G$1" x="210.82" y="12.7" rot="R90"/>
+<instance part="GND13" gate="1" x="228.6" y="5.08"/>
+<instance part="RIN2" gate="G$1" x="228.6" y="12.7" rot="R90"/>
+<instance part="GND14" gate="1" x="246.38" y="5.08"/>
+<instance part="RIN3" gate="G$1" x="246.38" y="12.7" rot="R90"/>
+<instance part="GND15" gate="1" x="261.62" y="5.08"/>
+<instance part="RIN4" gate="G$1" x="261.62" y="12.7" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -3070,6 +3098,34 @@ www.irf.com / irlml5203.pdf</description>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="GND8" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="RANA1" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND10" gate="1" pin="GND"/>
+<pinref part="RANA2" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND11" gate="1" pin="GND"/>
+<pinref part="RANA3" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND12" gate="1" pin="GND"/>
+<pinref part="RIN1" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND13" gate="1" pin="GND"/>
+<pinref part="RIN2" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND14" gate="1" pin="GND"/>
+<pinref part="RIN3" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND15" gate="1" pin="GND"/>
+<pinref part="RIN4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3401,34 +3457,10 @@ www.irf.com / irlml5203.pdf</description>
 <label x="-20.32" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="GPIO2"/>
-<wire x1="58.42" y1="-2.54" x2="45.72" y2="-2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="GPIO3"/>
-<wire x1="58.42" y1="-5.08" x2="45.72" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="GPIO4"/>
 <wire x1="58.42" y1="-7.62" x2="45.72" y2="-7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="GPIO17"/>
-<wire x1="58.42" y1="-12.7" x2="45.72" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="GPIO27"/>
-<wire x1="58.42" y1="-15.24" x2="45.72" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -3546,22 +3578,16 @@ www.irf.com / irlml5203.pdf</description>
 <wire x1="116.84" y1="-38.1" x2="132.08" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="GPIO16"/>
-<wire x1="116.84" y1="-43.18" x2="132.08" y2="-43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$42" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="GPIO20"/>
-<wire x1="116.84" y1="-45.72" x2="132.08" y2="-45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$43" class="0">
+<net name="ACTIVE_OUT_POWER_3" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="GPIO21"/>
 <wire x1="116.84" y1="-48.26" x2="132.08" y2="-48.26" width="0.1524" layer="91"/>
+<label x="124.46" y="-48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Q4" gate="G$1" pin="G"/>
+<wire x1="-132.08" y1="-45.72" x2="-147.32" y2="-45.72" width="0.1524" layer="91"/>
+<label x="-160.02" y="-45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RAW" class="0">
@@ -3913,6 +3939,11 @@ www.irf.com / irlml5203.pdf</description>
 <wire x1="-220.98" y1="-45.72" x2="-236.22" y2="-45.72" width="0.1524" layer="91"/>
 <label x="-251.46" y="-45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="GPIO16"/>
+<wire x1="116.84" y1="-43.18" x2="132.08" y2="-43.18" width="0.1524" layer="91"/>
+<label x="124.46" y="-43.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ACTIVE_OUT_POWER_2" class="0">
 <segment>
@@ -3920,12 +3951,10 @@ www.irf.com / irlml5203.pdf</description>
 <wire x1="-175.26" y1="-45.72" x2="-190.5" y2="-45.72" width="0.1524" layer="91"/>
 <label x="-205.74" y="-45.72" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="ACTIVE_OUT_POWER3" class="0">
 <segment>
-<pinref part="Q4" gate="G$1" pin="G"/>
-<wire x1="-132.08" y1="-45.72" x2="-147.32" y2="-45.72" width="0.1524" layer="91"/>
-<label x="-160.02" y="-45.72" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="GPIO20"/>
+<wire x1="116.84" y1="-45.72" x2="132.08" y2="-45.72" width="0.1524" layer="91"/>
+<label x="124.46" y="-45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OUT_POWER_2" class="0">
@@ -3959,6 +3988,111 @@ www.irf.com / irlml5203.pdf</description>
 <wire x1="-127" y1="-66.04" x2="-114.3" y2="-66.04" width="0.1524" layer="91"/>
 <junction x="-127" y="-66.04"/>
 <label x="-124.46" y="-66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ANALOG_IN_1" class="0">
+<segment>
+<pinref part="RANA1" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="114.3" x2="157.48" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="121.92" x2="147.32" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="121.92" x2="157.48" y2="129.54" width="0.1524" layer="91"/>
+<junction x="157.48" y="121.92"/>
+<label x="137.16" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PC3(ADC3)"/>
+<wire x1="68.58" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
+<label x="71.12" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ANALOG_IN_2" class="0">
+<segment>
+<pinref part="RANA2" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="114.3" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="121.92" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="121.92" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
+<junction x="182.88" y="121.92"/>
+<label x="162.56" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PC4(ADC4/SDA)"/>
+<wire x1="68.58" y1="93.98" x2="78.74" y2="93.98" width="0.1524" layer="91"/>
+<label x="71.12" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ANALOG_IN_3" class="0">
+<segment>
+<pinref part="RANA3" gate="G$1" pin="2"/>
+<wire x1="205.74" y1="114.3" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="121.92" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="121.92" x2="205.74" y2="129.54" width="0.1524" layer="91"/>
+<junction x="205.74" y="121.92"/>
+<label x="185.42" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PC5(ADC5/SCL)"/>
+<wire x1="68.58" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
+<label x="71.12" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IN_1" class="0">
+<segment>
+<pinref part="RIN1" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="17.78" x2="210.82" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="25.4" x2="200.66" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="25.4" x2="210.82" y2="33.02" width="0.1524" layer="91"/>
+<junction x="210.82" y="25.4"/>
+<label x="203.2" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="GPIO2"/>
+<wire x1="58.42" y1="-2.54" x2="45.72" y2="-2.54" width="0.1524" layer="91"/>
+<label x="45.72" y="-2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IN_2" class="0">
+<segment>
+<pinref part="RIN2" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="17.78" x2="228.6" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="25.4" x2="218.44" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="25.4" x2="228.6" y2="33.02" width="0.1524" layer="91"/>
+<junction x="228.6" y="25.4"/>
+<label x="220.98" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="GPIO3"/>
+<wire x1="58.42" y1="-5.08" x2="45.72" y2="-5.08" width="0.1524" layer="91"/>
+<label x="45.72" y="-5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IN_3" class="0">
+<segment>
+<pinref part="RIN3" gate="G$1" pin="2"/>
+<wire x1="246.38" y1="17.78" x2="246.38" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="25.4" x2="236.22" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="25.4" x2="246.38" y2="33.02" width="0.1524" layer="91"/>
+<junction x="246.38" y="25.4"/>
+<label x="238.76" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="GPIO17"/>
+<wire x1="58.42" y1="-12.7" x2="45.72" y2="-12.7" width="0.1524" layer="91"/>
+<label x="45.72" y="-12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IN_4" class="0">
+<segment>
+<pinref part="RIN4" gate="G$1" pin="2"/>
+<wire x1="261.62" y1="17.78" x2="261.62" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="25.4" x2="251.46" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="25.4" x2="261.62" y2="33.02" width="0.1524" layer="91"/>
+<junction x="261.62" y="25.4"/>
+<label x="254" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="GPIO27"/>
+<wire x1="58.42" y1="-15.24" x2="45.72" y2="-15.24" width="0.1524" layer="91"/>
+<label x="45.72" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
