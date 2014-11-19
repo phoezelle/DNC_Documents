@@ -601,7 +601,6 @@
 <wire x1="-40.64" y1="-25.4" x2="-39.37" y2="-25.4" width="0.127" layer="47"/>
 </package>
 <package name="EXTPINDNC">
-<wire x1="3.175" y1="3.175" x2="3.175" y2="1.905" width="0.2032" layer="21"/>
 <pad name="1_GND" x="-1.143" y="5.08" drill="0.9" diameter="1.8796" shape="square" rot="R270"/>
 <pad name="/RESET" x="1.397" y="5.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
 <pad name="MOSI" x="-1.397" y="2.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
@@ -624,15 +623,141 @@
 <pad name="FREE" x="1.397" y="-5.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
 <rectangle x1="1.016" y1="-5.334" x2="1.524" y2="-4.826" layer="51" rot="R270"/>
 <rectangle x1="-1.524" y1="-5.334" x2="-1.016" y2="-4.826" layer="51" rot="R270"/>
-<text x="-2.667" y="4.191" size="0.8128" layer="25" rot="R90">gnd</text>
+<text x="-3.302" y="4.191" size="0.8128" layer="25" rot="R90">gnd</text>
 <text x="-1.905" y="-7.62" size="0.8128" layer="25">&gt;NAME</text>
-<wire x1="3.175" y1="3.175" x2="3.81" y2="3.175" width="0.127" layer="21"/>
-<wire x1="3.81" y1="3.175" x2="3.81" y2="6.35" width="0.127" layer="21"/>
-<wire x1="3.81" y1="6.35" x2="-3.81" y2="6.35" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="6.35" x2="-3.81" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.905" width="0.127" layer="21"/>
-<wire x1="3.81" y1="1.905" x2="3.175" y2="1.905" width="0.127" layer="21"/>
+<wire x1="3.302" y1="6.35" x2="-3.048" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-3.048" y1="6.35" x2="-3.048" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.048" y1="-1.27" x2="3.302" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="3.302" y1="-1.27" x2="3.302" y2="1.524" width="0.127" layer="21"/>
+<wire x1="3.302" y1="1.524" x2="2.54" y2="1.524" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.524" x2="2.54" y2="3.556" width="0.127" layer="21"/>
+<wire x1="2.54" y1="3.556" x2="3.302" y2="3.556" width="0.127" layer="21"/>
+<wire x1="3.302" y1="3.556" x2="3.302" y2="6.35" width="0.127" layer="21"/>
+</package>
+<package name="RASPIA+">
+<wire x1="0" y1="0" x2="-56" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-65" width="0.127" layer="21"/>
+<wire x1="-56" y1="0" x2="-56" y2="-7" width="0.127" layer="21"/>
+<wire x1="-56" y1="-7" x2="-56" y2="-58" width="0.127" layer="21"/>
+<wire x1="-56" y1="-58" x2="-56" y2="-65" width="0.127" layer="21"/>
+<wire x1="-56" y1="-65" x2="0" y2="-65" width="0.127" layer="21"/>
+<hole x="-52.5" y="-61.5" drill="1.5"/>
+<dimension x1="-56" y1="-65" x2="-52.5" y2="-65" x3="-54.25" y3="-67" textsize="1.27" layer="21"/>
+<dimension x1="-56" y1="-65" x2="-56" y2="-61.5" x3="-62" y3="-63.25" textsize="1.27" layer="21"/>
+<hole x="-3.5" y="-61.5" drill="1.5"/>
+<hole x="-52.5" y="-3.5" drill="1.5"/>
+<hole x="-3.5" y="-3.5" drill="1.5"/>
+<wire x1="-56" y1="-58" x2="-54" y2="-58" width="0.127" layer="21"/>
+<wire x1="-54" y1="-58" x2="-49.5" y2="-58" width="0.127" layer="21"/>
+<wire x1="-56" y1="-7" x2="-54" y2="-7" width="0.127" layer="21"/>
+<dimension x1="-2.96966875" y1="-60.96966875" x2="-4.03033125" y2="-62.03033125" x3="0" y3="-65" textsize="1.27" layer="21" dtype="diameter"/>
+<dimension x1="-51" y1="-7" x2="-51" y2="0" x3="-63" y3="-3.5" textsize="1.27" layer="21" dtype="diameter"/>
+<dimension x1="-51" y1="-7" x2="-51" y2="-58" x3="-58" y3="-32.5" textsize="1.27" layer="21" dtype="diameter"/>
+<dimension x1="0" y1="0" x2="-56" y2="0" x3="-28" y3="5" textsize="1.27" layer="21"/>
+<dimension x1="0" y1="0" x2="0" y2="-65" x3="8" y3="-32.5" textsize="1.27" layer="21"/>
+<wire x1="-54" y1="-7" x2="-49.5" y2="-7" width="0.127" layer="21"/>
+<wire x1="-49.5" y1="-58" x2="-49.5" y2="-7" width="0.127" layer="21"/>
+<wire x1="-54" y1="-7" x2="-54" y2="-58" width="0.127" layer="21"/>
+<pad name="4" x="-53.397" y="-53.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="3" x="-50.857" y="-53.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-53.794" x2="-50.476" y2="-53.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-53.794" x2="-53.016" y2="-53.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-53.794" x2="-53.016" y2="-53.286" layer="51" rot="R270"/>
+<rectangle x1="-50.984" y1="-53.794" x2="-50.476" y2="-53.286" layer="51" rot="R270"/>
+<pad name="2" x="-53.143" y="-56.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="1" x="-50.603" y="-56.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-56.334" x2="-50.476" y2="-55.826" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-56.334" x2="-53.016" y2="-55.826" layer="51" rot="R270"/>
+<pad name="8" x="-53.397" y="-48.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="7" x="-50.857" y="-48.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-48.794" x2="-50.476" y2="-48.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-48.794" x2="-53.016" y2="-48.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-48.794" x2="-53.016" y2="-48.286" layer="51" rot="R270"/>
+<rectangle x1="-50.984" y1="-48.794" x2="-50.476" y2="-48.286" layer="51" rot="R270"/>
+<pad name="6" x="-53.143" y="-51.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="5" x="-50.603" y="-51.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-51.334" x2="-50.476" y2="-50.826" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-51.334" x2="-53.016" y2="-50.826" layer="51" rot="R270"/>
+<pad name="12" x="-53.397" y="-43.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="11" x="-50.857" y="-43.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-43.794" x2="-50.476" y2="-43.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-43.794" x2="-53.016" y2="-43.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-43.794" x2="-53.016" y2="-43.286" layer="51" rot="R270"/>
+<rectangle x1="-50.984" y1="-43.794" x2="-50.476" y2="-43.286" layer="51" rot="R270"/>
+<pad name="10" x="-53.143" y="-46.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="9" x="-50.603" y="-46.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-46.334" x2="-50.476" y2="-45.826" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-46.334" x2="-53.016" y2="-45.826" layer="51" rot="R270"/>
+<pad name="16" x="-53.397" y="-38.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="15" x="-50.857" y="-38.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-38.794" x2="-50.476" y2="-38.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-38.794" x2="-53.016" y2="-38.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-38.794" x2="-53.016" y2="-38.286" layer="51" rot="R270"/>
+<rectangle x1="-50.984" y1="-38.794" x2="-50.476" y2="-38.286" layer="51" rot="R270"/>
+<pad name="14" x="-53.143" y="-41.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="13" x="-50.603" y="-41.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-41.334" x2="-50.476" y2="-40.826" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-41.334" x2="-53.016" y2="-40.826" layer="51" rot="R270"/>
+<pad name="20" x="-53.397" y="-33.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="19" x="-50.857" y="-33.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-33.794" x2="-50.476" y2="-33.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-33.794" x2="-53.016" y2="-33.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-33.794" x2="-53.016" y2="-33.286" layer="51" rot="R270"/>
+<rectangle x1="-50.984" y1="-33.794" x2="-50.476" y2="-33.286" layer="51" rot="R270"/>
+<pad name="18" x="-53.143" y="-36.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="17" x="-50.603" y="-36.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-36.334" x2="-50.476" y2="-35.826" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-36.334" x2="-53.016" y2="-35.826" layer="51" rot="R270"/>
+<pad name="24" x="-53.397" y="-28.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="23" x="-50.857" y="-28.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-28.794" x2="-50.476" y2="-28.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-28.794" x2="-53.016" y2="-28.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-28.794" x2="-53.016" y2="-28.286" layer="51" rot="R270"/>
+<rectangle x1="-50.984" y1="-28.794" x2="-50.476" y2="-28.286" layer="51" rot="R270"/>
+<pad name="22" x="-53.143" y="-31.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="21" x="-50.603" y="-31.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-31.334" x2="-50.476" y2="-30.826" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-31.334" x2="-53.016" y2="-30.826" layer="51" rot="R270"/>
+<pad name="28" x="-53.397" y="-23.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="27" x="-50.857" y="-23.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-23.794" x2="-50.476" y2="-23.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-23.794" x2="-53.016" y2="-23.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-23.794" x2="-53.016" y2="-23.286" layer="51" rot="R270"/>
+<rectangle x1="-50.984" y1="-23.794" x2="-50.476" y2="-23.286" layer="51" rot="R270"/>
+<pad name="26" x="-53.143" y="-26.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="25" x="-50.603" y="-26.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-26.334" x2="-50.476" y2="-25.826" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-26.334" x2="-53.016" y2="-25.826" layer="51" rot="R270"/>
+<pad name="32" x="-53.397" y="-18.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="31" x="-50.857" y="-18.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-18.794" x2="-50.476" y2="-18.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-18.794" x2="-53.016" y2="-18.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-18.794" x2="-53.016" y2="-18.286" layer="51" rot="R270"/>
+<rectangle x1="-50.984" y1="-18.794" x2="-50.476" y2="-18.286" layer="51" rot="R270"/>
+<pad name="30" x="-53.143" y="-21.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="29" x="-50.603" y="-21.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-21.334" x2="-50.476" y2="-20.826" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-21.334" x2="-53.016" y2="-20.826" layer="51" rot="R270"/>
+<pad name="36" x="-53.397" y="-13.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="35" x="-50.857" y="-13.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-13.794" x2="-50.476" y2="-13.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-13.794" x2="-53.016" y2="-13.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-13.794" x2="-53.016" y2="-13.286" layer="51" rot="R270"/>
+<rectangle x1="-50.984" y1="-13.794" x2="-50.476" y2="-13.286" layer="51" rot="R270"/>
+<pad name="34" x="-53.143" y="-16.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="33" x="-50.603" y="-16.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-16.334" x2="-50.476" y2="-15.826" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-16.334" x2="-53.016" y2="-15.826" layer="51" rot="R270"/>
+<pad name="40" x="-53.397" y="-8.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="39" x="-50.857" y="-8.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-8.794" x2="-50.476" y2="-8.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-8.794" x2="-53.016" y2="-8.286" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-8.794" x2="-53.016" y2="-8.286" layer="51" rot="R270"/>
+<rectangle x1="-50.984" y1="-8.794" x2="-50.476" y2="-8.286" layer="51" rot="R270"/>
+<pad name="38" x="-53.143" y="-11.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="37" x="-50.603" y="-11.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<rectangle x1="-50.984" y1="-11.334" x2="-50.476" y2="-10.826" layer="51" rot="R270"/>
+<rectangle x1="-53.524" y1="-11.334" x2="-53.016" y2="-10.826" layer="51" rot="R270"/>
 </package>
 </packages>
 <symbols>
@@ -964,6 +1089,53 @@
 <pin name="3.3" x="5.08" y="0" length="short" rot="R180"/>
 <pin name="FREE" x="-15.24" y="0" length="short" direction="in" swaplevel="2"/>
 <text x="-12.7" y="-5.08" size="0.8128" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="RASPIA+">
+<wire x1="-22.86" y1="35.56" x2="-22.86" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-17.78" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-17.78" x2="7.62" y2="35.56" width="0.254" layer="94"/>
+<wire x1="7.62" y1="35.56" x2="-22.86" y2="35.56" width="0.254" layer="94"/>
+<pin name="3.3V" x="-27.94" y="33.02" length="middle"/>
+<pin name="GPIO2" x="-27.94" y="30.48" length="middle"/>
+<pin name="GPIO3" x="-27.94" y="27.94" length="middle"/>
+<pin name="GPIO4" x="-27.94" y="25.4" length="middle"/>
+<pin name="GND" x="-27.94" y="22.86" length="middle"/>
+<pin name="GPIO17" x="-27.94" y="20.32" length="middle"/>
+<pin name="GPIO27" x="-27.94" y="17.78" length="middle"/>
+<pin name="GPIO22" x="-27.94" y="15.24" length="middle"/>
+<pin name="3.3V_2" x="-27.94" y="12.7" length="middle"/>
+<pin name="GPIO10" x="-27.94" y="10.16" length="middle"/>
+<pin name="GPIO9" x="-27.94" y="7.62" length="middle"/>
+<pin name="GPIO11" x="-27.94" y="5.08" length="middle"/>
+<pin name="GND_2" x="-27.94" y="2.54" length="middle"/>
+<pin name="ID_SD" x="-27.94" y="0" length="middle"/>
+<pin name="GPIO5" x="-27.94" y="-2.54" length="middle"/>
+<pin name="GPIO6" x="-27.94" y="-5.08" length="middle"/>
+<pin name="GPIO13" x="-27.94" y="-7.62" length="middle"/>
+<pin name="GPIO19" x="-27.94" y="-10.16" length="middle"/>
+<pin name="GPIO26" x="-27.94" y="-12.7" length="middle"/>
+<pin name="GND_3" x="-27.94" y="-15.24" length="middle"/>
+<pin name="5V_1" x="12.7" y="33.02" length="middle" rot="R180"/>
+<pin name="5V_2" x="12.7" y="30.48" length="middle" rot="R180"/>
+<pin name="GND_4" x="12.7" y="27.94" length="middle" rot="R180"/>
+<pin name="GPIO14" x="12.7" y="25.4" length="middle" rot="R180"/>
+<pin name="GPIO15" x="12.7" y="22.86" length="middle" rot="R180"/>
+<pin name="GPIO18" x="12.7" y="20.32" length="middle" rot="R180"/>
+<pin name="GND_5" x="12.7" y="17.78" length="middle" rot="R180"/>
+<pin name="GPIO23" x="12.7" y="15.24" length="middle" rot="R180"/>
+<pin name="GPIO24" x="12.7" y="12.7" length="middle" rot="R180"/>
+<pin name="GND_6" x="12.7" y="10.16" length="middle" rot="R180"/>
+<pin name="GPIO25" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="GPIO8" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="GPIO7" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="ID_SC" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="GND_7" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="GPIO12" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND_8" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="GPIO16" x="12.7" y="-10.16" length="middle" rot="R180"/>
+<pin name="GPIO20" x="12.7" y="-12.7" length="middle" rot="R180"/>
+<pin name="GPIO21" x="12.7" y="-15.24" length="middle" rot="R180"/>
+<text x="-15.24" y="-20.32" size="1.27" layer="94">RASPBERRY PI A+</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1366,6 +1538,60 @@
 <connect gate="G$1" pin="RST" pad="/RESET"/>
 <connect gate="G$1" pin="SCK" pad="SCK"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RASPIA+">
+<gates>
+<gate name="G$1" symbol="RASPIA+" x="7.62" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="RASPIA+">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="1"/>
+<connect gate="G$1" pin="3.3V_2" pad="17"/>
+<connect gate="G$1" pin="5V_1" pad="2"/>
+<connect gate="G$1" pin="5V_2" pad="4"/>
+<connect gate="G$1" pin="GND" pad="9"/>
+<connect gate="G$1" pin="GND_2" pad="25"/>
+<connect gate="G$1" pin="GND_3" pad="39"/>
+<connect gate="G$1" pin="GND_4" pad="6"/>
+<connect gate="G$1" pin="GND_5" pad="14"/>
+<connect gate="G$1" pin="GND_6" pad="20"/>
+<connect gate="G$1" pin="GND_7" pad="30"/>
+<connect gate="G$1" pin="GND_8" pad="34"/>
+<connect gate="G$1" pin="GPIO10" pad="19"/>
+<connect gate="G$1" pin="GPIO11" pad="23"/>
+<connect gate="G$1" pin="GPIO12" pad="32"/>
+<connect gate="G$1" pin="GPIO13" pad="33"/>
+<connect gate="G$1" pin="GPIO14" pad="8"/>
+<connect gate="G$1" pin="GPIO15" pad="10"/>
+<connect gate="G$1" pin="GPIO16" pad="36"/>
+<connect gate="G$1" pin="GPIO17" pad="11"/>
+<connect gate="G$1" pin="GPIO18" pad="12"/>
+<connect gate="G$1" pin="GPIO19" pad="35"/>
+<connect gate="G$1" pin="GPIO2" pad="3"/>
+<connect gate="G$1" pin="GPIO20" pad="38"/>
+<connect gate="G$1" pin="GPIO21" pad="40"/>
+<connect gate="G$1" pin="GPIO22" pad="15"/>
+<connect gate="G$1" pin="GPIO23" pad="16"/>
+<connect gate="G$1" pin="GPIO24" pad="18"/>
+<connect gate="G$1" pin="GPIO25" pad="22"/>
+<connect gate="G$1" pin="GPIO26" pad="37"/>
+<connect gate="G$1" pin="GPIO27" pad="13"/>
+<connect gate="G$1" pin="GPIO3" pad="5"/>
+<connect gate="G$1" pin="GPIO4" pad="7"/>
+<connect gate="G$1" pin="GPIO5" pad="29"/>
+<connect gate="G$1" pin="GPIO6" pad="31"/>
+<connect gate="G$1" pin="GPIO7" pad="26"/>
+<connect gate="G$1" pin="GPIO8" pad="24"/>
+<connect gate="G$1" pin="GPIO9" pad="21"/>
+<connect gate="G$1" pin="ID_SC" pad="28"/>
+<connect gate="G$1" pin="ID_SD" pad="27"/>
 </connects>
 <technologies>
 <technology name=""/>
