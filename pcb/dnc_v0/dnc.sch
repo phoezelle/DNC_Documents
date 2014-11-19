@@ -2681,6 +2681,83 @@ http://www.vishay.com/docs/71053/71053.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="ptc-ntc">
+<description>&lt;b&gt;PTC and NTC Resistors&lt;/b&gt;&lt;p&gt;
+Siemens, Philips, Valvo&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="P679">
+<description>&lt;b&gt;PHILIPS PTC&lt;/b&gt;</description>
+<wire x1="0" y1="-1.778" x2="1.5358" y2="-0.8959" width="0.1524" layer="21" curve="59.743278"/>
+<wire x1="-1.5358" y1="0.8959" x2="0" y2="1.778" width="0.1524" layer="21" curve="-59.743278"/>
+<wire x1="-1.5358" y1="-0.8959" x2="0" y2="-1.778" width="0.1524" layer="21" curve="59.743278"/>
+<wire x1="0" y1="1.778" x2="1.5358" y2="0.8959" width="0.1524" layer="21" curve="-59.743278"/>
+<wire x1="1.5142" y1="-0.9318" x2="1.778" y2="0" width="0.1524" layer="51" curve="31.606487"/>
+<wire x1="1.5" y1="0.9546" x2="1.778" y2="0" width="0.1524" layer="51" curve="-32.472615"/>
+<wire x1="-1.778" y1="0" x2="-1.5142" y2="0.9318" width="0.1524" layer="51" curve="-31.606487"/>
+<wire x1="-1.778" y1="0" x2="-1.5" y2="-0.9546" width="0.1524" layer="51" curve="32.472615"/>
+<pad name="1" x="-1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
+<text x="-1.778" y="2.159" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.778" y="-3.429" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="PTC">
+<wire x1="0.889" y1="-2.54" x2="0.889" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.889" y1="2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.889" y1="2.54" x2="-0.889" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.889" y1="-2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.524" y1="1.524" x2="-1.778" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-1.778" x2="-1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="3.81" x2="1.905" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="6.35" x2="1.524" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="5.08" x2="2.286" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="5.08" x2="1.905" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="3.81" x2="3.175" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="6.35" x2="3.556" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="3.556" y1="5.08" x2="2.794" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.794" y1="5.08" x2="3.175" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="2.413" y1="0.381" x2="3.937" y2="0.381" width="0.1524" layer="94" curve="180"/>
+<wire x1="1.905" y1="0.635" x2="2.413" y2="0.635" width="0.1524" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.413" y1="0.381" x2="2.413" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="3.937" y1="0.381" x2="3.937" y2="1.651" width="0.1524" layer="94"/>
+<wire x1="3.429" y1="1.143" x2="3.937" y2="1.651" width="0.1524" layer="94" curve="-270"/>
+<wire x1="4.191" y1="1.143" x2="4.3047" y2="0.9591" width="0.1524" layer="94" curve="-116.545417" cap="flat"/>
+<wire x1="3.429" y1="1.143" x2="4.191" y2="1.143" width="0.1524" layer="94"/>
+<wire x1="-2.921" y1="-3.048" x2="-1.651" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="-2.286" y1="-2.413" x2="-2.286" y2="-3.683" width="0.1524" layer="94"/>
+<text x="2.0574" y="-2.794" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.032" y="-5.207" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="1" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PTC679" prefix="R" uservalue="yes">
+<description>&lt;b&gt;PHILIPS PTC&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="PTC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="P679">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2713,6 +2790,10 @@ http://www.vishay.com/docs/71053/71053.pdf</description>
 <part name="U$6" library="pierre_vv" deviceset="EXT-DNC" device=""/>
 <part name="U$7" library="pierre_vv" deviceset="EXT-DNC" device=""/>
 <part name="U$8" library="pierre_vv" deviceset="EXT-DNC" device=""/>
+<part name="R3" library="ptc-ntc" deviceset="PTC679" device=""/>
+<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL_DUAL" device="FDMA1024NZ"/>
 </parts>
 <sheets>
 <sheet>
@@ -2741,6 +2822,10 @@ http://www.vishay.com/docs/71053/71053.pdf</description>
 <instance part="U$6" gate="G$1" x="-45.72" y="-157.48"/>
 <instance part="U$7" gate="G$1" x="-45.72" y="-180.34"/>
 <instance part="U$8" gate="G$1" x="-45.72" y="-203.2"/>
+<instance part="R3" gate="1" x="-132.08" y="109.22"/>
+<instance part="R4" gate="G$1" x="-132.08" y="139.7" rot="R90"/>
+<instance part="GND3" gate="1" x="-132.08" y="152.4" rot="R180"/>
+<instance part="Q2" gate="A" x="-134.62" y="124.46"/>
 </instances>
 <busses>
 </busses>
@@ -2857,6 +2942,11 @@ http://www.vishay.com/docs/71053/71053.pdf</description>
 <pinref part="U$8" gate="G$1" pin="GND"/>
 <wire x1="-40.64" y1="-195.58" x2="-7.62" y2="-195.58" width="0.1524" layer="91"/>
 <label x="-15.24" y="-195.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="-132.08" y1="144.78" x2="-132.08" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3262,8 +3352,10 @@ http://www.vishay.com/docs/71053/71053.pdf</description>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="OUT+"/>
-<wire x1="-147.32" y1="99.06" x2="-137.16" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="99.06" x2="-132.08" y2="99.06" width="0.1524" layer="91"/>
 <label x="-139.7" y="99.06" size="1.778" layer="95"/>
+<pinref part="R3" gate="1" pin="1"/>
+<wire x1="-132.08" y1="99.06" x2="-132.08" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -3632,6 +3724,40 @@ http://www.vishay.com/docs/71053/71053.pdf</description>
 <pinref part="U$8" gate="G$1" pin="RST"/>
 <wire x1="-60.96" y1="-195.58" x2="-91.44" y2="-195.58" width="0.1524" layer="91"/>
 <label x="-88.9" y="-195.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="R3" gate="1" pin="2"/>
+<pinref part="Q2" gate="A" pin="S"/>
+<wire x1="-132.08" y1="114.3" x2="-132.08" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ANALOG_TEMP" class="0">
+<segment>
+<pinref part="Q2" gate="A" pin="D1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="-132.08" y1="132.08" x2="-132.08" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="134.62" x2="-104.14" y2="134.62" width="0.1524" layer="91"/>
+<junction x="-132.08" y="134.62"/>
+<label x="-116.84" y="134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PC2(ADC2)"/>
+<wire x1="68.58" y1="99.06" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
+<label x="71.12" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ACTIVE_ANALOG_TEMP" class="0">
+<segment>
+<pinref part="Q2" gate="A" pin="G"/>
+<wire x1="-139.7" y1="121.92" x2="-154.94" y2="121.92" width="0.1524" layer="91"/>
+<label x="-167.64" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PD5(T1)"/>
+<wire x1="68.58" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
+<label x="71.12" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
