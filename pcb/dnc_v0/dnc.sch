@@ -2758,6 +2758,97 @@ Siemens, Philips, Valvo&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="transistor-power">
+<description>&lt;b&gt;Power Transistors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="MICRO3">
+<description>&lt;b&gt;Micro3 TM Package Outline&lt;/b&gt;&lt;p&gt;
+www.irf.com / irlml5203.pdf</description>
+<wire x1="-1.45" y1="0.65" x2="-0.6" y2="0.65" width="0.1016" layer="21"/>
+<wire x1="-0.6" y1="0.65" x2="0.6" y2="0.65" width="0.1016" layer="51"/>
+<wire x1="0.6" y1="0.65" x2="1.45" y2="0.65" width="0.1016" layer="21"/>
+<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.1016" layer="21"/>
+<wire x1="1.45" y1="-0.65" x2="0.35" y2="-0.65" width="0.1016" layer="51"/>
+<wire x1="0.35" y1="-0.65" x2="-0.35" y2="-0.65" width="0.1016" layer="21"/>
+<wire x1="-0.35" y1="-0.65" x2="-1.45" y2="-0.65" width="0.1016" layer="51"/>
+<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.1016" layer="21"/>
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="3" x="0" y="1" dx="0.8" dy="0.9" layer="1"/>
+<text x="-1.6" y="1.6" size="1.778" layer="25">&gt;NAME</text>
+<text x="-1.5" y="-3.4" size="1.778" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.27" y1="0.66" x2="0.27" y2="1.25" layer="51"/>
+<rectangle x1="-1.22" y1="-1.25" x2="-0.68" y2="-0.65" layer="51"/>
+<rectangle x1="0.68" y1="-1.25" x2="1.22" y2="-0.64" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MFPS">
+<wire x1="-1.016" y1="-2.54" x2="-1.016" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0.5334" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="5.08" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.2352" y1="0" x2="2.286" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="0" x2="1.016" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-0.508" x2="1.016" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="0.508" x2="2.286" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.143" y1="0" x2="0.254" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.143" y1="0.254" x2="2.032" y2="0" width="0.3048" layer="94"/>
+<wire x1="2.032" y1="0" x2="1.143" y2="-0.254" width="0.3048" layer="94"/>
+<wire x1="1.143" y1="-0.254" x2="1.143" y2="0" width="0.3048" layer="94"/>
+<wire x1="1.143" y1="0" x2="1.397" y2="0" width="0.3048" layer="94"/>
+<wire x1="5.08" y1="1.905" x2="5.08" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0.762" x2="5.08" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0.762" x2="5.715" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="5.715" y1="-0.635" x2="4.445" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="-0.635" x2="5.08" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="5.715" y1="0.762" x2="5.08" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0.762" x2="4.445" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="0.762" x2="4.191" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="5.715" y1="0.762" x2="5.969" y2="0.508" width="0.1524" layer="94"/>
+<circle x="2.54" y="1.905" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="-1.905" radius="0.127" width="0.4064" layer="94"/>
+<text x="7.62" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="7.62" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.524" y="-3.302" size="0.8128" layer="93">D</text>
+<text x="1.524" y="2.54" size="0.8128" layer="93">S</text>
+<text x="-2.286" y="1.27" size="0.8128" layer="93">G</text>
+<rectangle x1="-0.254" y1="1.27" x2="0.508" y2="2.54" layer="94"/>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="-1.27" layer="94"/>
+<rectangle x1="-0.254" y1="-0.889" x2="0.508" y2="0.889" layer="94"/>
+<pin name="G" x="-2.54" y="2.54" visible="off" length="point" direction="pas"/>
+<pin name="D" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="S" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="IRLML5203" prefix="Q">
+<description>&lt;b&gt;HEXFET P-Channel Power MOSFET&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MFPS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MICRO3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2794,6 +2885,16 @@ Siemens, Philips, Valvo&lt;p&gt;
 <part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL_DUAL" device="FDMA1024NZ"/>
+<part name="Q3" library="transistor-power" deviceset="IRLML5203" device=""/>
+<part name="Q4" library="transistor-power" deviceset="IRLML5203" device=""/>
+<part name="Q5" library="transistor-power" deviceset="IRLML5203" device=""/>
+<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="P+3" library="supply1" deviceset="VCC" device=""/>
+<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2826,6 +2927,16 @@ Siemens, Philips, Valvo&lt;p&gt;
 <instance part="R4" gate="G$1" x="-132.08" y="139.7" rot="R90"/>
 <instance part="GND3" gate="1" x="-132.08" y="152.4" rot="R180"/>
 <instance part="Q2" gate="A" x="-134.62" y="124.46"/>
+<instance part="Q3" gate="G$1" x="-218.44" y="-48.26"/>
+<instance part="Q4" gate="G$1" x="-129.54" y="-48.26"/>
+<instance part="Q5" gate="G$1" x="-172.72" y="-48.26"/>
+<instance part="R5" gate="G$1" x="-170.18" y="-88.9" rot="R90"/>
+<instance part="GND4" gate="1" x="-170.18" y="-96.52"/>
+<instance part="P+3" gate="VCC" x="-170.18" y="-25.4"/>
+<instance part="R6" gate="G$1" x="-215.9" y="-88.9" rot="R90"/>
+<instance part="GND7" gate="1" x="-215.9" y="-96.52"/>
+<instance part="R7" gate="G$1" x="-127" y="-88.9" rot="R90"/>
+<instance part="GND8" gate="1" x="-127" y="-96.52"/>
 </instances>
 <busses>
 </busses>
@@ -2948,6 +3059,18 @@ Siemens, Philips, Valvo&lt;p&gt;
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="-132.08" y1="144.78" x2="-132.08" y2="149.86" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -3021,6 +3144,11 @@ Siemens, Philips, Valvo&lt;p&gt;
 <pinref part="U$8" gate="G$1" pin="VCC"/>
 <wire x1="-40.64" y1="-190.5" x2="-7.62" y2="-190.5" width="0.1524" layer="91"/>
 <label x="-15.24" y="-190.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="P+3" gate="VCC" pin="VCC"/>
+<pinref part="Q5" gate="G$1" pin="S"/>
+<wire x1="-170.18" y1="-43.18" x2="-170.18" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -3758,6 +3886,79 @@ Siemens, Philips, Valvo&lt;p&gt;
 <pinref part="U1" gate="G$1" pin="PD5(T1)"/>
 <wire x1="68.58" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
 <label x="71.12" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="Q3" gate="G$1" pin="S"/>
+<wire x1="-215.9" y1="-43.18" x2="-215.9" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-215.9" y1="-35.56" x2="-127" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="Q4" gate="G$1" pin="S"/>
+<wire x1="-127" y1="-35.56" x2="-127" y2="-43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="OUT_POWER_1" class="0">
+<segment>
+<pinref part="Q3" gate="G$1" pin="D"/>
+<wire x1="-215.9" y1="-53.34" x2="-215.9" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="-215.9" y1="-66.04" x2="-215.9" y2="-83.82" width="0.1524" layer="91"/>
+<junction x="-215.9" y="-66.04"/>
+<wire x1="-215.9" y1="-66.04" x2="-203.2" y2="-66.04" width="0.1524" layer="91"/>
+<label x="-213.36" y="-66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ACTIVE_OUT_POWER_1" class="0">
+<segment>
+<pinref part="Q3" gate="G$1" pin="G"/>
+<wire x1="-220.98" y1="-45.72" x2="-236.22" y2="-45.72" width="0.1524" layer="91"/>
+<label x="-251.46" y="-45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ACTIVE_OUT_POWER_2" class="0">
+<segment>
+<pinref part="Q5" gate="G$1" pin="G"/>
+<wire x1="-175.26" y1="-45.72" x2="-190.5" y2="-45.72" width="0.1524" layer="91"/>
+<label x="-205.74" y="-45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ACTIVE_OUT_POWER3" class="0">
+<segment>
+<pinref part="Q4" gate="G$1" pin="G"/>
+<wire x1="-132.08" y1="-45.72" x2="-147.32" y2="-45.72" width="0.1524" layer="91"/>
+<label x="-160.02" y="-45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="OUT_POWER_2" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="Q5" gate="G$1" pin="D"/>
+<wire x1="-170.18" y1="-53.34" x2="-170.18" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="-170.18" y1="-66.04" x2="-157.48" y2="-66.04" width="0.1524" layer="91"/>
+<junction x="-170.18" y="-66.04"/>
+<wire x1="-170.18" y1="-66.04" x2="-170.18" y2="-83.82" width="0.1524" layer="91"/>
+<label x="-167.64" y="-66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="-215.9" y1="-66.04" x2="-215.9" y2="-83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="-127" y1="-66.04" x2="-127" y2="-83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="OUT_POWER_3" class="0">
+<segment>
+<pinref part="Q4" gate="G$1" pin="D"/>
+<wire x1="-127" y1="-83.82" x2="-127" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="-127" y1="-66.04" x2="-127" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="-127" y1="-66.04" x2="-114.3" y2="-66.04" width="0.1524" layer="91"/>
+<junction x="-127" y="-66.04"/>
+<label x="-124.46" y="-66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
