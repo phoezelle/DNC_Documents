@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1092,9 +1092,9 @@
 </symbol>
 <symbol name="RASPIA+">
 <wire x1="-22.86" y1="35.56" x2="-22.86" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="-17.78" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-17.78" x2="7.62" y2="35.56" width="0.254" layer="94"/>
-<wire x1="7.62" y1="35.56" x2="-22.86" y2="35.56" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-17.78" x2="25.4" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-17.78" x2="25.4" y2="35.56" width="0.254" layer="94"/>
+<wire x1="25.4" y1="35.56" x2="-22.86" y2="35.56" width="0.254" layer="94"/>
 <pin name="3.3V" x="-27.94" y="33.02" length="middle"/>
 <pin name="GPIO2" x="-27.94" y="30.48" length="middle"/>
 <pin name="GPIO3" x="-27.94" y="27.94" length="middle"/>
@@ -1115,27 +1115,45 @@
 <pin name="GPIO19" x="-27.94" y="-10.16" length="middle"/>
 <pin name="GPIO26" x="-27.94" y="-12.7" length="middle"/>
 <pin name="GND_3" x="-27.94" y="-15.24" length="middle"/>
-<pin name="5V_1" x="12.7" y="33.02" length="middle" rot="R180"/>
-<pin name="5V_2" x="12.7" y="30.48" length="middle" rot="R180"/>
-<pin name="GND_4" x="12.7" y="27.94" length="middle" rot="R180"/>
-<pin name="GPIO14" x="12.7" y="25.4" length="middle" rot="R180"/>
-<pin name="GPIO15" x="12.7" y="22.86" length="middle" rot="R180"/>
-<pin name="GPIO18" x="12.7" y="20.32" length="middle" rot="R180"/>
-<pin name="GND_5" x="12.7" y="17.78" length="middle" rot="R180"/>
-<pin name="GPIO23" x="12.7" y="15.24" length="middle" rot="R180"/>
-<pin name="GPIO24" x="12.7" y="12.7" length="middle" rot="R180"/>
-<pin name="GND_6" x="12.7" y="10.16" length="middle" rot="R180"/>
-<pin name="GPIO25" x="12.7" y="7.62" length="middle" rot="R180"/>
-<pin name="GPIO8" x="12.7" y="5.08" length="middle" rot="R180"/>
-<pin name="GPIO7" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="ID_SC" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="GND_7" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="GPIO12" x="12.7" y="-5.08" length="middle" rot="R180"/>
-<pin name="GND_8" x="12.7" y="-7.62" length="middle" rot="R180"/>
-<pin name="GPIO16" x="12.7" y="-10.16" length="middle" rot="R180"/>
-<pin name="GPIO20" x="12.7" y="-12.7" length="middle" rot="R180"/>
-<pin name="GPIO21" x="12.7" y="-15.24" length="middle" rot="R180"/>
+<pin name="5V_1" x="30.48" y="33.02" length="middle" rot="R180"/>
+<pin name="5V_2" x="30.48" y="30.48" length="middle" rot="R180"/>
+<pin name="GND_4" x="30.48" y="27.94" length="middle" rot="R180"/>
+<pin name="GPIO14" x="30.48" y="25.4" length="middle" rot="R180"/>
+<pin name="GPIO15" x="30.48" y="22.86" length="middle" rot="R180"/>
+<pin name="GPIO18" x="30.48" y="20.32" length="middle" rot="R180"/>
+<pin name="GND_5" x="30.48" y="17.78" length="middle" rot="R180"/>
+<pin name="GPIO23" x="30.48" y="15.24" length="middle" rot="R180"/>
+<pin name="GPIO24" x="30.48" y="12.7" length="middle" rot="R180"/>
+<pin name="GND_6" x="30.48" y="10.16" length="middle" rot="R180"/>
+<pin name="GPIO25" x="30.48" y="7.62" length="middle" rot="R180"/>
+<pin name="GPIO8" x="30.48" y="5.08" length="middle" rot="R180"/>
+<pin name="GPIO7" x="30.48" y="2.54" length="middle" rot="R180"/>
+<pin name="ID_SC" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="GND_7" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="GPIO12" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND_8" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="GPIO16" x="30.48" y="-10.16" length="middle" rot="R180"/>
+<pin name="GPIO20" x="30.48" y="-12.7" length="middle" rot="R180"/>
+<pin name="GPIO21" x="30.48" y="-15.24" length="middle" rot="R180"/>
 <text x="-15.24" y="-20.32" size="1.27" layer="94">RASPBERRY PI A+</text>
+<text x="-7.62" y="30.48" size="1.27" layer="94" align="center">(SDA1)</text>
+<text x="-7.62" y="27.94" size="1.27" layer="94" align="center">(SCL1)</text>
+<text x="-5.08" y="25.4" size="1.27" layer="94" align="center">(GPIO_GCLK)</text>
+<text x="-5.08" y="20.32" size="1.27" layer="94" align="center">(GPIO_GEN0)</text>
+<text x="-5.08" y="17.78" size="1.27" layer="94" align="center">(GPIO_GEN2)</text>
+<text x="-5.08" y="15.24" size="1.27" layer="94" align="center">(GPIO_GEN3)</text>
+<text x="-7.62" y="10.16" size="1.27" layer="94" align="center">(MOSI)</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">(MISO)</text>
+<text x="-7.62" y="5.08" size="1.27" layer="94" align="center">(SCLK)</text>
+<text x="10.16" y="25.4" size="1.27" layer="94" align="center">(TXD0)</text>
+<text x="10.16" y="22.86" size="1.27" layer="94" align="center">(RXD0)</text>
+<text x="7.62" y="20.32" size="1.27" layer="94" align="center">(GPIO_GEN1)</text>
+<text x="7.62" y="15.24" size="1.27" layer="94" align="center">(GPIO_GEN4)</text>
+<text x="7.62" y="12.7" size="1.27" layer="94" align="center">(GPIO_GEN5)</text>
+<text x="7.62" y="7.62" size="1.27" layer="94" align="center">(GPIO_GEN6)</text>
+<text x="7.62" y="5.08" size="1.27" layer="94" align="center">(SPI_CE0_N)</text>
+<text x="7.62" y="2.54" size="1.27" layer="94" align="center">(SPI_CE1_N)</text>
+<text x="0" y="-2.54" size="0.8128" layer="94" align="center">ID_SC and ID_SD only for I²C EEPROM</text>
 </symbol>
 </symbols>
 <devicesets>
