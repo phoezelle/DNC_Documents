@@ -9832,8 +9832,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="U$3" library="pierre_vv" deviceset="EXT-DNC" device=""/>
 <part name="U$4" library="pierre_vv" deviceset="RASPIA+" device=""/>
 <part name="U$5" library="pierre_vv" deviceset="DC/DC_SEED" device=""/>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k"/>
+<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="IC2" library="74xx-eu" deviceset="74*595" device="D" technology="HC"/>
 <part name="U$1" library="pierre_vv" deviceset="EXT-DNC" device=""/>
@@ -9909,12 +9909,6 @@ DIN A3, landscape with location and doc. field</description>
 <part name="RIN7" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
-<part name="P+6" library="supply1" deviceset="+5V" device=""/>
-<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="U$9" library="pierre_vv" deviceset="RAW" device=""/>
-<part name="P+7" library="supply1" deviceset="+5V" device=""/>
-<part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="U$10" library="pierre_vv" deviceset="RAW" device=""/>
 <part name="JP22" library="SparkFun" deviceset="M02" device="PTH3"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
@@ -9949,6 +9943,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="RIN10" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k"/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="GND29" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k"/>
+<part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10048,12 +10044,6 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="RIN7" gate="G$1" x="335.28" y="91.44" rot="R90"/>
 <instance part="GND7" gate="1" x="335.28" y="78.74"/>
 <instance part="GND8" gate="1" x="-172.72" y="-68.58"/>
-<instance part="P+6" gate="1" x="-43.18" y="50.8"/>
-<instance part="+3V1" gate="G$1" x="-35.56" y="50.8"/>
-<instance part="U$9" gate="G$1" x="-27.94" y="48.26"/>
-<instance part="P+7" gate="1" x="-43.18" y="40.64"/>
-<instance part="+3V2" gate="G$1" x="-35.56" y="40.64"/>
-<instance part="U$10" gate="G$1" x="-27.94" y="38.1"/>
 <instance part="JP22" gate="G$1" x="-15.24" y="91.44" rot="R90"/>
 <instance part="P+1" gate="1" x="-38.1" y="101.6"/>
 <instance part="P+2" gate="1" x="-17.78" y="111.76"/>
@@ -10088,6 +10078,8 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="RIN10" gate="G$1" x="254" y="-66.04" rot="R90"/>
 <instance part="P+8" gate="1" x="276.86" y="-30.48"/>
 <instance part="GND29" gate="1" x="254" y="-83.82"/>
+<instance part="R5" gate="G$1" x="-60.96" y="137.16" rot="R90"/>
+<instance part="GND30" gate="1" x="-60.96" y="149.86" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -10349,6 +10341,11 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="GND29" gate="1" pin="GND"/>
 <pinref part="RIN10" gate="G$1" pin="1"/>
 <wire x1="254" y1="-81.28" x2="254" y2="-71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="GND30" gate="1" pin="GND"/>
+<wire x1="-60.96" y1="142.24" x2="-60.96" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -11049,9 +11046,13 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="ACTIVE_ANALOG_TEMP" class="0">
 <segment>
-<wire x1="-53.34" y1="119.38" x2="-68.58" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="119.38" x2="-60.96" y2="119.38" width="0.1524" layer="91"/>
 <label x="-81.28" y="119.38" size="1.778" layer="95"/>
 <pinref part="Q6" gate="G$1" pin="G"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="-60.96" y1="119.38" x2="-68.58" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="132.08" x2="-60.96" y2="119.38" width="0.1524" layer="91"/>
+<junction x="-60.96" y="119.38"/>
 </segment>
 </net>
 <net name="OUT_POWER_1" class="0">
