@@ -719,25 +719,20 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-2.3" y1="-1.6" x2="-2.3" y2="0" width="0.2032" layer="21"/>
 <wire x1="2.3" y1="-1.6" x2="2.3" y2="0" width="0.2032" layer="21"/>
 </package>
-<package name="SCREWTERMINAL-5MM-2">
-<wire x1="-3.1" y1="4.2" x2="8.1" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="8.1" y1="4.2" x2="8.1" y2="-2.3" width="0.2032" layer="21"/>
-<wire x1="8.1" y1="-2.3" x2="8.1" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="8.1" y1="-3.3" x2="-3.1" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="-3.1" y1="-3.3" x2="-3.1" y2="-2.3" width="0.2032" layer="21"/>
-<wire x1="-3.1" y1="-2.3" x2="-3.1" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="8.1" y1="-2.3" x2="-3.1" y2="-2.3" width="0.2032" layer="21"/>
-<wire x1="-3.1" y1="-1.35" x2="-3.7" y2="-1.35" width="0.2032" layer="51"/>
-<wire x1="-3.7" y1="-1.35" x2="-3.7" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="-3.7" y1="-2.35" x2="-3.1" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="8.1" y1="4" x2="8.7" y2="4" width="0.2032" layer="51"/>
-<wire x1="8.7" y1="4" x2="8.7" y2="3" width="0.2032" layer="51"/>
-<wire x1="8.7" y1="3" x2="8.1" y2="3" width="0.2032" layer="51"/>
-<circle x="2.5" y="3.7" radius="0.2828" width="0.127" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.3" diameter="2.032" shape="square"/>
-<pad name="2" x="5" y="0" drill="1.3" diameter="2.032"/>
-<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
+<package name="JST-2-PTH-NS">
+<wire x1="-2" y1="0" x2="-2" y2="-1.8" width="0.2032" layer="51"/>
+<wire x1="-2" y1="-1.8" x2="-3" y2="-1.8" width="0.2032" layer="51"/>
+<wire x1="-3" y1="-1.8" x2="-3" y2="6" width="0.2032" layer="51"/>
+<wire x1="-3" y1="6" x2="3" y2="6" width="0.2032" layer="51"/>
+<wire x1="3" y1="6" x2="3" y2="-1.8" width="0.2032" layer="51"/>
+<wire x1="3" y1="-1.8" x2="2" y2="-1.8" width="0.2032" layer="51"/>
+<wire x1="2" y1="-1.8" x2="2" y2="0" width="0.2032" layer="51"/>
+<pad name="1" x="-1" y="0" drill="0.7" diameter="1.6"/>
+<pad name="2" x="1" y="0" drill="0.7" diameter="1.6"/>
+<text x="-1.27" y="5.27" size="0.4064" layer="25">&gt;Name</text>
+<text x="-1.27" y="4" size="0.4064" layer="27">&gt;Value</text>
+<text x="0.6" y="0.7" size="1.27" layer="51">+</text>
+<text x="-1.4" y="0.7" size="1.27" layer="51">-</text>
 </package>
 </packages>
 </library>
@@ -1024,7 +1019,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="16MHZ" library="pierre_vv" package="RESONATOR_7MM" value="RESONATOR" x="-44.45" y="133.35"/>
+<element name="8MHZ" library="pierre_vv" package="RESONATOR_7MM" value="RESONATOR" x="-44.45" y="133.35"/>
 <element name="AT328" library="SparkFun" package="TQFP32-08" value="ATMEGA168" x="-26.67" y="114.3"/>
 <element name="C1" library="rcl" package="C0805" value="0.1uF" x="-43.18" y="125.73"/>
 <element name="C16" library="rcl" package="C0805" value="0.1uF" x="-55.88" y="125.73"/>
@@ -1040,6 +1035,7 @@ design rules under a new name.</description>
 <element name="JP11" library="SparkFun-Connectors" package="JST-2-PTH" value="M02JST-PTH-2" x="-35.56" y="124.46">
 <attribute name="SKU" value="PRT-09914" x="-35.56" y="124.46" size="1.778" layer="27" display="off"/>
 </element>
+<element name="JP12" library="SparkFun-Connectors" package="JST-2-PTH-NS" value="M02-JST-2-PTH-NO_SILK" x="-90.17" y="109.22"/>
 <element name="JP13" library="SparkFun" package="FIDUCIAL-1X2.5" value="FIDUCIAL1X2.5" x="-80.01" y="133.35"/>
 <element name="JP14" library="SparkFun" package="FIDUCIAL-1X2.5" value="FIDUCIAL1X2.5" x="-83.82" y="133.35"/>
 <element name="JP15" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="-92.71" y="125.73"/>
@@ -1100,9 +1096,6 @@ design rules under a new name.</description>
 <element name="U$6" library="pierre_vv" package="EXTPINDNC" value="EXT-DNC" x="-96.52" y="87.63"/>
 <element name="U$7" library="pierre_vv" package="EXTPINDNC" value="EXT-DNC" x="-105.41" y="87.63"/>
 <element name="U$8" library="pierre_vv" package="EXTPINDNC" value="EXT-DNC" x="-16.51" y="115.57"/>
-<element name="JP1" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="M025MM" x="-109.22" y="-3.81">
-<attribute name="STOREFRONT_ID" value="PRT-08432" x="-109.22" y="-3.81" size="1.778" layer="27" display="off"/>
-</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1140,17 +1133,17 @@ design rules under a new name.</description>
 <contactref element="JP10" pad="2"/>
 <contactref element="JP11" pad="2"/>
 <contactref element="C2" pad="C"/>
+<contactref element="JP12" pad="2"/>
 <contactref element="U$5" pad="IN-"/>
 <contactref element="C7" pad="2"/>
 <contactref element="AT328" pad="3"/>
 <contactref element="AT328" pad="21"/>
 <contactref element="AT328" pad="5"/>
-<contactref element="16MHZ" pad="2"/>
+<contactref element="8MHZ" pad="2"/>
 <contactref element="C16" pad="2"/>
 <contactref element="ISP1" pad="6"/>
 <contactref element="PROG1" pad="6"/>
 <contactref element="PROG1" pad="5"/>
-<contactref element="JP1" pad="2"/>
 <wire x1="-19.9" y1="139.7" x2="-16.09" y2="139.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-22.01" y1="139.7" x2="-19.9" y2="139.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-27.52" y1="139.7" x2="-22.01" y2="139.7" width="0" layer="19" extent="1-1"/>
@@ -1180,6 +1173,7 @@ design rules under a new name.</description>
 <wire x1="-103.72" y1="132.08" x2="-96.1" y2="133.35" width="0" layer="19" extent="1-1"/>
 <wire x1="-105.83" y1="132.08" x2="-103.72" y2="132.08" width="0" layer="19" extent="1-1"/>
 <wire x1="-111.34" y1="132.08" x2="-105.83" y2="132.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.17" y1="109.22" x2="-87.63" y2="124.46" width="0" layer="19" extent="1-1"/>
 <wire x1="-70.993" y1="92.71" x2="-71.755" y2="108.6866" width="0" layer="19" extent="1-1"/>
 <wire x1="-63.4" y1="88.36" x2="-70.993" y2="92.71" width="0" layer="19" extent="1-1"/>
 <wire x1="-79.883" y1="92.71" x2="-70.993" y2="92.71" width="0" layer="19" extent="1-1"/>
@@ -1194,7 +1188,6 @@ design rules under a new name.</description>
 <wire x1="-76.257" y1="37.58" x2="-73.463" y2="45.04" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.003" y1="30.04" x2="-76.257" y2="37.58" width="0" layer="19" extent="1-1"/>
 <wire x1="-73.463" y1="25.04" x2="-76.003" y2="30.04" width="0" layer="19" extent="1-1"/>
-<wire x1="-104.22" y1="-3.81" x2="-73.463" y2="25.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RAW">
 <contactref element="IC1" pad="16"/>
@@ -1620,9 +1613,9 @@ design rules under a new name.</description>
 <wire x1="-73.463" y1="30.04" x2="-15.51" y2="124.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
+<contactref element="JP12" pad="1"/>
 <contactref element="F1" pad="1"/>
-<contactref element="JP1" pad="1"/>
-<wire x1="-92.29" y1="133.35" x2="-109.22" y2="-3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.17" y1="109.22" x2="-92.29" y2="133.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX-I">
 <contactref element="PROG1" pad="3"/>
@@ -1650,12 +1643,12 @@ design rules under a new name.</description>
 <wire x1="-50.48" y1="125.73" x2="-22.3774" y2="113.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$43">
-<contactref element="16MHZ" pad="1"/>
+<contactref element="8MHZ" pad="1"/>
 <contactref element="AT328" pad="7"/>
 <wire x1="-30.9626" y1="112.3" x2="-46.95" y2="133.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$44">
-<contactref element="16MHZ" pad="3"/>
+<contactref element="8MHZ" pad="3"/>
 <contactref element="AT328" pad="8"/>
 <wire x1="-30.9626" y1="111.5" x2="-41.95" y2="133.35" width="0" layer="19" extent="1-1"/>
 </signal>
