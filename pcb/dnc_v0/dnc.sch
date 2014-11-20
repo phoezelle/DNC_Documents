@@ -9851,13 +9851,13 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="JP5" library="SparkFun" deviceset="M02" device="JST-PTH-2"/>
-<part name="JP6" library="SparkFun" deviceset="M02" device="JST-PTH-2"/>
-<part name="JP7" library="SparkFun" deviceset="M02" device="JST-PTH-2"/>
-<part name="JP8" library="SparkFun" deviceset="M02" device="JST-PTH-2"/>
-<part name="JP9" library="SparkFun-Connectors" deviceset="M02" device="JST-PTH-2"/>
-<part name="JP10" library="SparkFun-Connectors" deviceset="M02" device="JST-PTH-2"/>
-<part name="JP11" library="SparkFun-Connectors" deviceset="M02" device="JST-PTH-2"/>
+<part name="JP5" library="SparkFun" deviceset="M02" device="LOCK_LONGPADS"/>
+<part name="JP6" library="SparkFun" deviceset="M02" device="LOCK_LONGPADS"/>
+<part name="JP7" library="SparkFun" deviceset="M02" device="LOCK_LONGPADS"/>
+<part name="JP8" library="SparkFun" deviceset="M02" device="LOCK_LONGPADS"/>
+<part name="JP9" library="SparkFun-Connectors" deviceset="M02" device="5MM" value="M025MM"/>
+<part name="JP10" library="SparkFun-Connectors" deviceset="M02" device="5MM" value="M025MM"/>
+<part name="JP11" library="SparkFun-Connectors" deviceset="M02" device="5MM" value="M025MM"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -9878,8 +9878,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND36" library="SparkFun" deviceset="GND" device=""/>
 <part name="AT328" library="SparkFun" deviceset="ATMEGA168" device=""/>
-<part name="16MHZ" library="pierre_vv" deviceset="RESONATOR" device=""/>
-<part name="U$17" library="SparkFun" deviceset="5V" device=""/>
+<part name="168MHZ" library="pierre_vv" deviceset="RESONATOR" device=""/>
+<part name="U$17" library="SparkFun" deviceset="5V" device="" value="5V"/>
 <part name="U$18" library="SparkFun" deviceset="5V" device=""/>
 <part name="U$19" library="SparkFun" deviceset="5V" device=""/>
 <part name="C2" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
@@ -9891,6 +9891,10 @@ DIN A3, landscape with location and doc. field</description>
 <part name="U$20" library="SparkFun" deviceset="5V" device=""/>
 <part name="U$21" library="SparkFun" deviceset="5V" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="5MM" value="M025MM"/>
+<part name="RIN5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="RIN6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="3.3k"/>
+<part name="RIN7" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="3.3k"/>
+<part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9977,7 +9981,7 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="C16" gate="G$1" x="33.02" y="25.4"/>
 <instance part="GND36" gate="1" x="33.02" y="15.24"/>
 <instance part="AT328" gate="G$1" x="43.18" y="78.74"/>
-<instance part="16MHZ" gate="G$1" x="15.24" y="76.2" rot="R270"/>
+<instance part="168MHZ" gate="G$1" x="15.24" y="76.2" rot="R270"/>
 <instance part="U$17" gate="G$1" x="5.08" y="109.22"/>
 <instance part="U$18" gate="G$1" x="-38.1" y="99.06"/>
 <instance part="U$19" gate="G$1" x="33.02" y="30.48"/>
@@ -9993,6 +9997,10 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="U$20" gate="G$1" x="50.8" y="187.96"/>
 <instance part="U$21" gate="G$1" x="38.1" y="154.94"/>
 <instance part="JP1" gate="G$1" x="-160.02" y="96.52" rot="MR180"/>
+<instance part="RIN5" gate="G$1" x="167.64" y="30.48" rot="R90"/>
+<instance part="RIN6" gate="G$1" x="167.64" y="10.16" rot="R90"/>
+<instance part="RIN7" gate="G$1" x="167.64" y="-2.54" rot="R90"/>
+<instance part="GND2" gate="1" x="167.64" y="-12.7"/>
 </instances>
 <busses>
 </busses>
@@ -10187,7 +10195,7 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="AT328" gate="G$1" pin="GND@1"/>
 <pinref part="AT328" gate="G$1" pin="GND@2"/>
 <pinref part="AT328" gate="G$1" pin="AGND"/>
-<pinref part="16MHZ" gate="G$1" pin="2"/>
+<pinref part="168MHZ" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="33.02" y1="20.32" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
@@ -10208,6 +10216,11 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="PROG1" gate="G$1" pin="GND"/>
 <pinref part="PROG1" gate="G$1" pin="CTS"/>
+</segment>
+<segment>
+<pinref part="RIN7" gate="G$1" pin="1"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="167.64" y1="-7.62" x2="167.64" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -10324,10 +10337,6 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="MISO" class="0">
 <segment>
-<wire x1="68.58" y1="48.26" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
-<label x="71.12" y="48.26" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$4" gate="G$1" pin="GPIO9"/>
 <wire x1="58.42" y1="-25.4" x2="45.72" y2="-25.4" width="0.1524" layer="91"/>
 <label x="45.72" y="-25.4" size="1.778" layer="95"/>
@@ -10366,6 +10375,15 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="20.32" y1="175.26" x2="12.7" y2="175.26" width="0.1524" layer="91"/>
 <label x="7.62" y="175.26" size="1.778" layer="95"/>
 <pinref part="ISP1" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="RIN5" gate="G$1" pin="1"/>
+<pinref part="RIN6" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="25.4" x2="167.64" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="20.32" x2="167.64" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="20.32" x2="182.88" y2="20.32" width="0.1524" layer="91"/>
+<junction x="167.64" y="20.32"/>
+<label x="175.26" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -10601,18 +10619,6 @@ DIN A3, landscape with location and doc. field</description>
 <label x="200.66" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="AT328" gate="G$1" pin="VCC@2"/>
-<pinref part="AT328" gate="G$1" pin="VCC@1"/>
-<wire x1="20.32" y1="93.98" x2="20.32" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="AT328" gate="G$1" pin="AVCC"/>
-<wire x1="20.32" y1="96.52" x2="20.32" y2="99.06" width="0.1524" layer="91"/>
-<junction x="20.32" y="96.52"/>
-<wire x1="20.32" y1="99.06" x2="5.08" y2="99.06" width="0.1524" layer="91"/>
-<junction x="20.32" y="99.06"/>
-<wire x1="5.08" y1="99.06" x2="5.08" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="5V"/>
-</segment>
-<segment>
 <pinref part="C16" gate="G$1" pin="1"/>
 <pinref part="U$19" gate="G$1" pin="5V"/>
 <wire x1="33.02" y1="30.48" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
@@ -10631,6 +10637,18 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="R26" gate="G$1" pin="2"/>
 <pinref part="U$21" gate="G$1" pin="5V"/>
 <wire x1="38.1" y1="154.94" x2="38.1" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="AT328" gate="G$1" pin="VCC@2"/>
+<pinref part="AT328" gate="G$1" pin="VCC@1"/>
+<wire x1="20.32" y1="93.98" x2="20.32" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="AT328" gate="G$1" pin="AVCC"/>
+<wire x1="20.32" y1="96.52" x2="20.32" y2="99.06" width="0.1524" layer="91"/>
+<junction x="20.32" y="96.52"/>
+<wire x1="20.32" y1="99.06" x2="5.08" y2="99.06" width="0.1524" layer="91"/>
+<junction x="20.32" y="99.06"/>
+<wire x1="5.08" y1="99.06" x2="5.08" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U$17" gate="G$1" pin="5V"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -11284,15 +11302,34 @@ DIN A3, landscape with location and doc. field</description>
 <net name="N$43" class="0">
 <segment>
 <wire x1="17.78" y1="78.74" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="16MHZ" gate="G$1" pin="1"/>
+<pinref part="168MHZ" gate="G$1" pin="1"/>
 <pinref part="AT328" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
 </segment>
 </net>
 <net name="N$44" class="0">
 <segment>
 <wire x1="17.78" y1="73.66" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="16MHZ" gate="G$1" pin="3"/>
+<pinref part="168MHZ" gate="G$1" pin="3"/>
 <pinref part="AT328" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
+</segment>
+</net>
+<net name="MISO_5V" class="0">
+<segment>
+<wire x1="147.32" y1="43.18" x2="167.64" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="RIN5" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="43.18" x2="167.64" y2="35.56" width="0.1524" layer="91"/>
+<label x="149.86" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="48.26" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
+<label x="71.12" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="RIN6" gate="G$1" pin="1"/>
+<pinref part="RIN7" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="5.08" x2="167.64" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
