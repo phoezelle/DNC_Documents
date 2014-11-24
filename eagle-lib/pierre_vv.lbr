@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -641,16 +641,11 @@
 <wire x1="-56" y1="-7" x2="-56" y2="-58" width="0.127" layer="21"/>
 <wire x1="-56" y1="-58" x2="-56" y2="-65" width="0.127" layer="21"/>
 <wire x1="-56" y1="-65" x2="0" y2="-65" width="0.127" layer="21"/>
-<hole x="-52.5" y="-61.5" drill="1.5"/>
 <dimension x1="-56" y1="-65" x2="-52.5" y2="-65" x3="-54.25" y3="-67" textsize="1.27" layer="20"/>
 <dimension x1="-56" y1="-65" x2="-56" y2="-61.5" x3="-62" y3="-63.25" textsize="1.27" layer="20"/>
-<hole x="-3.5" y="-61.5" drill="1.5"/>
-<hole x="-52.5" y="-3.5" drill="1.5"/>
-<hole x="-3.5" y="-3.5" drill="1.5"/>
 <wire x1="-56" y1="-58" x2="-54" y2="-58" width="0.127" layer="21"/>
 <wire x1="-54" y1="-58" x2="-49.5" y2="-58" width="0.127" layer="21"/>
 <wire x1="-56" y1="-7" x2="-54" y2="-7" width="0.127" layer="21"/>
-<dimension x1="-2.96966875" y1="-60.96966875" x2="-4.03033125" y2="-62.03033125" x3="0" y3="-65" textsize="1.27" layer="20" dtype="diameter"/>
 <dimension x1="-51" y1="-7" x2="-51" y2="0" x3="-63" y3="-3.5" textsize="1.27" layer="20" dtype="diameter"/>
 <dimension x1="-51" y1="-7" x2="-51" y2="-58" x3="-58" y3="-32.5" textsize="1.27" layer="20" dtype="diameter"/>
 <dimension x1="0" y1="0" x2="-56" y2="0" x3="-28" y3="5" textsize="1.27" layer="20"/>
@@ -758,6 +753,12 @@
 <pad name="37" x="-50.603" y="-11.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
 <rectangle x1="-50.984" y1="-11.334" x2="-50.476" y2="-10.826" layer="51" rot="R270"/>
 <rectangle x1="-53.524" y1="-11.334" x2="-53.016" y2="-10.826" layer="51" rot="R270"/>
+<hole x="-52.5" y="-3.5" drill="2.8"/>
+<hole x="-3.5" y="-3.5" drill="2.8"/>
+<hole x="-3.5" y="-61.5" drill="2.8"/>
+<hole x="-52.5" y="-61.5" drill="2.8"/>
+<dimension x1="-2.1" y1="-61.5" x2="-4.9" y2="-61.5" x3="-3.5" y3="-67.5" textsize="1.27" layer="20" dtype="diameter"/>
+<dimension x1="-52.5" y1="-3.5" x2="-52.5" y2="-61.5" x3="-70" y3="-32.5" textsize="1.27" layer="20" dtype="horizontal"/>
 </package>
 <package name="DC/DC_SEED">
 <wire x1="0" y1="0" x2="-40" y2="0" width="0.127" layer="22"/>
