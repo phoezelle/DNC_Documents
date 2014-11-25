@@ -10658,6 +10658,21 @@ W = angled&lt;p&gt;
 <label x="40.64" y="172.72" size="1.778" layer="95"/>
 <pinref part="ISP1" gate="G$1" pin="4"/>
 </segment>
+<segment>
+<pinref part="REG1" gate="A" pin="SER"/>
+<wire x1="-157.48" y1="2.54" x2="-172.72" y2="2.54" width="0.1524" layer="91"/>
+<label x="-172.72" y="2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TITREUR1" gate="G$1" pin="7"/>
+<wire x1="88.9" y1="-83.82" x2="99.06" y2="-83.82" width="0.1524" layer="91"/>
+<label x="96.52" y="-83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TITREUR2" gate="G$1" pin="7"/>
+<wire x1="154.94" y1="-83.82" x2="165.1" y2="-83.82" width="0.1524" layer="91"/>
+<label x="162.56" y="-83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -10749,6 +10764,26 @@ W = angled&lt;p&gt;
 <pinref part="EXT4" gate="G$1" pin="SCK"/>
 <wire x1="-71.12" y1="-63.5" x2="-101.6" y2="-63.5" width="0.1524" layer="91"/>
 <label x="-99.06" y="-63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="REG2" gate="A" pin="SCK"/>
+<wire x1="-177.8" y1="-43.18" x2="-157.48" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="REG1" gate="A" pin="SCK"/>
+<wire x1="-157.48" y1="-2.54" x2="-177.8" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-177.8" y1="-2.54" x2="-193.04" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-177.8" y1="-2.54" x2="-177.8" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="-177.8" y="-2.54"/>
+<label x="-193.04" y="-2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TITREUR1" gate="G$1" pin="5"/>
+<wire x1="88.9" y1="-86.36" x2="99.06" y2="-86.36" width="0.1524" layer="91"/>
+<label x="96.52" y="-86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TITREUR2" gate="G$1" pin="5"/>
+<wire x1="154.94" y1="-86.36" x2="165.1" y2="-86.36" width="0.1524" layer="91"/>
+<label x="162.56" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ATMEGA_CS" class="0">
@@ -10899,18 +10934,6 @@ W = angled&lt;p&gt;
 <label x="132.08" y="-88.9" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="REG_VAL" class="0">
-<segment>
-<pinref part="REG1" gate="A" pin="SER"/>
-<wire x1="-157.48" y1="2.54" x2="-172.72" y2="2.54" width="0.1524" layer="91"/>
-<label x="-172.72" y="2.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$4" gate="G$1" pin="GPIO27"/>
-<wire x1="58.42" y1="-15.24" x2="45.72" y2="-15.24" width="0.1524" layer="91"/>
-<label x="45.72" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="TXA+" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="GPIO14"/>
@@ -11034,23 +11057,6 @@ W = angled&lt;p&gt;
 <segment>
 <wire x1="68.58" y1="71.12" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
 <label x="71.12" y="71.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="REG_SCK" class="0">
-<segment>
-<pinref part="REG1" gate="A" pin="SCK"/>
-<wire x1="-157.48" y1="-2.54" x2="-177.8" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="REG2" gate="A" pin="SCK"/>
-<wire x1="-177.8" y1="-2.54" x2="-193.04" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-177.8" y1="-2.54" x2="-177.8" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="-177.8" y1="-43.18" x2="-157.48" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="-177.8" y="-2.54"/>
-<label x="-193.04" y="-2.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$4" gate="G$1" pin="GPIO22"/>
-<wire x1="58.42" y1="-17.78" x2="45.72" y2="-17.78" width="0.1524" layer="91"/>
-<label x="45.72" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="REG_RCK" class="0">
@@ -11285,21 +11291,6 @@ W = angled&lt;p&gt;
 <pinref part="MOS_PWR1" gate="G$1" pin="S"/>
 <wire x1="254" y1="106.68" x2="254" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="PWR_OUT1" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="ACTIVE_OUT_POWER_1" class="0">
-<segment>
-<pinref part="MOS_PWR1" gate="G$1" pin="G"/>
-<wire x1="246.38" y1="111.76" x2="238.76" y2="111.76" width="0.1524" layer="91"/>
-<label x="220.98" y="111.76" size="1.778" layer="95"/>
-<pinref part="ROUT1" gate="G$1" pin="2"/>
-<wire x1="238.76" y1="111.76" x2="233.68" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="96.52" x2="238.76" y2="111.76" width="0.1524" layer="91"/>
-<junction x="238.76" y="111.76"/>
-</segment>
-<segment>
-<wire x1="68.58" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
-<label x="71.12" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ACTIVE_OUT_POWER_2" class="0">
@@ -11833,66 +11824,6 @@ W = angled&lt;p&gt;
 <label x="304.8" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="WR" class="0">
-<segment>
-<pinref part="TITREUR1" gate="G$1" pin="5"/>
-<wire x1="88.9" y1="-86.36" x2="99.06" y2="-86.36" width="0.1524" layer="91"/>
-<label x="96.52" y="-86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TITREUR2" gate="G$1" pin="5"/>
-<wire x1="154.94" y1="-86.36" x2="165.1" y2="-86.36" width="0.1524" layer="91"/>
-<label x="162.56" y="-86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RD" class="0">
-<segment>
-<pinref part="TITREUR1" gate="G$1" pin="6"/>
-<wire x1="73.66" y1="-86.36" x2="63.5" y2="-86.36" width="0.1524" layer="91"/>
-<label x="66.04" y="-86.36" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="TITREUR2" gate="G$1" pin="6"/>
-<wire x1="139.7" y1="-86.36" x2="129.54" y2="-86.36" width="0.1524" layer="91"/>
-<label x="132.08" y="-86.36" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="TIT_DATA" class="0">
-<segment>
-<pinref part="TITREUR1" gate="G$1" pin="7"/>
-<wire x1="88.9" y1="-83.82" x2="99.06" y2="-83.82" width="0.1524" layer="91"/>
-<label x="96.52" y="-83.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TITREUR2" gate="G$1" pin="7"/>
-<wire x1="154.94" y1="-83.82" x2="165.1" y2="-83.82" width="0.1524" layer="91"/>
-<label x="162.56" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="TIT_OSC" class="0">
-<segment>
-<pinref part="TITREUR1" gate="G$1" pin="9"/>
-<wire x1="88.9" y1="-81.28" x2="99.06" y2="-81.28" width="0.1524" layer="91"/>
-<label x="96.52" y="-81.28" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TITREUR2" gate="G$1" pin="9"/>
-<wire x1="154.94" y1="-81.28" x2="165.1" y2="-81.28" width="0.1524" layer="91"/>
-<label x="162.56" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SYNC" class="0">
-<segment>
-<pinref part="TITREUR1" gate="G$1" pin="10"/>
-<wire x1="73.66" y1="-81.28" x2="63.5" y2="-81.28" width="0.1524" layer="91"/>
-<label x="66.04" y="-81.28" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="TITREUR2" gate="G$1" pin="10"/>
-<wire x1="139.7" y1="-81.28" x2="129.54" y2="-81.28" width="0.1524" layer="91"/>
-<label x="132.08" y="-81.28" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
 <net name="ANALOG_BAT" class="0">
 <segment>
 <pinref part="AT328" gate="G$1" pin="PC1(ADC1)"/>
@@ -11910,6 +11841,22 @@ W = angled&lt;p&gt;
 <pinref part="AT328" gate="G$1" pin="PD1(TXD)"/>
 <wire x1="68.58" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
 <label x="71.12" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ACTIVE_OUT_POWER_1" class="0">
+<segment>
+<pinref part="ROUT1" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="96.52" x2="238.76" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="MOS_PWR1" gate="G$1" pin="G"/>
+<wire x1="238.76" y1="111.76" x2="246.38" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="111.76" x2="228.6" y2="111.76" width="0.1524" layer="91"/>
+<junction x="238.76" y="111.76"/>
+<label x="218.44" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="AT328" gate="G$1" pin="PD2(INT0)"/>
+<wire x1="68.58" y1="76.2" x2="78.74" y2="76.2" width="0.1524" layer="91"/>
+<label x="71.12" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
