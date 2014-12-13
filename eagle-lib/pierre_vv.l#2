@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -947,6 +947,22 @@
 <wire x1="1.778" y1="4.572" x2="1.778" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="1.524" y1="9.906" x2="1.524" y2="13.97" width="0.254" layer="94"/>
 <pin name="RAW" x="-15.24" y="0" length="short"/>
+</symbol>
+<symbol name="EXTDNC">
+<wire x1="-12.7" y1="15.24" x2="2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="15.24" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<pin name="MISO" x="-15.24" y="12.7" length="short"/>
+<pin name="SCK" x="-15.24" y="10.16" length="short"/>
+<pin name="RST" x="-15.24" y="7.62" length="short"/>
+<pin name="VCC" x="5.08" y="12.7" length="short" rot="R180"/>
+<pin name="MOSI" x="5.08" y="10.16" length="short" rot="R180"/>
+<pin name="GND" x="5.08" y="7.62" length="short" rot="R180"/>
+<pin name="COD" x="-15.24" y="2.54" length="short"/>
+<pin name="RAW" x="5.08" y="2.54" length="short" rot="R180"/>
+<pin name="3.3" x="5.08" y="0" length="short" rot="R180"/>
+<pin name="FREE" x="-15.24" y="0" length="short" direction="in" swaplevel="2"/>
 </symbol>
 </symbols>
 <devicesets>
