@@ -1,0 +1,176 @@
+BL51 BANKED LINKER/LOCATER V5.03                                                        07/06/2012  09:40:41  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V5.03, INVOKED BY:
+E:\KEIL\C51\BIN\BL51.EXE code.obj TO LCD1602-1
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  code.obj (CODE)
+  E:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+  E:\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+
+
+LINK MAP OF MODULE:  LCD1602-1 (CODE)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0022H     UNIT         ?DT?CODE
+            IDATA   002AH     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     008CH     UNIT         ?C_C51STARTUP
+            CODE    008FH     0033H     UNIT         ?PR?MAIN?CODE
+            CODE    00C2H     0027H     UNIT         ?C_INITSEG
+            CODE    00E9H     0026H     UNIT         ?PR?_DELAY?CODE
+            CODE    010FH     0024H     UNIT         ?PR?INIT?CODE
+            CODE    0133H     0018H     UNIT         ?PR?_WRITE_COMMAND?CODE
+            CODE    014BH     0015H     UNIT         ?PR?_WRITE_DATA?CODE
+
+
+
+OVERLAY MAP OF MODULE:   LCD1602-1 (CODE)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?CODE
+  +--> ?C_INITSEG
+
+?PR?MAIN?CODE
+  +--> ?PR?INIT?CODE
+  +--> ?PR?_WRITE_COMMAND?CODE
+  +--> ?PR?_WRITE_DATA?CODE
+
+?PR?INIT?CODE
+  +--> ?PR?_WRITE_COMMAND?CODE
+
+?PR?_WRITE_COMMAND?CODE
+  +--> ?PR?_DELAY?CODE
+
+?PR?_WRITE_DATA?CODE
+BL51 BANKED LINKER/LOCATER V5.03                                                      07/06/2012  09:40:41  PAGE 2
+
+
+  +--> ?PR?_DELAY?CODE
+
+
+
+SYMBOL TABLE OF MODULE:  LCD1602-1 (CODE)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        CODE
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0080H         PUBLIC        P0
+  D:00A0H         PUBLIC        P2
+  C:013CH         PUBLIC        _Write_Command
+  B:00A0H.0       PUBLIC        RS
+  C:008FH         PUBLIC        main
+  B:00A0H.1       PUBLIC        RW
+  D:0008H         PUBLIC        string_1
+  D:0019H         PUBLIC        string_2
+  C:010FH         PUBLIC        init
+  B:00A0H.2       PUBLIC        E
+  C:0151H         PUBLIC        _Write_Data
+  C:00EFH         PUBLIC        _delay
+  -------         PROC          L?0024
+  -------         ENDPROC       L?0024
+  -------         PROC          _DELAY
+  D:0006H         SYMBOL        x
+  -------         DO            
+  D:0004H         SYMBOL        i
+  D:0002H         SYMBOL        j
+  -------         ENDDO         
+  C:00EFH         LINE#         14
+  C:00EFH         LINE#         15
+  C:00EFH         LINE#         17
+  C:00F9H         LINE#         18
+  C:010EH         LINE#         19
+  -------         ENDPROC       _DELAY
+  C:0135H         SYMBOL        L?0023
+  -------         PROC          L?0022
+  -------         ENDPROC       L?0022
+  C:0135H         SYMBOL        L?0023
+  -------         PROC          _WRITE_COMMAND
+  D:0007H         SYMBOL        command
+  C:013CH         LINE#         20
+  C:013CH         LINE#         21
+  C:013CH         LINE#         22
+  C:013EH         LINE#         23
+  C:0140H         LINE#         24
+  C:0142H         LINE#         25
+  C:0144H         LINE#         26
+  C:0145H         LINE#         27
+  C:0145H         LINE#         28
+  C:0148H         LINE#         29
+  C:014AH         LINE#         30
+  -------         ENDPROC       _WRITE_COMMAND
+  -------         PROC          L?0025
+  -------         ENDPROC       L?0025
+BL51 BANKED LINKER/LOCATER V5.03                                                      07/06/2012  09:40:41  PAGE 3
+
+
+  -------         PROC          _WRITE_DATA
+  D:0007H         SYMBOL        dat
+  C:0151H         LINE#         31
+  C:0151H         LINE#         32
+  C:0151H         LINE#         33
+  C:0153H         LINE#         34
+  C:0155H         LINE#         35
+  C:0157H         LINE#         36
+  C:0159H         LINE#         37
+  C:015AH         LINE#         38
+  C:015AH         LINE#         39
+  C:015DH         LINE#         40
+  C:015FH         LINE#         41
+  -------         ENDPROC       _WRITE_DATA
+  -------         PROC          INIT
+  C:010FH         LINE#         42
+  C:010FH         LINE#         43
+  C:010FH         LINE#         44
+  C:0111H         LINE#         45
+  C:0114H         LINE#         46
+  C:0114H         LINE#         47
+  C:0117H         LINE#         48
+  C:0117H         LINE#         49
+  C:011AH         LINE#         50
+  C:011FH         LINE#         51
+  C:0124H         LINE#         52
+  C:0129H         LINE#         53
+  C:012EH         LINE#         54
+  -------         ENDPROC       INIT
+  -------         PROC          MAIN
+  -------         DO            
+  D:0082H         SYMBOL        i
+  -------         ENDDO         
+  C:008FH         LINE#         56
+  C:008FH         LINE#         57
+  C:008FH         LINE#         59
+  C:0092H         LINE#         60
+  C:0097H         LINE#         61
+  C:009AH         LINE#         62
+  C:009AH         LINE#         63
+  C:009FH         LINE#         65
+  C:00A8H         LINE#         67
+  C:00ADH         LINE#         68
+  C:00B2H         LINE#         69
+  C:00B2H         LINE#         70
+  C:00B7H         LINE#         72
+  C:00C0H         LINE#         73
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        CODE
+
+Program Size: data=43.0 xdata=0 code=352
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
