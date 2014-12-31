@@ -604,13 +604,13 @@
 </package>
 <package name="EXTPINDNC">
 <pad name="1_GND" x="-1.143" y="5.08" drill="0.9" diameter="1.8796" shape="square" rot="R270"/>
-<pad name="/RESET" x="1.397" y="5.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="/CS" x="1.397" y="5.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
 <pad name="MOSI" x="-1.397" y="2.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
 <pad name="SCK" x="1.143" y="2.54" drill="0.8" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="3.3V" x="-1.143" y="0" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="5V" x="-1.143" y="0" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
 <pad name="MISO" x="1.397" y="0" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
 <pad name="RAW" x="-1.397" y="-2.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="5V" x="1.143" y="-2.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="RAW2" x="1.143" y="-2.54" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
 <rectangle x1="-1.524" y1="4.826" x2="-1.016" y2="5.334" layer="51" rot="R270"/>
 <rectangle x1="1.016" y1="4.826" x2="1.524" y2="5.334" layer="51" rot="R270"/>
 <rectangle x1="1.016" y1="2.286" x2="1.524" y2="2.794" layer="51" rot="R270"/>
@@ -622,7 +622,7 @@
 <rectangle x1="-1.524" y1="-2.794" x2="-1.016" y2="-2.286" layer="51" rot="R270"/>
 <rectangle x1="1.016" y1="-2.794" x2="1.524" y2="-2.286" layer="51" rot="R270"/>
 <pad name="RETOURANALOG" x="-1.143" y="-5.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="FREE" x="1.397" y="-5.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="GND2" x="1.397" y="-5.08" drill="0.9" diameter="1.8796" shape="octagon" rot="R270"/>
 <rectangle x1="1.016" y1="-5.334" x2="1.524" y2="-4.826" layer="51" rot="R270"/>
 <rectangle x1="-1.524" y1="-5.334" x2="-1.016" y2="-4.826" layer="51" rot="R270"/>
 <text x="-3.302" y="4.191" size="0.8128" layer="25" rot="R90">gnd</text>
@@ -1701,20 +1701,18 @@
 </symbol>
 <symbol name="EXTDNC">
 <wire x1="-12.7" y1="15.24" x2="2.54" y2="15.24" width="0.254" layer="94"/>
-<wire x1="2.54" y1="15.24" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
-<pin name="MISO" x="-15.24" y="12.7" length="short"/>
-<pin name="SCK" x="-15.24" y="10.16" length="short"/>
-<pin name="RST" x="-15.24" y="7.62" length="short"/>
-<pin name="3.3V" x="5.08" y="12.7" length="short" rot="R180"/>
-<pin name="MOSI" x="5.08" y="10.16" length="short" rot="R180"/>
-<pin name="GND" x="5.08" y="7.62" length="short" rot="R180"/>
-<pin name="COD" x="-15.24" y="2.54" length="short"/>
-<pin name="RAW" x="5.08" y="2.54" length="short" rot="R180"/>
-<pin name="5V" x="5.08" y="0" length="short" rot="R180"/>
-<pin name="FREE" x="-15.24" y="0" length="short" direction="in" swaplevel="2"/>
-<text x="-12.7" y="-5.08" size="0.8128" layer="95">&gt;NAME</text>
+<wire x1="2.54" y1="15.24" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="-12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="0" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<pin name="MISO" x="-15.24" y="12.7" visible="pin" length="short"/>
+<pin name="SCK" x="-15.24" y="10.16" visible="pin" length="short"/>
+<pin name="CS" x="-15.24" y="7.62" visible="pin" length="short"/>
+<pin name="5V" x="5.08" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="MOSI" x="5.08" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="5.08" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="COD" x="-15.24" y="2.54" visible="pin" length="short"/>
+<pin name="RAW" x="5.08" y="2.54" visible="pin" length="short" rot="R180"/>
+<text x="-10.16" y="-2.54" size="0.8128" layer="95">&gt;VALUE</text>
 </symbol>
 <symbol name="RASPIA+">
 <wire x1="-22.86" y1="35.56" x2="-22.86" y2="-17.78" width="0.254" layer="94"/>
@@ -2392,22 +2390,20 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="EXT-DNC">
+<deviceset name="EXT-DNC" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="EXTDNC" x="5.08" y="-2.54"/>
 </gates>
 <devices>
 <device name="" package="EXTPINDNC">
 <connects>
-<connect gate="G$1" pin="3.3V" pad="3.3V"/>
 <connect gate="G$1" pin="5V" pad="5V"/>
 <connect gate="G$1" pin="COD" pad="RETOURANALOG"/>
-<connect gate="G$1" pin="FREE" pad="FREE"/>
-<connect gate="G$1" pin="GND" pad="1_GND"/>
+<connect gate="G$1" pin="CS" pad="/CS"/>
+<connect gate="G$1" pin="GND" pad="1_GND GND2"/>
 <connect gate="G$1" pin="MISO" pad="MISO"/>
 <connect gate="G$1" pin="MOSI" pad="MOSI"/>
-<connect gate="G$1" pin="RAW" pad="RAW"/>
-<connect gate="G$1" pin="RST" pad="/RESET"/>
+<connect gate="G$1" pin="RAW" pad="RAW RAW2"/>
 <connect gate="G$1" pin="SCK" pad="SCK"/>
 </connects>
 <technologies>
