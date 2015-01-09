@@ -1,0 +1,239 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{none}{none}
+    \entry{document_ImplementationdesMachinesanombreFinidEtats_}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=d27fcc07d6251bf5722b70cf84b1d20f}{Radisson}{R\bibinitperiod}{Olivier}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=d27fcc07d6251bf5722b70cf84b1d20f}{Radisson}{R\bibinitperiod}{Olivier}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d27fcc07d6251bf5722b70cf84b1d20f}
+      \strng{fullhash}{d27fcc07d6251bf5722b70cf84b1d20f}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Implémentation des {Machines} à nombre {Fini} d'{Etats}}
+      \field{month}{01}
+      \field{title}{Implémentation des {Machines} à nombre {Fini} d'{Etats}}
+      \field{year}{2015}
+      \verb{language}
+      \verb fr
+      \endverb
+    \endentry
+    \entry{encyclopediaArticle_WiFi_}{misc}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Wi-{Fi}}
+      \field{abstract}{Wi-Fi, also spelled Wifi or WiFi, is a local area wireless technology that allows an electronic device to exchange data or connect to the internet using 2.4 GHz UHF and 5 GHz SHF ISM radio bands. The name is a trademark, and is a play on the audiophile term Hi-Fi. The Wi-Fi Alliance defines Wi-Fi as any "wireless local area network" (WLAN) products that are based on the Institute of Electrical and Electronics Engineers' (IEEE) 802.11 standards".{[}1{]} However, since most modern WLANs are based on these standards, the term "Wi-Fi" is used in general English as a synonym for "WLAN". Only Wi-Fi products that complete Wi-Fi Alliance interoperability certification testing successfully may use the "Wi-Fi CERTIFIED" trademark}
+      \field{journaltitle}{Wikipedia, the free encyclopedia}
+      \field{month}{01}
+      \field{title}{Wi-{Fi}}
+      \field{urlday}{08}
+      \field{urlmonth}{01}
+      \field{urlyear}{2015}
+      \field{year}{2015}
+      \verb{language}
+      \verb en
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Wi-Fi
+      \endverb
+    \endentry
+    \entry{webpage_UserDatagramProtocol_Postela}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=88dbbe3e4d39db7b8c935a7fc792eb10}{Postel}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=88dbbe3e4d39db7b8c935a7fc792eb10}{Postel}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{88dbbe3e4d39db7b8c935a7fc792eb10}
+      \strng{fullhash}{88dbbe3e4d39db7b8c935a7fc792eb10}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{User {Datagram} {Protocol}}
+      \field{title}{User {Datagram} {Protocol}}
+      \field{urlday}{08}
+      \field{urlmonth}{01}
+      \field{urlyear}{2015}
+      \verb{language}
+      \verb en
+      \endverb
+      \verb{url}
+      \verb https://tools.ietf.org/html/rfc768
+      \endverb
+    \endentry
+    \entry{webpage_TheOpenSoundControl10Specificationopensoundcontrolorg_}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=01a018a24e8df654ce3c4d13a107d014}{Wright}{W\bibinitperiod}{Matt}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=01a018a24e8df654ce3c4d13a107d014}{Wright}{W\bibinitperiod}{Matt}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{01a018a24e8df654ce3c4d13a107d014}
+      \strng{fullhash}{01a018a24e8df654ce3c4d13a107d014}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{The {Open} {Sound} {Control} 1.0 {Specification}}
+      \field{title}{The {Open} {Sound} {Control} 1.0 {Specification}}
+      \field{urlday}{08}
+      \field{urlmonth}{01}
+      \field{urlyear}{2015}
+      \verb{language}
+      \verb en
+      \endverb
+      \verb{url}
+      \verb http://opensoundcontrol.org/spec-1_0
+      \endverb
+    \endentry
+    \entry{webpage_IntroductiontoIEEE1588_US+Department+of+Commerce}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=fe6e849d636eba7eacc7e218b1c342e4}{US\bibnamedelima Department\bibnamedelimb of\bibnamedelima Commerce}{U\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim C\bibinitperiod}{NIST}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=fe6e849d636eba7eacc7e218b1c342e4}{US\bibnamedelima Department\bibnamedelimb of\bibnamedelima Commerce}{U\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim C\bibinitperiod}{NIST}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fe6e849d636eba7eacc7e218b1c342e4}
+      \strng{fullhash}{fe6e849d636eba7eacc7e218b1c342e4}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Introduction to {IEEE} 1588}
+      \field{title}{Introduction to {IEEE} 1588}
+      \field{urlday}{09}
+      \field{urlmonth}{01}
+      \field{urlyear}{2015}
+      \verb{language}
+      \verb en
+      \endverb
+      \verb{url}
+      \verb http://www.nist.gov/el/isd/ieee/intro1588.cfm
+      \endverb
+    \endentry
+    \entry{webpage_PTP1588pdf_}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=f67a836326f81e61768be6f40582f161}{Technologies}{T\bibinitperiod}{EndRun}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=f67a836326f81e61768be6f40582f161}{Technologies}{T\bibinitperiod}{EndRun}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f67a836326f81e61768be6f40582f161}
+      \strng{fullhash}{f67a836326f81e61768be6f40582f161}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Precision {Time} {Protocol}}
+      \field{title}{Precision {Time} {Protocol}}
+      \field{urlday}{09}
+      \field{urlmonth}{01}
+      \field{urlyear}{2015}
+      \verb{language}
+      \verb en
+      \endverb
+      \verb{url}
+      \verb http://www.endruntechnologies.com/pdf/PTP-1588.pdf
+      \endverb
+    \endentry
+    \entry{webpage_ntporgHomeoftheNetworkTimeProtocol_}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=128f24bdf24665264f1b1dd5ec28d448}{Foundation}{F\bibinitperiod}{Network\bibnamedelima Time}{N\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=128f24bdf24665264f1b1dd5ec28d448}{Foundation}{F\bibinitperiod}{Network\bibnamedelima Time}{N\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{128f24bdf24665264f1b1dd5ec28d448}
+      \strng{fullhash}{128f24bdf24665264f1b1dd5ec28d448}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Network {Time} {Protocol}}
+      \field{title}{Network {Time} {Protocol}}
+      \field{urlday}{09}
+      \field{urlmonth}{01}
+      \field{urlyear}{2015}
+      \verb{language}
+      \verb en
+      \endverb
+      \verb{url}
+      \verb http://www.ntp.org/
+      \endverb
+    \endentry
+    \entry{encyclopediaArticle_Unixtime_}{misc}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Unix time}
+      \field{abstract}{Unix time (a.k.a. POSIX time or Epoch time) is a system for describing instants in time, defined as the number of seconds that have elapsed since 00:00:00 Coordinated Universal Time (UTC), Thursday, 1 January 1970,{[}1{]}{[}note 1{]} not counting leap seconds.{[}1{]}{[}2{]}{[}note 2{]} It is used widely in Unix-like and many other operating systems and file formats. Due to its handling of leap seconds, it is neither a linear representation of time nor a true representation of UTC.{[}note 3{]} Unix time may be checked on most Unix systems by typing date +\%s on the command line.}
+      \field{journaltitle}{Wikipedia, the free encyclopedia}
+      \field{month}{01}
+      \field{title}{Unix time}
+      \field{urlday}{09}
+      \field{urlmonth}{01}
+      \field{urlyear}{2015}
+      \field{year}{2015}
+      \verb{language}
+      \verb en
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Unix_time
+      \endverb
+    \endentry
+    \entry{encyclopediaArticle_Automatefini_}{misc}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Automate fini}
+      \field{abstract}{Un automate fini (on dit parfois, par une traduction littérale maladroite de l'anglais, machine à états finis, au lieu de machine avec un nombre fini d'états), state automaton ou finite state machine (FSA, FSM), est une machine abstraite qui est un outil fondamental en mathématiques discrètes et en informatique. On les retrouve dans la modélisation de processus, le contrôle, les protocoles de communication, la vérification de programmes, la théorie de la calculabilité, dans l'étude des langages formels et en compilation. Ils sont utilisés dans la recherche des motifs dans un texte.}
+      \field{journaltitle}{Wikipédia}
+      \field{month}{12}
+      \field{title}{Automate fini}
+      \field{urlday}{08}
+      \field{urlmonth}{01}
+      \field{urlyear}{2015}
+      \field{year}{2014}
+      \verb{language}
+      \verb fr
+      \endverb
+      \verb{url}
+      \verb http://fr.wikipedia.org/wiki/Automate_fini
+      \endverb
+    \endentry
+    \entry{webpage_FiniteStateAutomata_}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=e6c93c15fefc9b0ca126405a95a6b52a}{Daciuk}{D\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e6c93c15fefc9b0ca126405a95a6b52a}{Daciuk}{D\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e6c93c15fefc9b0ca126405a95a6b52a}
+      \strng{fullhash}{e6c93c15fefc9b0ca126405a95a6b52a}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Finite {State} {Automata}}
+      \field{title}{Finite {State} {Automata}}
+      \field{urlday}{08}
+      \field{urlmonth}{01}
+      \field{urlyear}{2015}
+      \verb{language}
+      \verb en
+      \endverb
+      \verb{url}
+      \verb http://galaxy.eti.pg.gda.pl/katedry/kiw/pracownicy/Jan.Daciuk/personal/thesis/node12.html
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

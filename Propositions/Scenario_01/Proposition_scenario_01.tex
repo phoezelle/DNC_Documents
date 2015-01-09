@@ -1,0 +1,263 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% University Assignment Title Page 
+% LaTeX Template
+% Version 1.0 (27/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% WikiBooks (http://en.wikibooks.org/wiki/LaTeX/Title_Creation)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+% Instructions for using this template:
+% This title page is capable of being compiled as is. This is not useful for 
+% including it in another document. To do this, you have two options: 
+%
+% 1) Copy/paste everything between \begin{document} and \end{document} 
+% starting at \begin{titlepage} and paste this into another LaTeX file where you 
+% want your title page.
+% OR
+% 2) Remove everything outside the \begin{titlepage} and \end{titlepage} and 
+% move this file to the same directory as the LaTeX file you wish to add it to. 
+% Then add \input{./title_page_1.tex} to your LaTeX file where you want your
+% title page.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{bold-extra}
+\usepackage{lmodern,textcomp}
+
+
+%\usepackage{hyperref}
+
+%% BIBTEX %%
+\usepackage[backend=biber, sorting=none, style=numeric, natbib=true]{biblatex}
+\DeclareCiteCommand{\supercite}[\mkbibsuperscript]
+  {\iffieldundef{prenote}
+     {}
+     {\BibliographyWarning{Ignoring prenote argument}}%
+   \iffieldundef{postnote}
+     {}
+     {\BibliographyWarning{Ignoring postnote argument}}}
+  {\usebibmacro{citeindex}%
+   \bibopenbracket\usebibmacro{cite}\bibclosebracket}
+  {\supercitedelim}
+  {}
+\let\citep=\supercite
+%\usepackage[round]{natbib}
+%\addbibresource{Internet.bib}
+%%
+
+%% Centrer de grand tableau et figures %%
+\usepackage{adjustbox}
+\usepackage{array,multirow,makecell,tabularx}
+\setcellgapes{1pt}
+\makegapedcells
+%\newcolumntype{R}[1]{>{\raggedleft\arraybackslash }b{#1}}
+%\newcolumntype{L}[1]{>{\raggedright\arraybackslash }b{#1}}
+%\newcolumntype{C}[1]{>{\centering\arraybackslash }b{#1}}
+\newcolumntype{C}{>{\centering}X}
+%%
+
+\usepackage{longtable}
+\usepackage{graphicx} 
+\usepackage{xifthen}
+\usepackage{tabularx}
+\usepackage{adjustbox}
+\usepackage{amsmath}
+%\usepackage[clean,pdf]{svg}
+\usepackage{pdfpages}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage[]{url}
+
+%\usepackage[super,square]{natbib}
+
+%\newenvironment{agrandirmarges}[2]{%
+%\begin{list}{}{%
+%\setlength{\topsep}{0pt}%
+%\setlength{\listparindent}{\parindent}%
+%\setlength{\itemindent}{\parindent}%
+%\setlength{\parsep}{0pt plus 1pt}%
+%\ifthenelse{\isodd{\value{page}}}%
+%{\setlength{\leftmargin}{-#1}\setlength{\rightmargin}{-#2}}
+%{\setlength{\leftmargin}{-#2}\setlength{\rightmargin}{-#1}}
+%}\item }%
+%{\end{list}}
+
+
+
+%\usepackage[nottoc, notlof, notlot]{tocbibind}
+
+\usepackage[left=4.2cm,right=4.2cm,top=3.5cm,bottom=3.5cm]{geometry}
+
+\newcommand{\doctitle}{Proposition pour l'organisation du réseau}
+\newcommand{\authorName}{Olivier \textsc{Radisson}}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{\doctitle}
+\rhead{\authorName}
+%\lfoot{Document réalisé par l'équipe n$^\circ$4}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\newline}{~\\~\\}
+\newcommand{\p}{\newline \indent}
+\newcommand{\centergraph}[3][]{\begin{center}%
+\begin{figure}[h!]%
+\vspace{-5pt}%
+\centerline{\includegraphics[width=#3]{#2}}%
+\ifthenelse{\isempty{#1}}{}{\vspace{-8pt}\caption{#1}}%
+\vspace{-5pt}%
+\label{#2}%
+\end{figure}%
+\end{center}}
+\newcommand{\newparagraph}{~\\\indent}
+
+\setcounter{secnumdepth}{3}
+%\setcounter{tocdepth}{2}
+
+
+\begin{document}
+
+
+
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\LARGE Institut National des Sciences Appliquées de Lyon\\
+\&\vspace{10pt}~
+\\KompleXKapharnaüM}\\[1.0cm] % Name of your university/college
+\textsc{\small Stage de 4\up{ème} année du département Génie Électrique} \\[0.2cm]
+\textsc{\Large Projet Do Not Clean}
+\\[0.5cm] % Major heading such as course name
+\textsc{\large Réalisation d'une carte multimédia programmable et contrôlable via wifi}\\[0.5cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+%{ \huge  \textsc{\textbf{Plan Projet}}}\\[0.4cm] % Title of your document
+{ \huge   \scshape{\doctitle}  } % \bfseries
+\HRule \\[1.5cm]
+ 
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Auteur:}\\
+Olivier \textsc{Radisson}\\
+~ \\
+~ \\
+~ \\
+~ \\
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Tuteur de stage :} \\
+Gilles \textsc{Gallet}
+~ \\
+~ \\
+\emph{Chef de projet :} \\
+Pierre \textsc{Hoezelle}
+~ \\
+~ \\
+
+\end{flushright}
+\end{minipage}\\[2cm]
+
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+%\Large \emph{Author:}\\
+%John \textsc{Smith}\\[3cm] % Your name
+
+%----------------------------------------------------------------------------------------
+%	DATE SECTION
+%----------------------------------------------------------------------------------------
+\vspace{2.2cm}
+{\large - 6 octobre 2014 -}\\ \vspace{10pt}
+{\large Dernière édition le \today}\\
+%{\large  ~~~ : \today}\\[3cm] % Date, change the \today to a set date if you want to be precise
+
+%----------------------------------------------------------------------------------------
+%	LOGO SECTION
+%----------------------------------------------------------------------------------------
+
+%\includegraphics{Logo}\\[1cm] % Include a department/university logo - this will require the graphicx package
+ 
+%----------------------------------------------------------------------------------------
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+
+%\newpage
+%~
+%	\thispagestyle{empty}
+    
+
+\newpage
+\thispagestyle{empty}
+\begin{abstract}
+Ce document présente une proposition pour l'organisation du réseau.\\
+Il est prévu de pouvoir déployer un grand nombre de carte, d'une dizaine a plusieurs centaines si besoin, et de les faire communiquer ensemble dans un même réseau. Comme tout réseau, il y a besoin de prévoir des régles de communication et c'est de cela qu'il est question dans ce document.\\
+Seront donc abordé les thèmes suivant:
+\begin{itemize}
+\item Hiérarchie et connaissance du réseau
+\item Protocols de communication
+\item Protocols de transport de l'information
+\item Groupes de cartes et multi-casting
+\end{itemize}
+
+\end{abstract}
+
+\newpage
+~ \thispagestyle{empty}
+%\newpage
+%\thispagestyle{empty}
+
+\tableofcontents
+
+%\newpage
+%~ \thispagestyle{empty}
+\newpage
+
+\setcounter{page}{1}
+
+\section{Introduction}
+\textit{Ce document à une visée majoritairement technique. En revanche il est question de l'organisation du réseau et la communication des cartes entre elles, il y a donc un certain nombre de points qui peuvent être intéressants pour les utilisateurs}\p
+Les cartes seront toutes membre d'un réseau, certaines même feront le pont entre un réseau wifi et un réseau radio. Pour le bon fonctionnement de celui-ci nous allons voir comment organiser celui-ci en définissant un certain nombre de règles.\p
+Ce document présente une première proposition fruit d'une réflexion en amont et des contraintes qui ont été soulevé par la première proposition du système de scénario. Cette proposition nait également d'un retour sur connaissance du système qui avait été mit en place pour figures libres.
+
+\section{Présentation du réseau}
+Le réseau se
+
+
+
+   
+   
+
+
+
+\end{document}

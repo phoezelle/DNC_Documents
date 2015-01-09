@@ -1,0 +1,14 @@
+[0] Config.pm:320> INFO - This is Biber 1.9
+[0] Config.pm:323> INFO - Logfile is 'finite_state_machine.blg'
+[25] biber:277> INFO - === jeu. janv.  8, 2015, 16:38:50
+[25] Biber.pm:333> INFO - Reading 'finite_state_machine.bcf'
+[87] Biber.pm:632> INFO - Using all citekeys in bib section 0
+[134] Biber.pm:3051> INFO - Processing section 0
+[152] Biber.pm:3189> INFO - Looking for bibtex format file 'finite_state_machine.bib' for section 0
+[153] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
+[155] bibtex.pm:864> INFO - Found BibTeX data source 'finite_state_machine.bib'
+[182] UCollate.pm:66> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[183] UCollate.pm:66> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[183] Biber.pm:2928> INFO - Sorting list 'none' of type 'entry' with scheme 'none' and locale 'fr-FR'
+[186] bbl.pm:517> INFO - Writing 'finite_state_machine.bbl' with encoding 'UTF-8'
+[188] bbl.pm:606> INFO - Output to finite_state_machine.bbl

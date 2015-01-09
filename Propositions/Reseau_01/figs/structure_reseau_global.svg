@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="669.3125"
+   height="596.53534"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="structure_reseau_global.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="377.90298"
+     inkscape:cy="254.46706"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showborder="true"
+     inkscape:snap-global="true"
+     inkscape:snap-grids="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1053"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       dotted="true"
+       spacingy="5px"
+       spacingx="5px"
+       snapvisiblegridlinesonly="true"
+       enabled="true"
+       visible="true"
+       empspacing="5"
+       id="grid2985"
+       type="xygrid"
+       originx="6.46875px"
+       originy="-649.95593px" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       id="filter5583"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.93439112"
+         id="feGaussianBlur5585" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5789"
+       x="-0.04273155"
+       width="1.085463"
+       y="-0.10069054"
+       height="1.2013811"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4746774"
+         id="feGaussianBlur5791" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5811"
+       x="-0.04273155"
+       width="1.085463"
+       y="-0.10069054"
+       height="1.2013811"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4746774"
+         id="feGaussianBlur5813" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5811-0"
+       x="-0.04273155"
+       width="1.085463"
+       y="-0.10069054"
+       height="1.2013811">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4746774"
+         id="feGaussianBlur5813-9" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5811-2"
+       x="-0.04273155"
+       width="1.085463"
+       y="-0.10069054"
+       height="1.2013811">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4746774"
+         id="feGaussianBlur5813-1" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5789-0"
+       x="-0.04273155"
+       width="1.085463"
+       y="-0.10069054"
+       height="1.2013811">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4746774"
+         id="feGaussianBlur5791-4" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5583-9">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.93439112"
+         id="feGaussianBlur5585-2" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5583-9-2">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.93439112"
+         id="feGaussianBlur5585-2-5" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5789-5"
+       x="-0.04273155"
+       width="1.085463"
+       y="-0.10069054"
+       height="1.2013811">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4746774"
+         id="feGaussianBlur5791-9" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5789-58"
+       x="-0.04273155"
+       width="1.085463"
+       y="-0.10069054"
+       height="1.2013811">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4746774"
+         id="feGaussianBlur5791-0" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5789-88"
+       x="-0.04273155"
+       width="1.085463"
+       y="-0.10069054"
+       height="1.2013811">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4746774"
+         id="feGaussianBlur5791-97" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5789-8-9"
+       x="-0.04273155"
+       width="1.085463"
+       y="-0.10069054"
+       height="1.2013811">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4746774"
+         id="feGaussianBlur5791-7-0" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5789-88-2"
+       x="-0.04273155"
+       width="1.085463"
+       y="-0.10069054"
+       height="1.2013811">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4746774"
+         id="feGaussianBlur5791-97-2" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5789-88-2-3"
+       x="-0.04273155"
+       width="1.085463"
+       y="-0.10069054"
+       height="1.2013811">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4746774"
+         id="feGaussianBlur5791-97-2-4" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Calque 1"
+     transform="translate(6.46875,194.12909)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 432.39577,-103.0503 -74.95332,36.062451"
+       id="path6159"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 176.95347,118.62768 109.248,-16.26345"
+       id="path6147-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 296.02164,178.85739 287.43891,131.3556"
+       id="path6149"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       transform="matrix(0.34668276,0,0,0.42704777,44.682492,173.00855)"
+       d="m 650,277.36218 c 0,124.26407 -151.1039,225 -337.5,225 -186.3961,0 -337.5,-100.73593 -337.5,-225 0,-124.26407 151.1039,-224.999997 337.5,-224.999997 186.3961,0 337.5,100.735927 337.5,224.999997 z"
+       sodipodi:ry="225"
+       sodipodi:rx="337.5"
+       sodipodi:cy="277.36218"
+       sodipodi:cx="312.5"
+       id="path2987-0"
+       style="fill:none;stroke:#000000;stroke-width:2.63272262;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.26544515, 15.79633549;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 2, 1, 2;stroke-dashoffset:0"
+       d="M 132.49673,255.66731 250.91326,194.35917"
+       id="path6167"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       transform="matrix(1,0,0,1.1111111,-5.79239,546.52127)"
+       d="m 650,277.36218 c 0,124.26407 -151.1039,225 -337.5,225 -186.3961,0 -337.5,-100.73593 -337.5,-225 0,-124.26407 151.1039,-224.999997 337.5,-224.999997 186.3961,0 337.5,100.735927 337.5,224.999997 z"
+       sodipodi:ry="225"
+       sodipodi:rx="337.5"
+       sodipodi:cy="277.36218"
+       sodipodi:cx="312.5"
+       id="path2987"
+       style="fill:#fff7c5;fill-opacity:1;stroke:#000000;stroke-width:1.89736664;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:15.17893284, 15.17893284;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <g
+       id="g5882"
+       transform="translate(-78.296464,-58.987067)">
+      <rect
+         y="87.628242"
+         x="145.81961"
+         height="35.149536"
+         width="82.824654"
+         id="rect3793-1-5-8-59"
+         style="fill:#a5b7ff;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter5789)" />
+      <g
+         id="g3799-9-5-0"
+         transform="translate(44.731938,-99.659173)">
+        <rect
+           y="187.28741"
+           x="101.08768"
+           height="35.149536"
+           width="82.824654"
+           id="rect3793-1-5-8"
+           style="fill:#e1e7ff;fill-opacity:1;fill-rule:evenodd;stroke:#969696;stroke-width:0.85046542px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text3795-4-0-7"
+           y="209.39783"
+           x="110.58984"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+             y="209.39783"
+             x="110.58984"
+             id="tspan3797-5-2-5"
+             sodipodi:role="line">Régie WIFI</tspan></text>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+       x="300.16684"
+       y="50.391876"
+       id="text5541"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5543"
+         x="300.16684"
+         y="50.391876" /></text>
+    <g
+       id="g5815">
+      <rect
+         rx="17.574768"
+         ry="17.574768"
+         y="252.76669"
+         x="66.656975"
+         height="35.149536"
+         width="82.824654"
+         id="rect3793-1-5-8-5-3-0"
+         style="fill:#5375ff;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter5811)" />
+      <g
+         id="g3799-9-5-0-2-5"
+         transform="translate(-34.4307,65.479281)">
+        <rect
+           rx="17.574768"
+           ry="17.574768"
+           y="187.28741"
+           x="101.08768"
+           height="35.149536"
+           width="82.824654"
+           id="rect3793-1-5-8-5-3"
+           style="fill:#e1e7ff;fill-opacity:1;fill-rule:evenodd;stroke:#969696;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text3795-4-0-7-1-0"
+           y="209.6781"
+           x="107.92383"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+             y="209.6781"
+             x="107.92383"
+             id="tspan3797-5-2-5-1-6"
+             sodipodi:role="line">Carte Radio</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 2, 1, 2;stroke-dashoffset:0"
+       d="m 223.7993,274.89828 26.87005,-74.59977"
+       id="path6169"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g5587-3"
+       transform="translate(88.148731,-130.03718)" />
+    <g
+       transform="translate(7.9307007,65.020724)"
+       id="g5815-4">
+      <rect
+         rx="17.574768"
+         ry="17.574768"
+         y="252.76669"
+         x="66.656975"
+         height="35.149536"
+         width="82.824654"
+         id="rect3793-1-5-8-5-3-0-7"
+         style="fill:#5375ff;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter5811-0)" />
+      <g
+         id="g3799-9-5-0-2-5-8"
+         transform="translate(-34.4307,65.479281)">
+        <rect
+           rx="17.574768"
+           ry="17.574768"
+           y="187.28741"
+           x="101.08768"
+           height="35.149536"
+           width="82.824654"
+           id="rect3793-1-5-8-5-3-9"
+           style="fill:#e1e7ff;fill-opacity:1;fill-rule:evenodd;stroke:#969696;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text3795-4-0-7-1-0-6"
+           y="209.6781"
+           x="107.92383"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+             y="209.6781"
+             x="107.92383"
+             id="tspan3797-5-2-5-1-6-2"
+             sodipodi:role="line">Carte Radio</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 2, 1, 2;stroke-dashoffset:0"
+       d="M 120.56171,317.67824 247.67366,200.60917"
+       id="path6171"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <g
+       transform="translate(86.788882,21.113996)"
+       id="g5815-3">
+      <rect
+         rx="17.574768"
+         ry="17.574768"
+         y="252.76669"
+         x="66.656975"
+         height="35.149536"
+         width="82.824654"
+         id="rect3793-1-5-8-5-3-0-8"
+         style="fill:#5375ff;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter5811-2)" />
+      <g
+         id="g3799-9-5-0-2-5-5"
+         transform="translate(-34.4307,65.479281)">
+        <rect
+           rx="17.574768"
+           ry="17.574768"
+           y="187.28741"
+           x="101.08768"
+           height="35.149536"
+           width="82.824654"
+           id="rect3793-1-5-8-5-3-90"
+           style="fill:#e1e7ff;fill-opacity:1;fill-rule:evenodd;stroke:#969696;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text3795-4-0-7-1-0-0"
+           y="209.6781"
+           x="107.92383"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+             y="209.6781"
+             x="107.92383"
+             id="tspan3797-5-2-5-1-6-5"
+             sodipodi:role="line">Carte Radio</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g3252"
+       transform="matrix(1.0333693,0,0,1.0333693,-9.5749387,-6.272466)">
+      <rect
+         y="170.39662"
+         x="245.52658"
+         height="35.149536"
+         width="82.824654"
+         id="rect3793-1-5-8-59-9"
+         style="fill:#a5b7ff;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter5789-0)" />
+      <rect
+         style="fill:#e1e7ff;fill-opacity:1;fill-rule:evenodd;stroke:#969696;stroke-width:0.82300246px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="rect3793-1-5-8-2"
+         width="82.824654"
+         height="35.149536"
+         x="245.52658"
+         y="170.39662" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3795-4-0-7-3"
+       y="183.75703"
+       x="287.23969"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+         y="183.75703"
+         x="287.23969"
+         id="tspan3797-5-2-5-1"
+         sodipodi:role="line">Carte WIFI</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+         y="201.25703"
+         x="287.23969"
+         sodipodi:role="line"
+         id="tspan3250">et Radio</tspan></text>
+    <g
+       transform="translate(1.9572263,-88.674459)"
+       id="g5928-6">
+      <path
+         transform="matrix(1.9175676,0,0,1.9175676,715.73326,-421.53071)"
+         d="m -178.797,240.70461 c 0,10.32099 -8.36682,18.68782 -18.68782,18.68782 -10.321,0 -18.68782,-8.36683 -18.68782,-18.68782 0,-10.321 8.36682,-18.68783 18.68782,-18.68783 10.321,0 18.68782,8.36683 18.68782,18.68783 z"
+         sodipodi:ry="18.687822"
+         sodipodi:rx="18.687822"
+         sodipodi:cy="240.70461"
+         sodipodi:cx="-197.48482"
+         id="path3844-8-3-9"
+         style="fill:#ffc705;fill-opacity:1;stroke:none;filter:url(#filter5583-9)"
+         sodipodi:type="arc" />
+      <g
+         transform="translate(17.96085,-14.11807)"
+         id="g5551-5">
+        <path
+           transform="matrix(1.9175676,0,0,1.9175676,697.77241,-407.41264)"
+           d="m -178.797,240.70461 c 0,10.32099 -8.36682,18.68782 -18.68782,18.68782 -10.321,0 -18.68782,-8.36683 -18.68782,-18.68782 0,-10.321 8.36682,-18.68783 18.68782,-18.68783 10.321,0 18.68782,8.36683 18.68782,18.68783 z"
+           sodipodi:ry="18.687822"
+           sodipodi:rx="18.687822"
+           sodipodi:cy="240.70461"
+           sodipodi:cx="-197.48482"
+           id="path3844-8-60"
+           style="fill:#fffdcb;fill-opacity:1;stroke:#000000;stroke-width:0.52149397;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <text
+           xml:space="preserve"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           x="318.59317"
+           y="49.919842"
+           id="text5545-9"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5547-6"
+             x="318.59317"
+             y="49.919842"
+             style="font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Linux Biolinum Bold">Routeur</tspan><tspan
+             sodipodi:role="line"
+             x="318.59317"
+             y="67.419846"
+             id="tspan5549-8"
+             style="font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Linux Biolinum Bold">WIFI</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5882-4"
+       transform="translate(397.855,125.40855)">
+      <rect
+         y="87.628242"
+         x="145.81961"
+         height="35.149536"
+         width="82.824654"
+         id="rect3793-1-5-8-59-95"
+         style="fill:#a5b7ff;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter5789-58)" />
+      <g
+         id="g3799-9-5-0-2"
+         transform="translate(44.731938,-99.659173)">
+        <rect
+           y="187.28741"
+           x="101.08768"
+           height="35.149536"
+           width="82.824654"
+           id="rect3793-1-5-8-9"
+           style="fill:#e1e7ff;fill-opacity:1;fill-rule:evenodd;stroke:#969696;stroke-width:0.85046542px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text3795-4-0-7-6"
+           y="209.39783"
+           x="110.58984"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+             y="209.39783"
+             x="110.58984"
+             id="tspan3797-5-2-5-0"
+             sodipodi:role="line">Carte WIFI</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5882-5"
+       transform="translate(267.9554,-220.57736)">
+      <rect
+         y="87.628242"
+         x="145.81961"
+         height="35.149536"
+         width="82.824654"
+         id="rect3793-1-5-8-59-2"
+         style="fill:#a5b7ff;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter5789-88)" />
+      <g
+         id="g3799-9-5-0-9"
+         transform="translate(44.731938,-99.659173)">
+        <rect
+           y="187.28741"
+           x="101.08768"
+           height="35.149536"
+           width="82.824654"
+           id="rect3793-1-5-8-1"
+           style="fill:#e1e7ff;fill-opacity:1;fill-rule:evenodd;stroke:#969696;stroke-width:0.85046542px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text3795-4-0-7-2"
+           y="209.39783"
+           x="110.58984"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+             y="209.39783"
+             x="110.58984"
+             id="tspan3797-5-2-5-90"
+             sodipodi:role="line">Carte WIFI</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 149.55308,63.826906 252.43712,94.232497"
+       id="path6147"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 310.00566,108.54011 145.047,53.23045"
+       id="path6151"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 297.3384,60.291372 335.52217,-13.95484"
+       id="path6153"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 361.33155,-21.025908 466.42701,148.63705"
+       id="path6155"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 263.75083,-109.41425 50.20458,33.94112"
+       id="path6157"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 485.99062,140.71915 520.63885,73.190454"
+       id="path6161"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 543.97337,212.84406 488.46549,188.80242"
+       id="path6163"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 445.27129,316.78873 32.64825,-121.2688"
+       id="path6165"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:7.99999952, 7.99999952;stroke-dashoffset:0"
+       id="rect6173"
+       width="658.31061"
+       height="565.24414"
+       x="-0.97715414"
+       y="-168.34393"
+       ry="98.994949"
+       rx="98.994949" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+       x="326.85883"
+       y="-172.98065"
+       id="text6175"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6177"
+         x="326.85883"
+         y="-172.98065"
+         style="font-size:24px;text-align:center;text-anchor:middle">Réseau WIFI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+       x="152.32358"
+       y="190.72635"
+       id="text6179"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6181"
+         x="152.32358"
+         y="190.72635"
+         style="font-size:18px;text-align:center;text-anchor:middle">Sous réseau Radio</tspan></text>
+    <g
+       id="g5882-40-0"
+       transform="translate(-38.178857,10.64348)">
+      <rect
+         y="87.628242"
+         x="145.81961"
+         height="35.149536"
+         width="82.824654"
+         id="rect3793-1-5-8-59-99-8"
+         style="fill:#a5b7ff;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter5789-8-9)" />
+      <g
+         id="g3799-9-5-0-8-4"
+         transform="translate(44.731938,-99.659173)">
+        <rect
+           y="187.28741"
+           x="101.08768"
+           height="35.149536"
+           width="82.824654"
+           id="rect3793-1-5-8-44-4"
+           style="fill:#e1e7ff;fill-opacity:1;fill-rule:evenodd;stroke:#969696;stroke-width:0.85046542px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text3795-4-0-7-37-3"
+           y="209.39783"
+           x="110.58984"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+             y="209.39783"
+             x="110.58984"
+             id="tspan3797-5-2-5-9-3"
+             sodipodi:role="line">Carte WIFI</tspan></text>
+      </g>
+    </g>
+    <g
+       transform="translate(139.48339,125.26212)"
+       id="g5928-6-6">
+      <path
+         transform="matrix(1.9175676,0,0,1.9175676,715.73326,-421.53071)"
+         d="m -178.797,240.70461 c 0,10.32099 -8.36682,18.68782 -18.68782,18.68782 -10.321,0 -18.68782,-8.36683 -18.68782,-18.68782 0,-10.321 8.36682,-18.68783 18.68782,-18.68783 10.321,0 18.68782,8.36683 18.68782,18.68783 z"
+         sodipodi:ry="18.687822"
+         sodipodi:rx="18.687822"
+         sodipodi:cy="240.70461"
+         sodipodi:cx="-197.48482"
+         id="path3844-8-3-9-2"
+         style="fill:#ffc705;fill-opacity:1;stroke:none;filter:url(#filter5583-9-2)"
+         sodipodi:type="arc" />
+      <g
+         transform="translate(17.96085,-14.11807)"
+         id="g5551-5-2">
+        <path
+           transform="matrix(1.9175676,0,0,1.9175676,697.77241,-407.41264)"
+           d="m -178.797,240.70461 c 0,10.32099 -8.36682,18.68782 -18.68782,18.68782 -10.321,0 -18.68782,-8.36683 -18.68782,-18.68782 0,-10.321 8.36682,-18.68783 18.68782,-18.68783 10.321,0 18.68782,8.36683 18.68782,18.68783 z"
+           sodipodi:ry="18.687822"
+           sodipodi:rx="18.687822"
+           sodipodi:cy="240.70461"
+           sodipodi:cx="-197.48482"
+           id="path3844-8-60-5"
+           style="fill:#fffdcb;fill-opacity:1;stroke:#000000;stroke-width:0.52149397;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <text
+           xml:space="preserve"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           x="318.59317"
+           y="49.919842"
+           id="text5545-9-3"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5547-6-3"
+             x="318.59317"
+             y="49.919842"
+             style="font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Linux Biolinum Bold">Routeur</tspan><tspan
+             sodipodi:role="line"
+             x="318.59317"
+             y="67.419846"
+             id="tspan5549-8-2"
+             style="font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Linux Biolinum Bold">WIFI</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5882-2"
+       transform="translate(262.355,226.40855)">
+      <rect
+         y="87.628242"
+         x="145.81961"
+         height="35.149536"
+         width="82.824654"
+         id="rect3793-1-5-8-59-4"
+         style="fill:#a5b7ff;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter5789-5)" />
+      <g
+         id="g3799-9-5-0-0"
+         transform="translate(44.731938,-99.659173)">
+        <rect
+           y="187.28741"
+           x="101.08768"
+           height="35.149536"
+           width="82.824654"
+           id="rect3793-1-5-8-4"
+           style="fill:#e1e7ff;fill-opacity:1;fill-rule:evenodd;stroke:#969696;stroke-width:0.85046542px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text3795-4-0-7-9"
+           y="209.39783"
+           x="110.58984"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+             y="209.39783"
+             x="110.58984"
+             id="tspan3797-5-2-5-5"
+             sodipodi:role="line">Régie WIFI</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5928"
+       transform="translate(-49,55)">
+      <path
+         transform="matrix(1.9175676,0,0,1.9175676,715.73326,-421.53071)"
+         d="m -178.797,240.70461 c 0,10.32099 -8.36682,18.68782 -18.68782,18.68782 -10.321,0 -18.68782,-8.36683 -18.68782,-18.68782 0,-10.321 8.36682,-18.68783 18.68782,-18.68783 10.321,0 18.68782,8.36683 18.68782,18.68783 z"
+         sodipodi:ry="18.687822"
+         sodipodi:rx="18.687822"
+         sodipodi:cy="240.70461"
+         sodipodi:cx="-197.48482"
+         id="path3844-8-3"
+         style="fill:#ffc705;fill-opacity:1;stroke:none;filter:url(#filter5583)"
+         sodipodi:type="arc" />
+      <g
+         transform="translate(17.96085,-14.11807)"
+         id="g5551">
+        <path
+           transform="matrix(1.9175676,0,0,1.9175676,697.77241,-407.41264)"
+           d="m -178.797,240.70461 c 0,10.32099 -8.36682,18.68782 -18.68782,18.68782 -10.321,0 -18.68782,-8.36683 -18.68782,-18.68782 0,-10.321 8.36682,-18.68783 18.68782,-18.68783 10.321,0 18.68782,8.36683 18.68782,18.68783 z"
+           sodipodi:ry="18.687822"
+           sodipodi:rx="18.687822"
+           sodipodi:cy="240.70461"
+           sodipodi:cx="-197.48482"
+           id="path3844-8"
+           style="fill:#fffdcb;fill-opacity:1;stroke:#000000;stroke-width:0.52149397;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <text
+           xml:space="preserve"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           x="318.59317"
+           y="49.919842"
+           id="text5545"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5547"
+             x="318.59317"
+             y="49.919842"
+             style="font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Linux Biolinum Bold">Routeur</tspan><tspan
+             sodipodi:role="line"
+             x="318.59317"
+             y="67.419846"
+             id="tspan5549"
+             style="font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Linux Biolinum Bold">WIFI</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g3221"
+       transform="translate(-280.97424,-85.492864)">
+      <g
+         transform="matrix(1.1131921,0,0,1.1739303,-43.087179,15.450359)"
+         id="g3179">
+        <rect
+           style="fill:#a5b7ff;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter5789-88-2)"
+           id="rect3793-1-5-8-59-2-6"
+           width="82.824654"
+           height="35.149536"
+           x="446.61893"
+           y="-65.168518" />
+        <rect
+           y="-65.168518"
+           x="446.61893"
+           height="35.149536"
+           width="82.824654"
+           id="rect3793-1-5-8-1-9"
+           style="fill:#e1e7ff;fill-opacity:1;fill-rule:evenodd;stroke:#969696;stroke-width:0.74396151px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+         x="499.81281"
+         y="-44.352051"
+         id="text3795-4-0-7-2-7"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3797-5-2-5-90-0"
+           x="499.81281"
+           y="-44.352051"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum">Périphérique</tspan><tspan
+           id="tspan3219"
+           sodipodi:role="line"
+           x="501.56281"
+           y="-26.852051"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum">OSC </tspan></text>
+    </g>
+    <g
+       id="g3233"
+       transform="translate(435.23725,106.48577)">
+      <g
+         id="g3179-2"
+         transform="matrix(1.223247,0,0,1.223247,-493.08117,2.5959671)">
+        <rect
+           style="fill:#a5b7ff;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter5789-88-2-3)"
+           id="rect3793-1-5-8-59-2-6-7"
+           width="82.824654"
+           height="35.149536"
+           x="446.61893"
+           y="-65.168518" />
+        <rect
+           y="-65.168518"
+           x="446.61893"
+           height="35.149536"
+           width="82.824654"
+           id="rect3793-1-5-8-1-9-3"
+           style="fill:#e1e7ff;fill-opacity:1;fill-rule:evenodd;stroke:#969696;stroke-width:0.69525242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Libertine Mono O;-inkscape-font-specification:Linux Libertine Mono O"
+         x="104.08273"
+         y="-59.553608"
+         id="text3795-4-0-7-2-7-6"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3797-5-2-5-90-0-0"
+           x="104.08273"
+           y="-59.553608"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum">Télécommande</tspan><tspan
+           id="tspan3231"
+           sodipodi:role="line"
+           x="104.08273"
+           y="-42.053608"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum">WIFI</tspan><tspan
+           id="tspan3229"
+           sodipodi:role="line"
+           x="104.08273"
+           y="-24.553608"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum" /></text>
+    </g>
+  </g>
+</svg>

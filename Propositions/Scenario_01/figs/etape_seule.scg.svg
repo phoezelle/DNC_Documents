@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="315.50519"
+   height="290.52969"
+   id="svg2">
+  <defs
+     id="defs4">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         id="path3873"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         id="path3876"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="StopL"
+       style="overflow:visible">
+      <path
+         d="M 0,5.65 0,-5.65"
+         transform="scale(0.8,0.8)"
+         id="path4036"
+         style="fill:none;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="DistanceStart"
+       style="overflow:visible">
+      <g
+         id="g2300">
+        <path
+           d="M 0,0 2,0"
+           id="path2306"
+           style="fill:none;stroke:#ffffff;stroke-width:1.14999998;stroke-linecap:square" />
+        <path
+           d="M 0,0 13,4 9,0 13,-4 0,0 z"
+           id="path2302"
+           style="fill:#000000;fill-rule:evenodd;stroke:none" />
+        <path
+           d="M 0,-4 0,40"
+           id="path2304"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square" />
+      </g>
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         id="path3870"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Mstart-2"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         id="path3873-8"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Mstart-8"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         id="path3873-6"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Mend-9"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         id="path3876-7"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(2155.5,847.66751)"
+     id="layer1">
+    <path
+       d="m -2075,-627.63782 0,65 -75,0 0,-100 30,0"
+       id="path7444"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend-9)" />
+    <path
+       d="m -2030,-662.63782 90.3065,0"
+       id="path7184-5"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)" />
+    <path
+       d="m -2075,-772.63782 0,75"
+       id="path7184"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)" />
+    <text
+       x="-2156.251"
+       y="-760.34753"
+       id="text3759"
+       xml:space="preserve"
+       style="font-size:7.13934183px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"><tspan
+         x="-2156.251"
+         y="-760.34753"
+         id="tspan3761" /></text>
+    <g
+       transform="matrix(1,0,0,1.0636911,25.000013,51.439342)"
+       id="g6226">
+      <rect
+         width="59.967556"
+         height="59.967556"
+         rx="5.9807644"
+         ry="5.9807644"
+         x="-610.08533"
+         y="-2015.7065"
+         transform="matrix(0.81845043,-0.57457714,0.81845043,0.57457714,0,0)"
+         id="rect2989"
+         style="fill:#fff8d7;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.03113294;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         x="-2100.3076"
+         y="-810.19757"
+         id="text6222"
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"><tspan
+           x="-2100.3076"
+           y="-810.19757"
+           id="tspan6224"
+           style="font-size:11.63519001px;font-style:italic;text-align:center;text-anchor:middle;-inkscape-font-specification:Linux Biolinum O Italic">Étape de</tspan><tspan
+           x="-2100.3076"
+           y="-795.65356"
+           id="tspan9723"
+           style="font-size:11.63519001px;font-style:italic;text-align:center;text-anchor:middle;-inkscape-font-specification:Linux Biolinum O Italic">début</tspan></text>
+    </g>
+    <g
+       id="g7437">
+      <g
+         transform="matrix(1,0,0,1.0636911,10.000051,58.15956)"
+         id="g7178">
+        <rect
+           width="59.967556"
+           height="59.967556"
+           rx="5.9807644"
+           ry="5.9807644"
+           x="-714.04834"
+           y="-1893.4163"
+           transform="matrix(0.81845043,-0.57457714,0.81845043,0.57457714,0,0)"
+           id="rect2989-7"
+           style="fill:#fff8d7;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.03113294;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        <text
+           x="-2085.3076"
+           y="-680.19757"
+           id="text6222-1"
+           xml:space="preserve"
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"><tspan
+             x="-2085.3076"
+             y="-680.19757"
+             id="tspan6224-2"
+             style="font-size:11.63519001px;text-align:center;text-anchor:middle">Étape</tspan><tspan
+             x="-2085.3076"
+             y="-665.65356"
+             id="tspan6272"
+             style="font-size:11.63519001px;text-align:center;text-anchor:middle">Flash</tspan></text>
+      </g>
+    </g>
+    <g
+       transform="translate(-66.719152,-2.4767813e-5)"
+       id="g7431">
+      <rect
+         width="61.251713"
+         height="61.251713"
+         rx="6.0981703"
+         ry="6.0981703"
+         x="-616.34705"
+         y="-1723.2535"
+         transform="matrix(0.80101868,-0.59863936,0.80101868,0.59863936,0,0)"
+         id="rect2989-7-9"
+         style="fill:#fff8d7;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.05321383;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         x="-1882.5383"
+         y="-645.13306"
+         transform="scale(0.96959918,1.031354)"
+         id="text6222-1-0"
+         xml:space="preserve"
+         style="font-size:16.50166512px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"><tspan
+           x="-1882.5383"
+           y="-645.13306"
+           id="tspan6224-2-3"
+           style="font-size:12px;font-style:italic;text-align:center;text-anchor:middle;-inkscape-font-specification:Linux Biolinum O Italic">Étape</tspan><tspan
+           x="-1882.5383"
+           y="-630.13306"
+           id="tspan6272-0"
+           style="font-size:12px;font-style:italic;text-align:center;text-anchor:middle;-inkscape-font-specification:Linux Biolinum O Italic">de fin</tspan></text>
+    </g>
+    <text
+       x="-2203.5156"
+       y="-727.71594"
+       id="text7645"
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"><tspan
+         x="-2203.5156"
+         y="-727.71594"
+         id="tspan7647" /></text>
+    <g
+       transform="translate(92.5,25.374997)"
+       id="g7655">
+      <rect
+         width="35"
+         height="15"
+         rx="0"
+         ry="7.5"
+         x="-2185"
+         y="-767.63782"
+         id="rect7653"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+      <text
+         x="-2179.585"
+         y="-756.30981"
+         id="text7649"
+         xml:space="preserve"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"><tspan
+           x="-2179.585"
+           y="-756.30981"
+           id="tspan7651"
+           style="font-size:12px">Next</tspan></text>
+    </g>
+    <g
+       transform="translate(179.20312,97.25)"
+       id="g7655-7">
+      <rect
+         width="35"
+         height="15"
+         rx="0"
+         ry="7.5"
+         x="-2185"
+         y="-767.63782"
+         id="rect7653-3"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+      <text
+         x="-2179.585"
+         y="-756.30981"
+         id="text7649-4"
+         xml:space="preserve"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"><tspan
+           x="-2179.585"
+           y="-756.30981"
+           id="tspan7651-2"
+           style="font-size:12px">Next</tspan></text>
+    </g>
+    <g
+       transform="translate(93,162.125)"
+       id="g7655-9">
+      <rect
+         width="35"
+         height="15"
+         rx="0"
+         ry="7.5"
+         x="-2185"
+         y="-767.63782"
+         id="rect7653-5"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+      <text
+         x="-2179.585"
+         y="-756.30981"
+         id="text7649-0"
+         xml:space="preserve"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"><tspan
+           x="-2179.585"
+           y="-756.30981"
+           id="tspan7651-6"
+           style="font-size:12px">X sec</tspan></text>
+    </g>
+  </g>
+</svg>

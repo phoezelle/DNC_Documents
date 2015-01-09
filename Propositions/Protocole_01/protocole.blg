@@ -1,0 +1,14 @@
+[0] Config.pm:320> INFO - This is Biber 1.9
+[0] Config.pm:323> INFO - Logfile is 'protocole.blg'
+[27] biber:277> INFO - === ven. janv.  9, 2015, 14:25:33
+[27] Biber.pm:333> INFO - Reading 'protocole.bcf'
+[88] Biber.pm:632> INFO - Using all citekeys in bib section 0
+[106] Biber.pm:3051> INFO - Processing section 0
+[125] Biber.pm:3189> INFO - Looking for bibtex format file 'protocole.bib' for section 0
+[127] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
+[129] bibtex.pm:864> INFO - Found BibTeX data source 'protocole.bib'
+[210] UCollate.pm:66> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[210] UCollate.pm:66> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[210] Biber.pm:2928> INFO - Sorting list 'none' of type 'entry' with scheme 'none' and locale 'fr-FR'
+[225] bbl.pm:517> INFO - Writing 'protocole.bbl' with encoding 'UTF-8'
+[226] bbl.pm:606> INFO - Output to protocole.bbl

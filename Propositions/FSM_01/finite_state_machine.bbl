@@ -1,0 +1,67 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{none}{none}
+    \entry{encyclopediaArticle_Automatefini_}{misc}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Automate fini}
+      \field{abstract}{Un automate fini (on dit parfois, par une traduction littérale maladroite de l'anglais, machine à états finis, au lieu de machine avec un nombre fini d'états), state automaton ou finite state machine (FSA, FSM), est une machine abstraite qui est un outil fondamental en mathématiques discrètes et en informatique. On les retrouve dans la modélisation de processus, le contrôle, les protocoles de communication, la vérification de programmes, la théorie de la calculabilité, dans l'étude des langages formels et en compilation. Ils sont utilisés dans la recherche des motifs dans un texte.}
+      \field{journaltitle}{Wikipédia}
+      \field{month}{12}
+      \field{title}{Automate fini}
+      \field{urlday}{08}
+      \field{urlmonth}{01}
+      \field{urlyear}{2015}
+      \field{year}{2014}
+      \verb{language}
+      \verb fr
+      \endverb
+      \verb{url}
+      \verb http://fr.wikipedia.org/wiki/Automate_fini
+      \endverb
+    \endentry
+    \entry{webpage_FiniteStateAutomata_}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=e6c93c15fefc9b0ca126405a95a6b52a}{Daciuk}{D\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e6c93c15fefc9b0ca126405a95a6b52a}{Daciuk}{D\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e6c93c15fefc9b0ca126405a95a6b52a}
+      \strng{fullhash}{e6c93c15fefc9b0ca126405a95a6b52a}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Finite {State} {Automata}}
+      \field{title}{Finite {State} {Automata}}
+      \field{urlday}{08}
+      \field{urlmonth}{01}
+      \field{urlyear}{2015}
+      \verb{language}
+      \verb en
+      \endverb
+      \verb{url}
+      \verb http://galaxy.eti.pg.gda.pl/katedry/kiw/pracownicy/Jan.Daciuk/personal/thesis/node12.html
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
