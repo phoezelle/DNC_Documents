@@ -1,0 +1,59 @@
+Updates
+
+===============================
+* Feb 9, 2012
+- Added back support for 'sequential' option, which sets the controller to run program schedules in either sequential or concurrent mode.
+
+* October 30, 2012
+- A couple of fixes to the manual mode and run-once program index to avoid buffer overflow on 32 stations.
+- Added new features in Javascripts, including 'Select All/None' in program modification page, and 'Show Tooltips' button in options page.
+- Checked in David Gustavson's PHP logging scripts.
+- Current firmware version is 1.8.2
+
+* September 27, 2012
+- Added minor revision number. The current firmware version is 1.8.1.
+- Changed RTC sync time to 1 minute to keep more accurate mcu time.
+- Fixed a bug that causes master station to not activate in manual mode.
+- Fixed a bug that causes the algorithm to skip program checking when water time is in multiples of 60 minutes.
+- Minor change to start time to provide more accurate per-second level water time.
+
+* September 23, 2012
+- Discontinue support for concurrent running mode. Controller will run on sequential mode only.
+- Fixing a bug that causes the algorithm to skip program checking if water duration is in multiples of 60 minutes.
+
+* September 13, 2012
+
+- New features:
+  * Custom station names (each name is up to 12 characters)
+  * Per-station master operation bit
+  * Run-Once program (manual override, and each station can specify a different water time)
+  * Program enable status (each program can be individually disabled or enabled)
+  * Station delay time (delay time between every two consecutive station runs)
+  * Master on adjusted time (when will master turn on after a station opens)
+  * Master off adjusted time (when will master turn off after a station closes)
+  * Water level/percentage (scaling of water time)
+  * Ignore web password option
+  * HTTP port can be modified on the Options webpage
+  * Automatic reconnection upon network failure
+- Improved program preview feature to include tooltip that shows custom station names and station open/close time
+- Reworked and optimized source code to accomodate new features while still fitting into 32KB program memory space
+- Due to increased size, the program can no longer be flashed onto OpenSprinkler v1.0/1.1 through FTDI. Use an ISP programmer (such as USBtiny, USBasp, or AVR ISP) instead.
+
+===============================
+* August 14, 2012
+
+- Added support for RTC (OPTION_USE_RTC is functioning now). Enabling this option requires DS1307 RTC. OpenSprinkler 1.4 and above have built-in DS1307. Previous versions require external RTC module (connection from RTC to controller: Vcc->Vin(+5V), Gnd->Gnd, SDA->SDA, SCL->SCL).
+- Split long program data into subsections to support a large number of programs.
+- A couple of changes to increase the robustness of EEPROM read and valve control.
+
+===============================
+* June 19, 2012
+
+First version of the new interval program. A number of new features have been added, including
+- Program-based scheduling. Each program can specify an independent set of days (weekdays or interval days), set of stations, start time, end time, interval, and water time. Currently up to 64 programs are supported.
+- Choice between running program schedules sequentially or in parallel (by setting the 'Sequential' option value)
+- A graphical preview feature, which allows visualizing the schedule of each day.
+- Support for manual mode. In manual mode, each station can be independently turned on or off through a button control interface. An optional timer can be set to allow station to turn off after a specified amount of time.
+
+
+

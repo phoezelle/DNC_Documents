@@ -1,0 +1,101 @@
+C51 COMPILER V7.06   CODE                                                                  07/06/2012 09:40:41 PAGE 1   
+
+
+C51 COMPILER V7.06, COMPILATION OF MODULE CODE
+OBJECT MODULE PLACED IN code.OBJ
+COMPILER INVOKED BY: E:\Keil\C51\BIN\C51.EXE code.c BROWSE DEBUG OBJECTEXTEND
+
+stmt level    source
+
+   1          #include<reg51.h>
+   2          #include<intrins.h>
+   3          #define uint unsigned int
+   4          #define uchar unsigned char
+   5          uchar string_1[]="welcome to chip_";
+   6          uchar string_2[]="partner store   ";
+   7          //uchar string_1[]="http://stores.eb";
+   8          //uchar string_2[]="ay.com/Chip-Part";
+   9          //uchar string_1[]="ner-Store       ";
+  10          //uchar string_2[]="                ";
+  11          sbit RS=P2^0;
+  12          sbit RW=P2^1;
+  13          sbit E=P2^2;
+  14          void delay(uint x)
+  15          {
+  16   1              uint i,j;
+  17   1              for(i=0;i<x;i++)
+  18   1                      for(j=0;j<110;j++);
+  19   1      }
+  20          void Write_Command(uchar command)
+  21          {
+  22   1              E=0;
+  23   1              RS=0;
+  24   1              RW=0;   
+  25   1              P0=command;
+  26   1              _nop_();        
+  27   1              E=1;    
+  28   1              delay(2);
+  29   1              E=0;
+  30   1      }
+  31          void Write_Data(uchar dat)
+  32          {
+  33   1              E=0;
+  34   1              RS=1;
+  35   1              RW=0;
+  36   1              P0=dat;
+  37   1              _nop_();
+  38   1              E=1;
+  39   1              delay(2);
+  40   1              E=0;
+  41   1      }
+  42          void init(void)
+  43          {
+  44   1              delay(150);
+  45   1              Write_Command(0x38);
+  46   1              delay(50);
+  47   1              Write_Command(0x38);
+  48   1              delay(50);
+  49   1              Write_Command(0x38);
+  50   1              Write_Command(0x38);
+  51   1              Write_Command(0x08);
+  52   1              Write_Command(0x01);
+  53   1              Write_Command(0x06);
+  54   1              Write_Command(0x0c);            
+  55   1      }
+C51 COMPILER V7.06   CODE                                                                  07/06/2012 09:40:41 PAGE 2   
+
+  56          main()
+  57          {
+  58   1              uint i;
+  59   1              init();
+  60   1              Write_Command(0x80+0x00);
+  61   1              for(i=0;i<16;i++)
+  62   1              {
+  63   2                      Write_Data(string_1[i]);
+  64   2                      //delay(1);
+  65   2              }
+  66   1              
+  67   1              Write_Command(0x80+0x40);
+  68   1              for(i=0;i<16;i++)
+  69   1              {
+  70   2                      Write_Data(string_2[i]);
+  71   2                      //delay(1);
+  72   2              }
+  73   1              while(1);
+  74   1      }
+  75          
+  76          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    170    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     34    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
