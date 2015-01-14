@@ -1,0 +1,330 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% University Assignment Title Page 
+% LaTeX Template
+% Version 1.0 (27/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% WikiBooks (http://en.wikibooks.org/wiki/LaTeX/Title_Creation)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+% Instructions for using this template:
+% This title page is capable of being compiled as is. This is not useful for 
+% including it in another document. To do this, you have two options: 
+%
+% 1) Copy/paste everything between \begin{document} and \end{document} 
+% starting at \begin{titlepage} and paste this into another LaTeX file where you 
+% want your title page.
+% OR
+% 2) Remove everything outside the \begin{titlepage} and \end{titlepage} and 
+% move this file to the same directory as the LaTeX file you wish to add it to. 
+% Then add \input{./title_page_1.tex} to your LaTeX file where you want your
+% title page.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{bold-extra}
+\usepackage{lmodern,textcomp}
+
+
+%\usepackage{hyperref}
+
+%% BIBTEX %%
+\usepackage[backend=biber, sorting=none, style=numeric, natbib=true]{biblatex}
+\DeclareCiteCommand{\supercite}[\mkbibsuperscript]
+  {\iffieldundef{prenote}
+     {}
+     {\BibliographyWarning{Ignoring prenote argument}}%
+   \iffieldundef{postnote}
+     {}
+     {\BibliographyWarning{Ignoring postnote argument}}}
+  {\usebibmacro{citeindex}%
+   \bibopenbracket\usebibmacro{cite}\bibclosebracket}
+  {\supercitedelim}
+  {}
+\let\citep=\supercite
+%\usepackage[round]{natbib}
+%\addbibresource{Internet.bib}
+%%
+
+%% Centrer de grand tableau et figures %%
+\usepackage{adjustbox}
+\usepackage{array,multirow,makecell,tabularx}
+\setcellgapes{1pt}
+\makegapedcells
+%\newcolumntype{R}[1]{>{\raggedleft\arraybackslash }b{#1}}
+%\newcolumntype{L}[1]{>{\raggedright\arraybackslash }b{#1}}
+%\newcolumntype{C}[1]{>{\centering\arraybackslash }b{#1}}
+\newcolumntype{C}{>{\centering}X}
+%%
+
+\usepackage{longtable}
+\usepackage{graphicx} 
+\usepackage{xifthen}
+\usepackage{tabularx}
+\usepackage{adjustbox}
+\usepackage{amsmath}
+\usepackage{svg}
+
+%\usepackage[super,square]{natbib}
+
+\newenvironment{agrandirmarges}[2]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{0pt plus 1pt}%
+\ifthenelse{\isodd{\value{page}}}%
+{\setlength{\leftmargin}{-#1}\setlength{\rightmargin}{-#2}}
+{\setlength{\leftmargin}{-#2}\setlength{\rightmargin}{-#1}}
+}\item }%
+{\end{list}}
+
+
+
+%\usepackage[nottoc, notlof, notlot]{tocbibind}
+
+\usepackage[left=4.2cm,right=4.2cm,top=3.5cm,bottom=3.5cm]{geometry}
+
+\newcommand{\doctitle}{Proposition pour le système de scénarios}
+\newcommand{\authorName}{Olivier \textsc{Radisson}}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{\doctitle}
+\rhead{\authorName}
+%\lfoot{Document réalisé par l'équipe n$^\circ$4}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\newline}{~\\~\\}
+\newcommand{\p}{\newline \indent}
+\newcommand{\centergraph}[3][]{\begin{center}%
+\begin{figure}[h!]%
+\vspace{-5pt}%
+\centerline{\includegraphics[width=#3]{#2}}%
+\ifthenelse{\isempty{#1}}{}{\vspace{-8pt}\caption{#1}}%
+\vspace{-5pt}%
+\label{#2}%
+\end{figure}%
+\end{center}}
+\newcommand{\newparagraph}{~\\\indent}
+
+\setcounter{secnumdepth}{3}
+%\setcounter{tocdepth}{2}
+
+
+\begin{document}
+
+
+
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\LARGE Institut National des Sciences Appliquées de Lyon\\
+\&\vspace{10pt}~
+\\KompleXKapharnaüM}\\[1.0cm] % Name of your university/college
+\textsc{\small Stage de 4\up{ème} année du département Génie Électrique} \\[0.2cm]
+\textsc{\Large Projet Do Not Clean}
+\\[0.5cm] % Major heading such as course name
+\textsc{\large Réalisation d'une carte multimédia programmable et contrôlable via wifi}\\[0.5cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+%{ \huge  \textsc{\textbf{Plan Projet}}}\\[0.4cm] % Title of your document
+{ \huge   \scshape{\doctitle}  } % \bfseries
+\HRule \\[1.5cm]
+ 
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Auteur:}\\
+Olivier \textsc{Radisson}\\
+~ \\
+~ \\
+~ \\
+~ \\
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Tuteur de stage :} \\
+Gilles \textsc{Gallet}
+~ \\
+~ \\
+\emph{Chef de projet :} \\
+Pierre \textsc{Hoezelle}
+~ \\
+~ \\
+
+\end{flushright}
+\end{minipage}\\[2cm]
+
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+%\Large \emph{Author:}\\
+%John \textsc{Smith}\\[3cm] % Your name
+
+%----------------------------------------------------------------------------------------
+%	DATE SECTION
+%----------------------------------------------------------------------------------------
+\vspace{3cm}
+{\large \today}\\
+%{\large  ~~~ : \today}\\[3cm] % Date, change the \today to a set date if you want to be precise
+
+%----------------------------------------------------------------------------------------
+%	LOGO SECTION
+%----------------------------------------------------------------------------------------
+
+%\includegraphics{Logo}\\[1cm] % Include a department/university logo - this will require the graphicx package
+ 
+%----------------------------------------------------------------------------------------
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+
+%\newpage
+%~
+%	\thispagestyle{empty}
+    
+
+\newpage
+\thispagestyle{empty}
+\begin{abstract}
+Ce document présente une proposition pour le système de scénario.\\
+Chaque carte, en plus de pouvoir être contrôlable via des ordres reçus en wifi, se doit de pouvoir conserver un fonctionnement autonome. C'est ce fonctionnement là qui est décrit par les scénarios.\\
+La proposition suivante découpe chaque scénario en plusieurs parties :
+\begin{itemize}
+\item Des scènes, qui sont jointes entre elles via des transitions.
+\item Des suites d'étapes, qui sont ordonnées et jouées à l'intérieur des étapes.
+\item Des interruptions, qui permettent de déclencher certain comportement quelque quelque soit l'étape en cours.
+\item Des actions, éléments les plus élémentaires permettant de déclencher des actionneurs via la carte.
+\item Des transitions, qui sont franchies lorsque leur pré-requis sont accomplis, permettant de gérer le flux du scénario.
+
+\end{itemize}
+\end{abstract}
+
+%\newpage
+%~ \thispagestyle{empty}
+%\newpage
+%\thispagestyle{empty}
+
+\tableofcontents
+
+%\newpage
+%~ \thispagestyle{empty}
+\newpage
+
+\setcounter{page}{1}
+
+\section{Introduction}
+Cette première proposition est là pour essayer une première fois de mettre au clair les besoins et les solutions qui concernent le système de scénario de la carte. C'est donc une proposition qui est voué à évoluer, voir être totalement remodelée.
+
+\section{Le système de scénario}
+
+\subsection{Motivations}
+Le système de scénario trouve sa raison d'être par le fait que la carte doit pouvoir être autonome et agir sans forcément attendre des ordres de la régies. Pour pouvoir se faire, il est donc nécessaire de prévoir \textit{en amont} de la représentation une \textit{marche à suivre} pour que la carte sache quoi faire en l'absence d'ordres directes.
+\subsection{Besoins identifiés}
+De la réunion du mercredi 17 septembre sur le projet de DNC\footnote{Do Not Clean}, des divers échanges avec Gilles, Katia et Pierre ainsi que des quelques discutions avec certaines des personnes qui sont vouées à utiliser cette carte, j'ai commencé à identifier quelques besoin élémentaires qui doivent être satisfaits par le système de scénario.
+\paragraph{Éditable par des non-techniciens :}
+Premier besoin, les scénarios doivent pouvoir être éditable assez facilement sans faire appel à l'un des créateur du système. En revanche si le système de scénario nécessite une petite documentation et un introduction rapide avant usage, cela semble ne pas être bloquant.
+\paragraph{Éditable facilement via une régie en amont du spectacle :}
+Le système d'édition des scénarios doit pouvoir être accessible facilement depuis une régie. Pas besoin de matériel spécifique (câble de liaison FTDI ou JTAG par exemple), une simple connexion wifi et un terminal\footnote{Terminal incluant tout dispositif informatique récent avec un écran et une connexion wifi, par exemple un ordinateur ou une tablette} avec l'interface de gestion du système de scénario installée doit suffire.
+\paragraph{Logique simple pour répondre rapidement à de petits cahier des charges :}
+Le système doit pouvoir créer des scénarios simples rapidement. Il ne faut pas que celui-ci demande beaucoup d'investissement avant de pouvoir faire fonctionner un scénario élémentaire.
+\paragraph{Logique assez souple pour pouvoir répondre à des fonctionnements plus complexes :}
+Le système doit en revanche pouvoir être assez souple pour permettre, malgré sa simplicité, de prévoir des cas de figure plus complexe qu'une simple liste d'actions avec conditions.
+\paragraph{Fonctionnement rapide pour permettre une prise de contrôle sans latence via les ordres wifis :}
+Le système se doit d'être assez rapide pour permettre à des ordres wifi d'êtres interprétés rapidement et ne pas afficher de latence particulière, notamment sur certaines taches précises.
+
+\subsection{Contraintes techniques identifiées}
+Le fonctionnement du système doit faire face à plusieurs contraintes liées à l'organisation du projet, aux contraintes matérielles de la carte, aux spécificités du réseau, etc.
+\paragraph{Contrainte de vitesse d'exécution :}
+La carte possède deux unités programmables\footnote{Hormis les cartes radios qui n'en possède qu'une car elle n'ont pas le shield wifi}: un Atmega644 et un processeur Dragino. Le premier est cadencé à 1.6 MHz le second à 400 MHz. En revanche, bien que le processeur Dragino soit plus de 200 fois plus rapide, il fait tourner un système d'exploitation et une interface wifi qui eux réduiront forcément le temps processeur disponible pour notre programme. Toutefois, Linux, le kernel qui tourne sur le processeur Dragino, est particulièrement efficace et permet un ordonnancement précis des taches permettant de prioriser à notre souhait une action particulière. Je pense donc que le système de scénario sera tout de même plus rapide sur le processeur Dragino.
+\paragraph{Contrainte liée à la mémoire disponible :}
+Les scénarios pouvant être longs et complexes prendront forcément une place qui peut devenir importante, il est donc nécessaire de tenir compte de ce facteur là. Le processeur Dragino vient avec 16 Mo de mémoire Flash et 64 Mo de mémoire vive (RAM), l'Atmgea possède une mémoire programme de 64 ko et une 4 Ko de mémoire vive (SRAM).
+\paragraph{Contrainte liée au réseau wifi :}
+Le réseau wifi induit des ralentissements dans l'échange d'informations entre les différents membres du réseau, mais peut aussi impliquer : des pertes de messages ou pire, la perte totale du signale. Il faudra donc forcément garder ces contraintes à l'esprit.
+
+\section{Proposition}
+Pour répondre à ces besoins en tenant comptes des contraintes évoqué, voici une première proposition d'un système de scénario.
+\subsection{Idée globale}
+Dans l'ensemble le système de scénario découperait l'univers\footnote{Façon de voir les choses qui représente l'ensemble des éléments qui ont un lien avec le projet} en plusieurs entités :
+\begin{itemize}
+\item Les cartes DNC Wifi
+	\begin{itemize}
+	\item Les cartes DNC Wifi seulement
+	\item Les cartes DNC Gateway\footnote{Porte d'entrée} Wifi-Radio
+	\end{itemize}
+\item Les cartes DNC Radio
+\item Les régies DNC
+\end{itemize}
+et en plusieurs phases :
+\begin{itemize}
+\item La phase de création
+\item La phase de représentation.
+\end{itemize}
+Chaque élément ayant un comportement donné pour une phase donnée.\p
+Durant la phase de création une régie peut se connecter à une carte Wifi pour lui injecter un scénario créer via l'interface proposée. Durant cette phase là, les cartes Wifi ne font que recevoir le scénario envoyé par une régie. Les cartes Radio n'ont pas de fonction pendant la phase de création\\
+Durant la phase de représentation les cartes Wifi exécutent leur scénario pré-établi et réagissent en fonction des entrées\footnote{Ordres wifi, capteurs, signal radio, timers, etc} pouvant également envoyer elles-mêmes des ordres selon leur scénario, la régie elle n'a plus que vocation à être un élément capable d'envoyer des ordres aux cartes wifis, elle peut également leur demander de présenter leur état et permet une visualisation des paramètres de chaque membre du réseau. Les cartes Radio sont elles contrôlées directement via une carte Wifi ayant un module Radio. Elles sont donc dépendantes de cette carte, mais permettent la multiplication à faible cout de petites installations.
+
+\subsection{Organisation des scénarios}
+Chaque scénario pourra être crée par une interface disponible sur les régies. Cette interface est encore à définir, mais pour l'instant elle serait une combinaison d'une partie graphique permettant d'organiser la structure du scénario, et d'une partie textuelle permettant de décrire le comportement de chaque bloc de la structure.\\
+Les scénarios pourront être enregistrés et sauvegardés côté régie dans des fichiers, permettant de garder des archives ou de faire différents essais sans pour autant supprimer les tests déjà faits.\\
+Chaque scénario sera découpées en scènes distinctes reliées entre elles par des transitions. \p
+Le scénario ne pourra se trouver que dans une scène à la fois, il ne sera pas possible de faire du parallélisme via les scènes. Ceci pour ne pas complexifier le système et pour éviter les innombrables problèmes liés au parallélisme et enfin pour laisser le système utilisable sans une trop grande préparation et une documentation à rallonge.\\
+En revanche le scénario ne sera pas totalement bloquant et des évènements extérieurs pourront déclencher certaines actions quelque soit l'état en cours, ce seront les interruptions.\\
+Enfin chaque scène sera composée d'une liste ordonnées d'étapes reliées elles aussi par des transitions. Ces étapes seront composées d'actions élémentaires permettant d'utiliser les capacités de la carte : allumer un projecteur, jouer un son, changer le volume, déclencher un chaser etc..\p
+Au final le scénario sera toujours entrain de jouer un étape, appartenant à une scène et de regarder si des changements permettent soit de :
+\begin{itemize}
+\item Changer d'étape
+\item Changer de scène
+\item Déclencher une interruption pour jouer une action prédéfinie
+\end{itemize}
+La séparation entre scène et étapes peut paraitre inutile à cause de la proximité de leur fonctionnement, mais elle permettra de mieux structurer le scénario pour éviter de se retrouver à éditer des blocs très long, pouvant devenir trop complexes, ou pour avoir un contrôle assez fin du flux (i.e. de l'étape en cours)
+
+\subsection{Les scènes}
+Les scènes représentent un état du spectacle dans son ensemble. Par exemple une scène pourra correspondre au comportement de journée, une autre au comportement de soirée et d'autres à différents comportements liés à des performances en cours. C'est ici par exemple que ce trouve une des différences avec les étapes, qui elles sont vouées à représenter la logique de ces comportements, dans des échelles de temps souvent plus court et ayant tendance à se répéter jusqu'au changement de scène.\\
+Chaque scène aura :
+\begin{itemize}
+\item \textbf{Une action d'initialisation}, lorsque le scénario se met à jouer cette scène.
+\item \textbf{Une action de sortie}, lorsque le scénario quitte cette scène.
+\item \textbf{Une série d'étapes}, qui décriront le comportement de la scène.
+\item \textbf{Un ensemble de transitions}, permettant de quitter la scène lorsque certaines conditions sont remplies.
+\end{itemize}
+
+\subsection{Les Étapes}
+\begin{figure}[htbp]
+  \centering
+  \includesvg{fig/etapes_simples}
+  \caption{svg image}
+\end{figure}
+
+
+
+\end{document}
