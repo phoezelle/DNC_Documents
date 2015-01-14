@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -641,13 +641,11 @@
 <wire x1="-2" y1="-80" x2="-2" y2="7" width="0.127" layer="51" style="longdash"/>
 </package>
 <package name="RASPIA+">
-<wire x1="0" y1="0" x2="-56" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-65" width="0.127" layer="21"/>
-<wire x1="-56" y1="0" x2="-56" y2="-7" width="0.127" layer="21"/>
-<wire x1="-56" y1="-7" x2="-56" y2="-65" width="0.127" layer="21"/>
-<wire x1="-56" y1="-65" x2="0" y2="-65" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="-56" y2="0" width="0.127" layer="22"/>
+<wire x1="0" y1="0" x2="0" y2="-65" width="0.127" layer="22"/>
+<wire x1="-56" y1="0" x2="-56" y2="-65" width="0.127" layer="22"/>
+<wire x1="-56" y1="-65" x2="0" y2="-65" width="0.127" layer="22"/>
 <wire x1="-54.75" y1="-58.15" x2="-50.25" y2="-58.15" width="0.127" layer="21"/>
-<wire x1="-56" y1="-7" x2="-54.75" y2="-7.15" width="0.127" layer="21"/>
 <wire x1="-54.75" y1="-7.15" x2="-50.25" y2="-7.15" width="0.127" layer="21"/>
 <wire x1="-50.25" y1="-58.15" x2="-50.25" y2="-7.15" width="0.127" layer="21"/>
 <wire x1="-54.75" y1="-7.15" x2="-54.75" y2="-58.15" width="0.127" layer="21"/>
@@ -755,27 +753,27 @@
 <hole x="-3.5" y="-3.5" drill="2.8"/>
 <hole x="-3.5" y="-61.5" drill="2.8"/>
 <hole x="-52.5" y="-61.5" drill="2.8"/>
-<wire x1="1.5" y1="-40.25" x2="-10.7" y2="-40.25" width="0.127" layer="51" style="shortdash"/>
-<wire x1="1.5" y1="-25.75" x2="-10.7" y2="-25.75" width="0.127" layer="51" style="shortdash"/>
-<wire x1="-10.7" y1="-40.25" x2="-10.7" y2="-25.75" width="0.127" layer="51" style="shortdash"/>
-<wire x1="1.5" y1="-25.75" x2="1.5" y2="-40.25" width="0.127" layer="51" style="shortdash"/>
-<wire x1="-12.5" y1="-8" x2="0" y2="-8" width="0.127" layer="51" style="shortdash"/>
-<wire x1="-12.5" y1="-15" x2="0" y2="-15" width="0.127" layer="51" style="shortdash"/>
-<wire x1="-12.5" y1="-8" x2="-12.5" y2="-15" width="0.127" layer="51" style="shortdash"/>
-<wire x1="2.5" y1="-8.5" x2="2.5" y2="-14.5" width="0.127" layer="51" style="shortdash"/>
-<wire x1="2.5" y1="-8.5" x2="0" y2="-8.5" width="0.127" layer="51" style="shortdash"/>
-<wire x1="2.5" y1="-14.5" x2="0" y2="-14.5" width="0.127" layer="51" style="shortdash"/>
+<wire x1="1.5" y1="-40.25" x2="-10.7" y2="-40.25" width="0.127" layer="22" style="shortdash"/>
+<wire x1="1.5" y1="-25.75" x2="-10.7" y2="-25.75" width="0.127" layer="22" style="shortdash"/>
+<wire x1="-10.7" y1="-40.25" x2="-10.7" y2="-25.75" width="0.127" layer="22" style="shortdash"/>
+<wire x1="1.5" y1="-25.75" x2="1.5" y2="-40.25" width="0.127" layer="22" style="shortdash"/>
+<wire x1="-12.5" y1="-8" x2="0" y2="-8" width="0.127" layer="22" style="shortdash"/>
+<wire x1="-12.5" y1="-15" x2="0" y2="-15" width="0.127" layer="22" style="shortdash"/>
+<wire x1="-12.5" y1="-8" x2="-12.5" y2="-15" width="0.127" layer="22" style="shortdash"/>
+<wire x1="2.5" y1="-8.5" x2="2.5" y2="-14.5" width="0.127" layer="22" style="shortdash"/>
+<wire x1="2.5" y1="-8.5" x2="0" y2="-8.5" width="0.127" layer="22" style="shortdash"/>
+<wire x1="2.5" y1="-14.5" x2="0" y2="-14.5" width="0.127" layer="22" style="shortdash"/>
 <wire x1="-25" y1="3" x2="-25" y2="-11.5" width="0.127" layer="51" style="shortdash"/>
 <wire x1="-25" y1="-11.5" x2="-38.5" y2="-11.5" width="0.127" layer="51" style="shortdash"/>
 <wire x1="-38.5" y1="-11.5" x2="-38.5" y2="3" width="0.127" layer="51" style="shortdash"/>
 <wire x1="-38.5" y1="3" x2="-25" y2="3" width="0.127" layer="51" style="shortdash"/>
-<text x="-33" y="1" size="1.27" layer="51">usb</text>
-<text x="-7.5" y="-12" size="1.27" layer="51">jack</text>
-<text x="-2.5" y="-35" size="1.27" layer="51" rot="R90">hdmi</text>
-<wire x1="-22" y1="-65" x2="-22" y2="-67" width="0.127" layer="51" style="shortdash"/>
-<wire x1="-22" y1="-67" x2="-34" y2="-67" width="0.127" layer="51" style="shortdash"/>
-<wire x1="-34" y1="-67" x2="-34" y2="-65" width="0.127" layer="51" style="shortdash"/>
-<text x="-30" y="-64" size="1.27" layer="51">uSD</text>
+<text x="-33" y="-4.08" size="1.27" layer="26">usb</text>
+<text x="-8.77" y="-12" size="1.27" layer="26">jack</text>
+<text x="-3.77" y="-35" size="1.27" layer="26" rot="R90">hdmi</text>
+<wire x1="-22" y1="-65" x2="-22" y2="-67" width="0.127" layer="22" style="shortdash"/>
+<wire x1="-22" y1="-67" x2="-34" y2="-67" width="0.127" layer="22" style="shortdash"/>
+<wire x1="-34" y1="-67" x2="-34" y2="-65" width="0.127" layer="22" style="shortdash"/>
+<text x="-28.73" y="-62.73" size="1.27" layer="26">uSD</text>
 </package>
 <package name="DC/DC_SEED">
 <wire x1="0" y1="0" x2="-40" y2="0" width="0.127" layer="22"/>
