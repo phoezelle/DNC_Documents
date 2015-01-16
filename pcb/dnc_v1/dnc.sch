@@ -18339,14 +18339,14 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <devices>
 <device name="" package="RJ45-TRAFO">
 <connects>
-<connect gate="A" pin="/CS" pad="4"/>
-<connect gate="A" pin="5V" pad="7"/>
-<connect gate="A" pin="COD" pad="5"/>
-<connect gate="A" pin="GND" pad="8"/>
-<connect gate="A" pin="INT" pad="6"/>
-<connect gate="A" pin="MISO" pad="1"/>
-<connect gate="A" pin="MOSI" pad="2"/>
-<connect gate="A" pin="SCK" pad="3"/>
+<connect gate="A" pin="/CS" pad="3"/>
+<connect gate="A" pin="5V" pad="1"/>
+<connect gate="A" pin="COD" pad="6"/>
+<connect gate="A" pin="GND" pad="2"/>
+<connect gate="A" pin="INT" pad="4"/>
+<connect gate="A" pin="MISO" pad="5"/>
+<connect gate="A" pin="MOSI" pad="8"/>
+<connect gate="A" pin="SCK" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21185,7 +21185,12 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="C28" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="GND17" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+22" library="supply1" deviceset="+5V" device=""/>
-<part name="RS232" library="SparkFun-Connectors" deviceset="M03" device="LOCK_LONGPADS"/>
+<part name="RS232" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
+<part name="U6" library="SparkFun-DigitalIC" deviceset="INVERTER" device="_SOT23-5" value="TC7SU04F"/>
+<part name="P+23" library="supply1" deviceset="+5V" device=""/>
+<part name="GND18" library="SparkFun" deviceset="GND" device=""/>
+<part name="JP5" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="OE 595"/>
+<part name="R43" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -21394,6 +21399,11 @@ protection</text>
 <instance part="GND17" gate="1" x="281.94" y="223.52" rot="R90"/>
 <instance part="P+22" gate="1" x="264.16" y="223.52" rot="R90"/>
 <instance part="RS232" gate="G$1" x="307.34" y="165.1" rot="R90"/>
+<instance part="U6" gate="G$1" x="33.02" y="167.64" rot="MR0"/>
+<instance part="P+23" gate="1" x="10.16" y="177.8"/>
+<instance part="GND18" gate="1" x="45.72" y="157.48"/>
+<instance part="JP5" gate="G$1" x="10.16" y="157.48"/>
+<instance part="R43" gate="G$1" x="81.28" y="53.34" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -21411,9 +21421,9 @@ protection</text>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="GND_3"/>
-<wire x1="154.94" y1="25.4" x2="149.86" y2="25.4" width="0.1524" layer="91"/>
 <label x="149.86" y="25.4" size="1.016" layer="95"/>
 <pinref part="U3" gate="G$1" pin="GND"/>
+<wire x1="154.94" y1="25.4" x2="149.86" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="127" y1="12.7" x2="149.86" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="12.7" x2="149.86" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="R39" gate="G$1" pin="1"/>
@@ -21602,6 +21612,10 @@ protection</text>
 <pinref part="R40" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="10.16" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
 <junction x="91.44" y="10.16"/>
+<pinref part="R43" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="48.26" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="30.48" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
+<junction x="91.44" y="30.48"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="GND"/>
@@ -21782,6 +21796,12 @@ protection</text>
 <wire x1="276.86" y1="223.52" x2="279.4" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="2"/>
 <pinref part="GND17" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="45.72" y1="160.02" x2="45.72" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="GND"/>
+<wire x1="45.72" y1="162.56" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -22401,6 +22421,12 @@ protection</text>
 <pinref part="C28" gate="G$1" pin="1"/>
 <wire x1="266.7" y1="223.52" x2="269.24" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="P+22" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="VCC"/>
+<pinref part="P+23" gate="1" pin="+5V"/>
+<wire x1="22.86" y1="172.72" x2="10.16" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="172.72" x2="10.16" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="2">
@@ -23226,11 +23252,19 @@ protection</text>
 <pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="71.12" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
 <junction x="99.06" y="71.12"/>
+<pinref part="R43" gate="G$1" pin="2"/>
+<wire x1="81.28" y1="58.42" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="58.42" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="129.54" x2="20.32" y2="129.54" width="0.1524" layer="91"/>
 <label x="20.32" y="129.54" size="1.016" layer="95" rot="MR0" xref="yes"/>
 <pinref part="U2" gate="A" pin="RCK"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="A"/>
+<wire x1="43.18" y1="167.64" x2="48.26" y2="167.64" width="0.1524" layer="91"/>
+<label x="48.26" y="167.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ALL_CS_ENABLE_ACTIVE_LOW_5V" class="0">
@@ -23251,11 +23285,6 @@ protection</text>
 <pinref part="JP4" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="17.78" x2="99.06" y2="27.94" width="0.1524" layer="91"/>
 <junction x="99.06" y="17.78"/>
-</segment>
-<segment>
-<pinref part="U2" gate="A" pin="G"/>
-<wire x1="20.32" y1="124.46" x2="22.86" y2="124.46" width="0.1524" layer="91"/>
-<label x="20.32" y="124.46" size="1.016" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="LG" class="0">
@@ -23369,6 +23398,21 @@ protection</text>
 <label x="297.18" y="177.8" size="1.016" layer="95"/>
 <pinref part="RS232" gate="G$1" pin="2"/>
 <wire x1="307.34" y1="177.8" x2="307.34" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="/REG_RCK_5V=ACTIVE_CS" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="Y"/>
+<wire x1="22.86" y1="162.56" x2="17.78" y2="162.56" width="0.1524" layer="91"/>
+<label x="17.78" y="162.56" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<pinref part="JP5" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="157.48" x2="17.78" y2="162.56" width="0.1524" layer="91"/>
+<junction x="17.78" y="162.56"/>
+</segment>
+<segment>
+<pinref part="U2" gate="A" pin="G"/>
+<wire x1="20.32" y1="124.46" x2="22.86" y2="124.46" width="0.1524" layer="91"/>
+<label x="20.32" y="124.46" size="1.016" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 </nets>
