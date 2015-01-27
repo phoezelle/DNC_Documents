@@ -50,7 +50,7 @@ void setup (void) {
  for (i=Enable; i <= DI; i++) {
    pinMode(i,OUTPUT);
  }
- delay(100);
+ delay(500);
 
  // After a brief pause initialize the LCD
  // 
@@ -69,21 +69,28 @@ void setup (void) {
  delay(100);                      
  LcdCommandWrite(0x80);  //
                          // 
- delay(20);                      
+ delay(500);                      
 }
  
 void loop (void) 
 {
+  LcdCommandWrite(0x80);
+  delay(10);
+  LcdDataWrite(43);
+  
+  
+  while(1){int i=0;}
+  /*
   int i;
-  delay(10); 
+  delay(); 
   LcdCommandWrite(0x80); 
-  //delay(10);                     
+  delay(10);                     
   for(i=0;i<16;i++)
     LcdDataWrite(string_1[i]);
-  //delay(10);
+  delay(10);
   LcdCommandWrite(0xc0);  // 
-  //delay(10); 
+  delay(10); 
   for(i=0;i<16;i++)
     LcdDataWrite(string_2[i]);
-  delay(5000);
+  delay(5000);*/
 }

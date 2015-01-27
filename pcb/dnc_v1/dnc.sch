@@ -31563,13 +31563,13 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="R32" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100K"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="LR" library="SparkFun-LED" deviceset="LED" device="1206"/>
-<part name="R42" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="220"/>
+<part name="R42" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1K"/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="Q12" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS138" value="BSS138"/>
 <part name="R31" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100K"/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="LG" library="SparkFun-LED" deviceset="LED" device="1206"/>
-<part name="R41" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="220"/>
+<part name="R41" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1K"/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
 <part name="U$6" library="pierre_vv" deviceset="M08" device=""/>
 <part name="GND10" library="SparkFun" deviceset="GND" device=""/>
