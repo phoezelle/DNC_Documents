@@ -3243,8 +3243,8 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <library name="pierre_vv">
 <packages>
 <package name="PLUG_08">
-<pad name="2" x="-9.525" y="0.127" drill="0.9" diameter="1.9304" shape="octagon" rot="R90"/>
-<pad name="1" x="-13.335" y="-0.127" drill="0.9" diameter="1.9304" shape="square" rot="R90"/>
+<pad name="2" x="-9.525" y="0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
+<pad name="1" x="-13.335" y="-0.127" drill="1.2" diameter="2.54" shape="square" rot="R90"/>
 <wire x1="15.635" y1="8" x2="15.635" y2="-1.2" width="0.127" layer="51"/>
 <wire x1="-15.635" y1="8" x2="-15.635" y2="-1.2" width="0.127" layer="51"/>
 <wire x1="-15.635" y1="-1.2" x2="15.635" y2="-1.2" width="0.127" layer="21"/>
@@ -3255,16 +3255,16 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <text x="-8.89" y="1.905" size="1.27" layer="22" rot="MR0">2</text>
 <text x="-12.7" y="1.27" size="1.27" layer="22" rot="MR0">1</text>
 <text x="0.635" y="-2.54" size="1.27" layer="27" rot="SR180">&gt;VALUE</text>
-<pad name="3" x="-5.715" y="-0.127" drill="0.9" diameter="1.9304" shape="octagon" rot="R90"/>
-<pad name="4" x="-1.905" y="0.127" drill="0.9" diameter="1.9304" shape="octagon" rot="R90"/>
-<pad name="5" x="1.905" y="-0.127" drill="0.9" diameter="1.9304" shape="octagon" rot="R90"/>
+<pad name="3" x="-5.715" y="-0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
+<pad name="4" x="-1.905" y="0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
+<pad name="5" x="1.905" y="-0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
 <text x="-5.08" y="1.27" size="1.27" layer="22" rot="MR0">3</text>
 <text x="-1.27" y="1.905" size="1.27" layer="22" rot="MR0">4</text>
 <text x="2.54" y="1.27" size="1.27" layer="22" rot="MR0">5</text>
-<pad name="6" x="5.715" y="0.127" drill="0.9" diameter="1.9304" shape="octagon" rot="R90"/>
+<pad name="6" x="5.715" y="0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
 <text x="6.35" y="1.905" size="1.27" layer="22" rot="MR0">6</text>
-<pad name="7" x="9.525" y="-0.127" drill="0.9" diameter="1.9304" shape="octagon" rot="R90"/>
-<pad name="8" x="13.335" y="0.127" drill="0.9" diameter="1.9304" shape="octagon" rot="R90"/>
+<pad name="7" x="9.525" y="-0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
+<pad name="8" x="13.335" y="0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
 <text x="10.16" y="1.27" size="1.27" layer="22" rot="MR0">7</text>
 <text x="13.97" y="1.905" size="1.27" layer="22" rot="MR0">8</text>
 <rectangle x1="-13.589" y1="-0.254" x2="-13.081" y2="0.254" layer="51"/>
@@ -3277,8 +3277,8 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <rectangle x1="13.081" y1="-0.254" x2="13.589" y2="0.254" layer="51"/>
 </package>
 <package name="PLUG_02">
-<pad name="2" x="1.905" y="0" drill="0.9" diameter="1.9304" shape="octagon" rot="R90"/>
-<pad name="1" x="-1.905" y="0" drill="0.9" diameter="1.9304" shape="square" rot="R90"/>
+<pad name="2" x="1.905" y="0" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
+<pad name="1" x="-1.905" y="0" drill="1.2" diameter="2.54" shape="square" rot="R90"/>
 <wire x1="4.205" y1="8" x2="4.205" y2="-1.2" width="0.127" layer="51"/>
 <wire x1="-4.205" y1="8" x2="-4.205" y2="-1.2" width="0.127" layer="51"/>
 <wire x1="-4.205" y1="-1.2" x2="4.205" y2="-1.2" width="0.127" layer="21"/>
@@ -3293,8 +3293,8 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <rectangle x1="-2.159" y1="-0.254" x2="-1.651" y2="0.254" layer="51"/>
 </package>
 <package name="PLUG_06">
-<pad name="2" x="-5.715" y="0.127" drill="0.9" diameter="1.9304" shape="octagon" rot="R90"/>
-<pad name="1" x="-9.525" y="-0.127" drill="0.9" diameter="1.9304" shape="square" rot="R90"/>
+<pad name="2" x="-5.715" y="0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
+<pad name="1" x="-9.525" y="-0.127" drill="1.2" diameter="2.54" shape="square" rot="R90"/>
 <wire x1="11.825" y1="8" x2="11.825" y2="-1.2" width="0.127" layer="51"/>
 <wire x1="-11.825" y1="8" x2="-11.825" y2="-1.2" width="0.127" layer="51"/>
 <wire x1="-11.825" y1="-1.2" x2="11.825" y2="-1.2" width="0.127" layer="21"/>
@@ -3305,13 +3305,13 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <text x="-5.08" y="1.905" size="1.27" layer="22" rot="MR0">2</text>
 <text x="-8.89" y="1.27" size="1.27" layer="22" rot="MR0">1</text>
 <text x="4.445" y="-2.54" size="1.27" layer="27" rot="SR180">&gt;VALUE</text>
-<pad name="3" x="-1.905" y="-0.127" drill="0.9" diameter="1.9304" shape="octagon" rot="R90"/>
-<pad name="4" x="1.905" y="0.127" drill="0.9" diameter="1.9304" shape="octagon" rot="R90"/>
-<pad name="5" x="5.715" y="-0.127" drill="0.9" diameter="1.9304" shape="octagon" rot="R90"/>
+<pad name="3" x="-1.905" y="-0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
+<pad name="4" x="1.905" y="0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
+<pad name="5" x="5.715" y="-0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
 <text x="-1.27" y="1.27" size="1.27" layer="22" rot="MR0">3</text>
 <text x="2.54" y="1.905" size="1.27" layer="22" rot="MR0">4</text>
 <text x="6.35" y="1.27" size="1.27" layer="22" rot="MR0">5</text>
-<pad name="6" x="9.525" y="0.127" drill="0.9" diameter="1.9304" shape="octagon" rot="R90"/>
+<pad name="6" x="9.525" y="0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
 <text x="10.16" y="1.905" size="1.27" layer="22" rot="MR0">6</text>
 <rectangle x1="-9.779" y1="-0.254" x2="-9.271" y2="0.254" layer="51"/>
 <rectangle x1="-5.969" y1="-0.254" x2="-5.461" y2="0.254" layer="51"/>
@@ -4381,9 +4381,10 @@ Based on the following sources:
 <junction x="264.16" y="-66.04"/>
 </segment>
 <segment>
-<wire x1="177.8" y1="43.18" x2="167.64" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="35.56" x2="167.64" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="43.18" x2="167.64" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
+<junction x="177.8" y="35.56"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
@@ -4448,7 +4449,7 @@ Based on the following sources:
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="2.54" x2="200.66" y2="7.62" width="0.1524" layer="91"/>
 <junction x="195.58" y="7.62"/>
-<wire x1="177.8" y1="48.26" x2="182.88" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="48.26" x2="182.88" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="48.26" x2="182.88" y2="38.1" width="0.1524" layer="91"/>
 <junction x="182.88" y="7.62"/>
 <pinref part="IC2" gate="A" pin="CLR"/>
@@ -4490,6 +4491,8 @@ Based on the following sources:
 <junction x="81.28" y="99.06"/>
 <wire x1="160.02" y1="119.38" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="119.38" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
+<junction x="180.34" y="48.26"/>
+<wire x1="180.34" y1="53.34" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
