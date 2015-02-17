@@ -234,13 +234,13 @@
 <wire x1="-25" y1="0" x2="-25" y2="-11.5" width="0.127" layer="22" style="shortdash"/>
 <wire x1="-25" y1="-11.5" x2="-38.5" y2="-11.5" width="0.127" layer="22" style="shortdash"/>
 <wire x1="-38.5" y1="-11.5" x2="-38.5" y2="0" width="0.127" layer="22" style="shortdash"/>
-<text x="-33" y="-4.08" size="1.27" layer="26">usb</text>
-<text x="-8.77" y="-12" size="1.27" layer="26">jack</text>
-<text x="-8.85" y="-35" size="1.27" layer="26" rot="R90">hdmi</text>
+<text x="-34.27" y="-4.08" size="1.778" layer="26" font="vector" ratio="20">usb</text>
+<text x="-8.77" y="-12" size="1.778" layer="26" font="vector" ratio="20">jack</text>
+<text x="-8.215" y="-35.635" size="1.778" layer="26" font="vector" ratio="20" rot="R90">hdmi</text>
 <wire x1="-22" y1="-65" x2="-22" y2="-67" width="0.127" layer="51" style="shortdash"/>
 <wire x1="-22" y1="-67" x2="-34" y2="-67" width="0.127" layer="51" style="shortdash"/>
 <wire x1="-34" y1="-67" x2="-34" y2="-65" width="0.127" layer="51" style="shortdash"/>
-<text x="-28.73" y="-58.285" size="1.27" layer="26">uSD</text>
+<text x="-29.365" y="-58.92" size="1.778" layer="26" font="vector" ratio="20">uSD</text>
 <wire x1="-12.7" y1="-63.5" x2="-1.27" y2="-52.07" width="0.127" layer="22"/>
 <wire x1="-1.27" y1="-48.26" x2="-16.51" y2="-63.5" width="0.127" layer="22"/>
 <wire x1="-1.27" y1="-44.45" x2="-20.32" y2="-63.5" width="0.127" layer="22"/>
@@ -452,8 +452,8 @@
 <wire x1="-4.205" y1="8" x2="-4.205" y2="16.4" width="0.127" layer="51"/>
 <wire x1="4.205" y1="8" x2="4.205" y2="16.4" width="0.127" layer="51"/>
 <wire x1="-4.205" y1="16.4" x2="4.205" y2="16.4" width="0.127" layer="51"/>
-<text x="2.54" y="1.27" size="1.27" layer="22" rot="MR0">2</text>
-<text x="-1.27" y="1.27" size="1.27" layer="22" rot="MR0">1</text>
+<text x="2.54" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">2</text>
+<text x="-1.27" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">1</text>
 <text x="2.54" y="-2.54" size="1.27" layer="27" rot="SR180">&gt;VALUE</text>
 <rectangle x1="1.651" y1="-0.254" x2="2.159" y2="0.254" layer="51"/>
 <rectangle x1="-2.159" y1="-0.254" x2="-1.651" y2="0.254" layer="51"/>
@@ -468,17 +468,17 @@
 <wire x1="-11.825" y1="8" x2="-11.825" y2="16.4" width="0.127" layer="51"/>
 <wire x1="11.825" y1="8" x2="11.825" y2="16.4" width="0.127" layer="51"/>
 <wire x1="-11.825" y1="16.4" x2="11.825" y2="16.4" width="0.127" layer="51"/>
-<text x="-5.08" y="1.905" size="1.27" layer="22" rot="MR0">2</text>
-<text x="-8.89" y="1.27" size="1.27" layer="22" rot="MR0">1</text>
+<text x="-5.08" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">2</text>
+<text x="-8.89" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">1</text>
 <text x="4.445" y="-2.54" size="1.27" layer="27" rot="SR180">&gt;VALUE</text>
 <pad name="3" x="-1.905" y="-0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
 <pad name="4" x="1.905" y="0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
 <pad name="5" x="5.715" y="-0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
-<text x="-1.27" y="1.27" size="1.27" layer="22" rot="MR0">3</text>
-<text x="2.54" y="1.905" size="1.27" layer="22" rot="MR0">4</text>
-<text x="6.35" y="1.27" size="1.27" layer="22" rot="MR0">5</text>
+<text x="-1.27" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">3</text>
+<text x="2.54" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">4</text>
+<text x="6.35" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">5</text>
 <pad name="6" x="9.525" y="0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
-<text x="10.16" y="1.905" size="1.27" layer="22" rot="MR0">6</text>
+<text x="10.16" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">6</text>
 <rectangle x1="-9.779" y1="-0.254" x2="-9.271" y2="0.254" layer="51"/>
 <rectangle x1="-5.969" y1="-0.254" x2="-5.461" y2="0.254" layer="51"/>
 <rectangle x1="-2.159" y1="-0.254" x2="-1.651" y2="0.254" layer="51"/>
@@ -496,11 +496,11 @@
 <wire x1="-4.205" y1="8" x2="-4.205" y2="16.4" width="0.127" layer="51"/>
 <wire x1="8.015" y1="8" x2="8.015" y2="16.4" width="0.127" layer="51"/>
 <wire x1="-4.205" y1="16.4" x2="8.015" y2="16.4" width="0.127" layer="51"/>
-<text x="2.54" y="1.905" size="1.27" layer="22" rot="MR0">2</text>
-<text x="-1.27" y="1.27" size="1.27" layer="22" rot="MR0">1</text>
+<text x="2.54" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">2</text>
+<text x="-1.27" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">1</text>
 <text x="4.445" y="-2.54" size="1.27" layer="27" rot="SR180">&gt;VALUE</text>
 <pad name="3" x="5.715" y="-0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
-<text x="6.35" y="1.27" size="1.27" layer="22" rot="MR0">3</text>
+<text x="6.35" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">3</text>
 <rectangle x1="5.461" y1="-0.254" x2="5.969" y2="0.254" layer="51"/>
 <rectangle x1="1.651" y1="-0.254" x2="2.159" y2="0.254" layer="51"/>
 <rectangle x1="-2.159" y1="-0.254" x2="-1.651" y2="0.254" layer="51"/>
@@ -553,21 +553,21 @@
 <wire x1="-15.635" y1="8" x2="-15.635" y2="16.4" width="0.127" layer="51"/>
 <wire x1="15.635" y1="8" x2="15.635" y2="16.4" width="0.127" layer="51"/>
 <wire x1="-15.635" y1="16.4" x2="15.635" y2="16.4" width="0.127" layer="51"/>
-<text x="-8.89" y="1.905" size="1.27" layer="22" rot="MR0">2</text>
-<text x="-12.7" y="1.27" size="1.27" layer="22" rot="MR0">1</text>
+<text x="-8.89" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">2</text>
+<text x="-12.7" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">1</text>
 <text x="0.635" y="-2.54" size="1.27" layer="27" rot="SR180">&gt;VALUE</text>
 <pad name="3" x="-5.715" y="-0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
 <pad name="4" x="-1.905" y="0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
 <pad name="5" x="1.905" y="-0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
-<text x="-5.08" y="1.27" size="1.27" layer="22" rot="MR0">3</text>
-<text x="-1.27" y="1.905" size="1.27" layer="22" rot="MR0">4</text>
-<text x="2.54" y="1.27" size="1.27" layer="22" rot="MR0">5</text>
+<text x="-5.08" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">3</text>
+<text x="-1.27" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">4</text>
+<text x="2.54" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">5</text>
 <pad name="6" x="5.715" y="0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
-<text x="6.35" y="1.905" size="1.27" layer="22" rot="MR0">6</text>
+<text x="6.35" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">6</text>
 <pad name="7" x="9.525" y="-0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
 <pad name="8" x="13.335" y="0.127" drill="1.2" diameter="2.54" shape="octagon" rot="R90"/>
-<text x="10.16" y="1.27" size="1.27" layer="22" rot="MR0">7</text>
-<text x="13.97" y="1.905" size="1.27" layer="22" rot="MR0">8</text>
+<text x="10.16" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">7</text>
+<text x="13.97" y="1.905" size="1.27" layer="22" font="vector" ratio="20" rot="MR0">8</text>
 <rectangle x1="-13.589" y1="-0.254" x2="-13.081" y2="0.254" layer="51"/>
 <rectangle x1="-9.779" y1="-0.254" x2="-9.271" y2="0.254" layer="51"/>
 <rectangle x1="-5.969" y1="-0.254" x2="-5.461" y2="0.254" layer="51"/>
