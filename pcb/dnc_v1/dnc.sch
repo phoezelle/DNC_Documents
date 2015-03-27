@@ -45111,7 +45111,7 @@ version</text>
 <pinref part="R41" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="S1" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="R9" gate="G$1" pin="1"/>
@@ -45124,7 +45124,7 @@ version</text>
 <wire x1="124.46" y1="175.26" x2="127" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="S2" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="R10" gate="G$1" pin="1"/>
@@ -45163,7 +45163,7 @@ version</text>
 <label x="226.06" y="203.2" size="1.016" layer="95"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="S3" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="R11" gate="G$1" pin="1"/>
@@ -45251,7 +45251,7 @@ version</text>
 <junction x="228.6" y="104.14"/>
 </segment>
 </net>
-<net name="N$4" class="4">
+<net name="RNO" class="4">
 <segment>
 <pinref part="RELAY1" gate="2" pin="S"/>
 <wire x1="213.36" y1="139.7" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
@@ -45260,7 +45260,7 @@ version</text>
 <wire x1="210.82" y1="147.32" x2="220.98" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$15" class="4">
+<net name="RNC" class="4">
 <segment>
 <pinref part="RELAY1" gate="2" pin="O"/>
 <wire x1="213.36" y1="149.86" x2="218.44" y2="149.86" width="0.1524" layer="91"/>
@@ -45461,14 +45461,14 @@ version</text>
 <junction x="365.76" y="50.8"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="GG" class="0">
 <segment>
 <pinref part="F3" gate="G$1" pin="2"/>
 <wire x1="287.02" y1="38.1" x2="279.4" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="RGB-LED" gate="G$1" pin="G"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="BB" class="0">
 <segment>
 <pinref part="F4" gate="G$1" pin="2"/>
 <wire x1="287.02" y1="35.56" x2="279.4" y2="35.56" width="0.1524" layer="91"/>
@@ -45490,7 +45490,7 @@ version</text>
 <wire x1="256.54" y1="38.1" x2="266.7" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="RR" class="0">
 <segment>
 <pinref part="F5" gate="G$1" pin="2"/>
 <pinref part="RGB-LED" gate="G$1" pin="R"/>
